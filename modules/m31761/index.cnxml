@@ -1,0 +1,1365 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Cyclotron</title>
+<metadata>
+  <md:content-id>m31761</md:content-id><md:title>Cyclotron</md:title>
+  <md:abstract/>
+  <md:uuid>69275cb0-e3c7-4963-9d13-63b2e56460f2</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m31345/latest/" strength="2">Motion of a charged particle in magnetic field</link>
+      <link url="http://cnx.org/content/m31547/latest/" strength="1">Motion of a charged particle in electric and magnetic fields</link>
+    </link-group>
+    <link-group type="prerequisite">
+      <link url="http://cnx.org/content/m31327/latest/" strength="3">Lorentz force</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<para id="element-1">
+High speed charged particles are required for nuclear and atomic investigations. Cyclotron is one of the devices popularly known as “particle accelerator” to accelerate charged particle to a very high speed. It uses “crossed” magnetic and electric fields at right angles to achieve the objective. The chief role of magnetic field is to make the process of acceleration confined to a small and manageable region. As far as the change in speed is concerned, it is affected only by the electric field. Recall that magnetic field can not change magnitude of velocity i.e. speed.
+
+</para>
+<para id="element-2">
+But we should be careful in extrapolating above facts to obvious conclusions. As a matter of fact, we shall find that magnetic field actually affects the speed attained by the charged particle indirectly by controlling number of revolutions in the cyclotron. On the other hand, the speed acquired by the charged particle is independent of applied voltage. We shall explore all these aspects in detail in this module. 
+</para>
+<section id="section-1">
+<title> Acceleration due to electric field
+</title>
+
+<para id="element-3">
+
+Electric force accelerates particle only to change its speed if motion of the charged particle is in the direction of electric field. A potential difference V accelerates particle to achieve a speed as given by :
+
+</para>
+<para id="element-4">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>e</m:mi>
+    <m:mi>V</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-5">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:mi>e</m:mi>
+              <m:mi>V</m:mi>
+            </m:mrow>
+            <m:mi>m</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-6">
+There is, however, difficulty in generating potential difference greater than <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>6</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math> V. For this limiting value, the speed attained by a proton would be : 
+
+</para>
+<para id="element-7">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mrow>
+            <m:mn>2</m:mn>
+            <m:mi>X</m:mi>
+            <m:mn>1.6</m:mn>
+            <m:mi>X</m:mi>
+            <m:msup>
+              <m:mn>10</m:mn>
+              <m:mrow>
+                <m:mo>-</m:mo>
+                <m:mn>19</m:mn>
+              </m:mrow>
+            </m:msup>
+            <m:mi>X</m:mi>
+            <m:msup>
+              <m:mn>10</m:mn>
+              <m:mrow>
+                <m:mn>6</m:mn>
+              </m:mrow>
+            </m:msup>
+          </m:mrow>
+          <m:mo>/</m:mo>
+          <m:mrow>
+            <m:mn>1.66</m:mn>
+            <m:mi>X</m:mi>
+            <m:msup>
+              <m:mn>10</m:mn>
+              <m:mrow>
+                <m:mo>-</m:mo>
+                <m:mn>27</m:mn>
+              </m:mrow>
+            </m:msup>
+          </m:mrow>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>1.928</m:mn>
+          <m:mi>X</m:mi>
+          <m:msup>
+            <m:mn>10</m:mn>
+            <m:mrow>
+              <m:mn>14</m:mn>
+            </m:mrow>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mn>1.39</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-8">
+This is just 4.63 % of the speed of light and is not good enough. This speed of the particle is thus required to be subjected to repeated application of electric force. This is done linearly by electric force in what is known as “linear accelerator”. Else, we use magnetic field to bend the path of motion and present the charged particle repeatedly to electric field for acceleration as in cyclotron. We should know that there is relative size and cost comparison and advantages between linear accelerator and cyclotron. Sometimes though, the two types of accelerators are used in conjunction where cyclotron functions as the initial accelerator for the system of particle accelerators.
+</para>
+</section>
+<section id="section-2">
+<title> Working of cyclotron
+</title>
+<section id="section-2a"> 
+<title> The particles accelerated by cyclotron
+</title>
+<para id="element-9">
+
+The accelerators are used for accelerating charged elementary particles or charged ions. It can not accelerate a neutral particle. Besides, the cyclotron as described generally, is not used for accelerating light mass particles like electron or positron. The reason is that electron having negligible mass accelerates rather too quickly for repeated acceleration within the given size of cyclotron. Instead, the light mass charged particles are accelerated by a device known as “betatron” which uses torus shaped vacuum tube as secondary coil. The tube is a hollow cylinder shaped in a circle. The varying magnetic field, produced by secondary coil, sets up electric field which, in turn, accelerates electron through the tube. On the other hand, the magnetic field due to primary coil, spins the electron and keeps it in the center of the path.
+
+</para>
+<para id="element-10">
+We shall, therefore, refer cyclotron with acceleration of charged particles such as proton, ionized deuteron, alpha particle and similar other ions. 
+</para>
+</section>
+<section id="section-2b"> 
+<title> Construction of cyclotron
+</title>
+<para id="element-11">
+
+It consists of two hollow semicircular Dees so named because of their D-shape. The plane of Dees is the plane of revolution of charged particle, preferably a plane midway in  the Dees. The Dees are constructed of conducting material like copper in order (i) to function as electrodes for applying alternating electrical potential using electrical source known as “electrical oscillator” and (ii) to shield moving charged particle from electric field within the Dees. The Dees are kept face to face diametrically opposite at a small distance known as the “gap”. Electric field operates only in the gap to change speed of the charged particle. We should note that electric field does not accelerate charged particle when it is moving along semicircular path within the Dees as it is shielded from electrical field.
+
+
+</para>
+<para id="element-12">
+<figure id="fig-12"><title>Cyclotron </title><media id="med12" alt="">
+<image src="../../media/c1a.gif" mime-type="image/gif"/>
+</media>
+
+<caption>Cyclotron </caption></figure>
+
+</para>
+<para id="element-13">
+There is an exit channel at the perimeter of one of Dees which finally guides the accelerated charged particle towards a target. The whole set up of Dees is placed between two poles of a powerful magnetic such that its field is perpendicular to the plane of Dees and hence perpendicular to the plane of motion.
+
+</para>
+<para id="element-14">
+This system of Dees is placed in evacuated confinement so that the charged particle moves unhindered.
+</para>
+</section>
+<section id="section-2c"> 
+<title> Working principle
+</title>
+<para id="element-15">
+
+The charged particle (say a positively charged proton) is released near mid point of the face of one of the Dees. Being in the electric field from one Dee to another, it is accelerated by the electric force in the direction of electric field. As the particle enters the adjoining Dee, the magnetic force, being perpendicular to it, renders the charged particle to move along a semicircular path within the Dee.   By the time, it emerges again in the narrow gap separating the two Dees, the electrical polarity of Dees changes so that the particle is again accelerated again with an increase in speed. 
+
+
+</para>
+<para id="element-16">
+<figure id="fig-16"><title>Working of cyclotron </title><media id="med16" alt="">
+<image src="../../media/c2a.gif" mime-type="image/gif"/>
+</media>
+
+<caption>Working of cyclotron </caption></figure>
+
+</para>
+
+<para id="element-17">
+But as the speed of the particle has increased, the radius of curvature of the semicircular path increases in accordance with the formula :
+
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+
+
+<para id="element-19">
+For given charge, mass and magnetic field, the radius is proportional to the speed. Clearly, the charged particle begins to move in a larger semicircular path after every passage through the gap. By the time particle reaches the gap successively, electric polarity of Dees keeps changing ensuring that the charged particle is accelerated with an increase in speed. This process continues till the charged particle reaches the periphery and exits through the guide with high energy and bombards a given target being investigated. The description of different segments of the path of accelerated particle is given here :
+</para>
+
+<para id="element-73">
+<term>1: </term>Path is a straight line. Particle is accelerated due to electric force. Speed and kinetic energy of the particle increase. 
+</para>
+<para id="element-74">
+<term>2: </term>Path is a semicircular curve. Particle is accelerated due to magnetic force. This acceleration is centripetal acceleration without any change in speed and kinetic energy of the particle.
+</para>
+<para id="element-75">
+<term>3: </term>Path is a straight line. Particle is accelerated due to electric force in the direction opposite to the direction as in case 1. Speed and kinetic energy of the particle increase by same amount as in the case 1. 
+</para>
+<para id="element-76">
+<term>4: </term>Path is a semicircular curve of greater radius of curvature due to increased speed. Particle is accelerated due to magnetic force. This acceleration is centripetal acceleration without any change in speed and kinetic energy of the particle.
+</para>
+<para id="element-77">
+<term>5: </term>Path is a straight line. Particle is accelerated due to electric force in the direction opposite to the direction as in case 1. Speed and kinetic energy of the particle increase by same amount as in the case 1 or 3. 
+</para>
+
+<para id="element-20">
+
+We see that the particle follows consecutive larger semicircular path due to increase in the speed at the end of semicircular journey. The resulting path of charged particle, therefore, is a spiral path – not circular.
+</para>
+
+
+</section>
+<section id="section-2d"> 
+<title> Frequency of alternating voltage supply
+</title>
+<para id="element-21">
+
+What should be the frequency at which the electrical oscillator changes sign? As per the account given in the previous section, the particle is required to be accelerated after completion of every semicircular journey of charged particle in the Dee. Does it mean that electrical polarity should be changed twice for one revolution in the magnetic field? Answer is no. Though particle is speeded up twice in a cycle, it requires change of direction of electric field only once. One of the directions is the existing direction and other is the reversed or changed direction. See the figure. Count the numbers of “change of directions” involved and numbers of revolutions. There are 7 occasions each when electric field has one of two possible directions. On the other hand, there are 7 revolutions counted from the beginning. Clearly, numbers of changes in directions are equal to numbers of revolutions. This means that frequency of electric oscillator should be equal to frequency of revolutions.
+
+</para>
+<para id="element-22">
+<figure id="fig-22"><title>Frequency of oscillator </title><media id="med22" alt="">
+<image src="../../media/c3a.gif" mime-type="image/gif"/>
+</media>
+
+<caption>Frequency of oscillator </caption></figure>
+
+</para>
+<para id="element-23">
+From the perspective of energy also, it is required that energy is added up to the moving charge at its natural frequency. This is the principle involved in resonance phenomena. We can pump energy to a periodic or oscillating system by supplying energy in small quantity at the natural frequency of the system. Hence, frequency of electrical oscillator is :
+
+</para>
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>ν</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-25">
+</para>
+<para id="element-26">
+Note that periodic properties of spiral motion are exactly same as that of circular motion of a charged particle in magnetic field. The frequency at which the charged particle completes spiral revolution is independent of the velocity. It is a very important feature of motion of charged particle in magnetic field. So even if the speed of the particle is increased with every passage through the gap, the time taken to reach the gap consecutively is same. It is the core consideration here allowing us to have a fixed frequency of electrical oscillator for a given magnetic field or conversely allowing us to have a constant magnetic field for a given frequency of electric oscillator. Of course, these constant values are determined keeping in mind the specific charge (charge and mass ratio) and size of the cyclotron.    
+</para>
+<example id="example-27">
+<para id="element-27"><term>Problem : </term> 
+A frequency of an electric oscillator is 10 MHz. What should be the magnitude of magnetic field for accelerating doubly ionized alpha particle? Assume mass of alpha particle 4 times that of proton.
+
+</para>
+<para id="element-28"><term>Solution : </term> 
+The frequency of cyclotron is :
+</para>
+<para id="element-29">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>ν</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>m</m:mi>
+        <m:mi>ν</m:mi>
+      </m:mrow>
+      <m:mi>q</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-30">
+Putting values,
+</para>
+<para id="element-30a">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>3.14</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>4</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>1.66</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>27</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mn>6</m:mn>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>1.6</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>19</m:mn>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1.3.</m:mn>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+</section>
+<section id="section-2e"> 
+<title> Energy of charged particle
+
+</title>
+<para id="element-31">
+
+The energy of the finally accelerated particle corresponds to the speed when it travels in the outermost semicircular path having radius equal to that of Dees. 
+
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mtext>max</m:mtext>
+      </m:mrow>
+    </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mtext>max</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mrow>
+        <m:mtext>max</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mtext>max</m:mtext>
+      </m:mrow>
+    </m:msub>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>q</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>B</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+      <m:mn>2</m:mn>
+    <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+
+  </m:mrow>
+</m:math>
+</para>
+<example id="example-1">
+
+
+
+<para id="element-33"><term>Problem : </term> 
+Compare the final velocities of a proton particle and ionized deuteron when accelerated by a cyclotron. It is given that radius of cyclotron is 0.3 m and magnetic field is 2 T. Assume mass of deuteron twice that of the proton.
+
+</para>
+<para id="element-34"><term>Solution : </term>
+Let subscripts 1 and 2 correspond to proton and deuteron respectively. Note that deuteron is an isotope of hydrogen comprising of 1 proton and 1 neutron in the nucleus. The ionized deuteron thus carries one electronic positive charge same as proton. Now, final velocity of the charged particle accelerated by cyclotron is given as :
+
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mtext>max</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-36">
+Hence,
+
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mtext>max1</m:mtext>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mtext>max2</m:mtext>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>q</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>B</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>q</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>B</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-38">
+But 
+<m:math>
+  <m:mrow>
+        <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+          <m:mo>=</m:mo>
+        <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+  </m:mrow>
+</m:math>
+,  <m:math>
+  <m:mrow>
+        <m:msub>
+          <m:mi>q</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+          <m:mo>=</m:mo>
+        <m:msub>
+          <m:mi>q</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+  </m:mrow>
+</m:math>
+, 
+<m:math>
+  <m:mrow>
+        <m:msub>
+          <m:mi>B</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+          <m:mo>=</m:mo>
+        <m:msub>
+          <m:mi>B</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+  </m:mrow>
+</m:math>
+and 
+<m:math>
+  <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+          <m:mo>=</m:mo>
+          <m:mn>2</m:mn>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+  </m:mrow>
+</m:math>
+. Thus,
+
+ 
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mtext>max1</m:mtext>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mtext>max2</m:mtext>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+</section>
+<section id="section-2f"> 
+<title> Numbers of revolutions 
+</title>
+<para id="element-40">
+
+The kinetic energy of the charged particle is increased every time it comes in the gap between the Dees. The energy is imparted to the charged particle in “lumps”. By design of the equipment of cyclotron, it is also evident that the amount of energy imparted to the particle is equal at every instance it crosses the gap between Dees.
+
+</para>
+<para id="element-41">
+Since particle is imparted energy twice in a revolution, the increase in energy corresponding to one revolution is :
+
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>q</m:mi>
+    <m:mi>V</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-43">
+Let there be N completed revolutions. Then total energy,
+
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>N</m:mi>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>q</m:mi>
+    <m:mi>N</m:mi>
+    <m:mi>V</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-45">
+Equating this with the expression obtained earlier for energy, we have :
+
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>q</m:mi>
+    <m:mi>N</m:mi>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>q</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>B</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>q</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>B</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>m</m:mi>
+        <m:mi>q</m:mi>
+        <m:mi>V</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-2g"> 
+<title> Magnetic field and energy
+</title>
+<para id="element-47">
+
+From the expression of kinetic energy of the accelerated particle, it is clear that kinetic energy of the charged particle increases with the magnitude of magnetic field – even though magnetic field is incapable to bring about change in speed of the particle being always perpendicular to the motion. It is so because increasing magnetic field reduces the radius of curved motion inside Dees. Therefore, there are greater numbers of revolutions before reaching to the periphery. See that numbers of completed revolutions are directly proportional to the square of magnetic field.
+
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>q</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>B</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>m</m:mi>
+        <m:mi>q</m:mi>
+        <m:mi>V</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-49">
+Greater numbers of revolutions result in greater numbers of times electrons are subjected to electrical potential difference in the gap between Dees. The maximum kinetic energy of the particle is :
+
+</para>
+<para id="element-50">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mrow>
+        <m:mtext>max</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>q</m:mi>
+    <m:mi>N</m:mi>
+    <m:mi>V</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-51">
+As such, energy of the emerging particle increases for a given construction of cyclotron when magnetic field increases.
+</para>
+</section>
+<section id="section-2h"> 
+<title> Potential difference and energy
+
+</title>
+<para id="element-52">
+
+Again, it is clear from the expression of kinetic energy of the accelerated particle that the energy of emerging particle from the cyclotron is independent of potential applied in the gap. It appears to contradict the fact that it is the electric force which accelerates the charged particle in the gap. No doubt, the greater potential difference results in greater electric force on the charged particle. This, in turn, results in greater acceleration of the particle and hence velocity. But then, particle begins to rotate in greater semicircle. This results in lesser numbers of rotations possible within the fixed extent of Dees. In other words, the greater potential difference results in greater acceleration but lesser numbers of opportunities for acceleration. Now,  
+
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>q</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>B</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>m</m:mi>
+        <m:mi>q</m:mi>
+        <m:mi>V</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-54">
+and
+
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mrow>
+        <m:mtext>max</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>q</m:mi>
+    <m:mi>N</m:mi>
+    <m:mi>V</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-56">
+Clearly, the numbers of revolutions is inversely proportional to the potential difference applied in the gap. On the other hand, maximum energy of the particle is directly proportional to the product “NV”. Combining two facts, we find that energy of the particle is indeed independent of the applied voltage in the gap. 
+</para>
+
+
+</section>
+</section>
+
+<section id="section-3"> 
+<title> Limitations of cyclotron
+</title>
+
+<para id="element-57">
+
+We have already noted two limitations of cyclotron as accelerator. One limitation is that it can not accelerate neutral particle. Second limitation is that lighter elementary particles like electrons or positrons can not be accelerated and requires important changes or modifications of the device. In addition to these, there are two other important limitations as described here.
+</para>
+<section id="section-3a"> 
+<title> Relativistic effect
+</title>
+<para id="element-58">
+
+The relativistic effect becomes significant enough to be neglected when particle achieve 10 % of the speed of light. The energy corresponding to this speed for a proton is about 5MeV. Initially, the small relativistic effect is accommodated by an standard cyclotron, but it begins to fail to accelerate charged particle at higher energy level of 50 MeV or so. 
+
+</para>
+<para id="element-59">
+At higher speed, the mass of the particle increases in accordance with following equation :
+</para>
+<para id="element-60">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>−</m:mo>
+              <m:mfrac>
+                <m:msup>
+                  <m:mi>v</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:msup>
+                  <m:mi>c</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mfrac>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-61">
+where mo is rest mass and c is the speed of light in vacuum. The particle becomes heavier at higher speed. Putting this in the expression of frequency, we have :
+
+</para>
+<para id="element-62">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ν</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>−</m:mo>
+              <m:mfrac>
+                <m:msup>
+                  <m:mi>v</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:msup>
+                  <m:mi>c</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mfrac>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:msub>
+          <m:mi>m</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>ν</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>ν</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>1</m:mn>
+          <m:mo>−</m:mo>
+          <m:mfrac>
+            <m:msup>
+              <m:mi>v</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:msup>
+              <m:mi>c</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-63">
+where <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>ν</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ is classical frequency. Clearly, the frequency of revolution decreases with increasing velocity whereas frequency of applied electrical oscillator is fixed. The particle, therefore, gets out of step with the alternating electrical field. As a result, speed of the particle does not increase beyond a certain value.
+</para>
+</section>
+<section id="section-3b"> 
+<title> High energy particle
+</title>
+<para id="element-64">
+
+The cyclotron is also limited by the mere requirement of magnet size as radius of Dees increases with increasing speed of the particle being accelerated. Let us calculate speed corresponding of a 100 GeV particle in a magnetic field of 1 T. The radius of revolution is related to kinetic energy :
+
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mrow>
+        <m:mtext>max</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>q</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>B</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+      <m:mn>2</m:mn>
+    <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:mi>m</m:mi>
+              <m:msub>
+                <m:mi>K</m:mi>
+                <m:mrow>
+                  <m:mtext>max</m:mtext>
+                </m:mrow>
+              </m:msub>
+            </m:mrow>
+            <m:mrow>
+              <m:msup>
+                <m:mi>q</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:msup>
+                <m:mi>B</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-66">
+The given kinetic energy is :
+
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>K</m:mi>
+      <m:mrow>
+        <m:mtext>max</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>100</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>9</m:mn>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>e</m:mi>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mn>11</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:mn>1.6</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>19</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>1.6</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>8</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>J</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-68">
+Now, putting values assuming particle to be a proton,
+
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:mi>X</m:mi>
+              <m:mn>1.66</m:mn>
+              <m:mi>X</m:mi>
+              <m:msup>
+                <m:mn>10</m:mn>
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mn>27</m:mn>
+                </m:mrow>
+              </m:msup>
+              <m:mi>X</m:mi>
+              <m:mn>1.6</m:mn>
+              <m:mi>X</m:mi>
+              <m:msup>
+                <m:mn>10</m:mn>
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mn>8</m:mn>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+            <m:mrow>
+              <m:msup>
+                <m:mfenced>
+                  <m:mrow>
+                    <m:mn>1.6</m:mn>
+                    <m:mi>X</m:mi>
+                    <m:msup>
+                      <m:mn>10</m:mn>
+                      <m:mrow>
+                        <m:mo>-</m:mo>
+                        <m:mn>19</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mfenced>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mi>X</m:mi>
+              <m:mn>1</m:mn>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0.144</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>14.4</m:mn>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+ 
+</para>
+<para id="element-70">
+We can imagine how costly it would be to create magnet of such an extent. For higher energy, the required radius could be in kilometers.
+</para>
+</section>
+<section id="section-3c"> 
+<title> Synchrocyclotron and Synchrotron
+</title>
+<para id="element-71">
+The synchrocyclotron is a device that addresses the limitation due to relativistic effect. The frequency of oscillator is reduced gradually in order to maintain the resonance with the spiral motion of charged particle. Note that magnetic field remains constant as in the case of cyclotron.
+
+</para>
+<para id="element-72">
+In synchrotron as against synchrocyclotron, both magnetic field and electric field are variable. It aims to address both the limitations due to relativistic effect as well as due to the requirement of large cross section of magnets. The particle is accelerated along a fixed large circular path inside a torus shaped tunnel. The magnetic field here bends the particle, where as electric field changes speed.  Clearly, the requirement of a large cross section of magnet is converted into multiple bending magnets along a large radius fixed circular path.
+</para>
+
+</section>
+</section>
+
+</content>
+
+</document>

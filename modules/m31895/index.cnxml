@@ -1,0 +1,1745 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Ampere's law</title>
+<metadata>
+  <md:content-id>m31895</md:content-id><md:title>Ampere's law</md:title>
+  <md:abstract/>
+  <md:uuid>ca1591ea-8b9d-43c0-8d38-acf12b7ebcf2</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://cnx.org/content/m31927/latest/" strength="3">Ampere’s law (Exercise)</link>
+    </link-group>
+    <link-group type="prerequisite">
+      <link url="http://cnx.org/content/m31057/latest/" strength="3">Biot - Savart Law</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<para id="element-1">
+Ampere law supplements <link document="m31057">Biot-Savart law </link>
+in providing relation between current and magnetic field. Biot-Savart law provides expression of magnetic field for a small current element. If we need to find magnetic field due to any extended conductor carrying current, then we are required to use techniques like integration and superposition principle. Ampere law is another law that relates magnetic field and current that produces it. This law provides some elegant and simple derivation of magnetic field where derivation using Biot-Savart law would be a difficult proposition. This advantage of Ampere law lies with the geometric symmetry, which is also its disadvantage. If the conductor or circuit lacks symmetry, then integration involving Ampere’s law is difficult.
+
+</para>
+<para id="element-2">
+Ampere law as modified by Maxwell for displacement current is one of four electromagnetic equations. 
+</para>
+<section id="section-1">
+<title> Basis of Ampere law
+</title>
+
+<para id="element-3">
+
+In order to understand the basis of Ampere law, we investigate here the magnetic field produced by a straight conductor carrying current. The expression of magnetic field due to long straight (infinite) conductor carrying current as obtained by applying <link document="m31057">Biot-Savart law </link> is :
+        
+</para>
+<para id="element-4">
+      
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+      
+
+</para>
+<para id="element-5">
+where R is the perpendicular distance between straight conductor and point of observation. Rearranging, we have :
+
+</para>
+<para id="element-6">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>R</m:mi>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-7">
+If we carefully examine the left hand expression, then we find that it is an integral of the scalar product of magnetic field and length element about the perimeter of a circle drawn with center on the straight conductor and point of observation lying on it. 
+
+</para>
+<para id="element-8">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∫</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-9">
+Now, we evaluate the left hand integral to see whether our observation is correct or not? For the imaginary circular path, the direction of length element and magnetic field are tangential to the circle. The angle between two vector quantities is zero. Hence, left hand side integral is :
+
+</para>
+<para id="element-10">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∫</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>đ</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>đ</m:mi>
+    <m:mi>l</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mn>0</m:mn>
+    <m:mo>°</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>đ</m:mi>
+    <m:mi>l</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-11">
+<figure id="fig-11">
+<title> Integration along circular path </title>
+<media id="med11" alt="">
+<image src="../../media/al1.gif" mime-type="image/gif"/>
+</media>
+<caption>The angle between magnetic and line element vectors is zero.</caption>
+</figure>
+
+</para>
+<para id="element-12">
+Since magnitude of magnetic field due to current in straight wire are same at all points on the circular path - being at equal distance from the center, we take magnetic field out of the integral,
+
+</para>
+<para id="element-13">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>∫</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>đ</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>∫</m:mo>
+    <m:mi>đ</m:mi>
+    <m:mi>l</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>R</m:mi>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-14">
+Substituting in the equation of line integral of magnetic field as formulated earlier, we have the same expression of magnetic field for long straight conductor as obtained by applying Biot-Savart law :           
+
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-16">
+It is clear here that the left hand side integration should be carried out over a “closed” path. This closed path is termed as “closed imaginary line” or “Ampere loop”. Hence, we write the equation as :
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>đ</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-18">
+Note the circle in the middle of integration sign which indicates a closed path of integration. This formulation is evidently an alternative to Biot-Savart law in the instant case. Now the question is whether this relation is valid for any “closed imaginary line”? The answer is yes. Though the above equation involving closed line integral is valid for any closed imaginary path, but only few of these closed paths allow us to use the equation for determining magnetic field. For instance, if we consider a square path around the straight wire, then we face the problem that points on the path are not equidistant from the wire and as such magnetic field is not same as in the case of a circular path. It is also evident that we need to choose a loop which passes through the point of observation. After all, we are interested to know magnetic field due to currents at a particular point in a region. See  <link document="m31927" target-id="section-1h">Ampere's law(exercise) : Problem 1</link> which illustrates this aspect of application of Ampere's law.
+
+</para>
+<para id="element-18a">Further, considering our ability or constraints for integration around any path, we look for a contour which passes through points where magnetic field is same or where certain simplifying relation between magnetic field and line element vectors exists. This issue is important as it renders integration derivable. Clearly, this is where symmetry of object carrying current comes into play. 
+</para>
+<para id="element-19">
+Thus, symmetry of object carrying current and selection of path for the integration are two important requirements for putting Ampere law to use though the law itself is true for all closed path and any configuration of conductor. 
+</para>
+
+</section>
+
+<section id="section-2">
+<title> Statement of Ampere law
+</title>
+
+<para id="element-20">
+
+There are few variants of this law. We shall begin with the simplest form. There is one precondition as well. This law in the form discussed here is true for steady current and is not valid for time varying current. In the simplest form, it states that the line integral of scalar product of magnetic field and length element vectors along a closed imaginary line is equal to the product of absolute permeability of free space and the net "free" current through the imaginary closed line. Mathematically,
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-22">
+The "free" current represents the current owing to moving electrons or ions. This law is modified by Maxwell for time dependent varying current using the concept of "displacement" current. We shall briefly discuss displacement current and the Maxwell modification in the next section.
+
+</para>
+<para id="element-23">The sign of current through the loop is determined by the direction in which line integral is executed. We curl fingers of right hand such that it is aligned with the direction of integration along the closed path. The extended thumb, then, points in the direction of positive current. Alternatively, if the direction of integration is counterclockwise, then current coming toward the viewer of closed path is positive and the current going away is negative. The net current through the loop is the algebraic sum of positive and negative currents. See <link document="m31927" target-id="section-1a">Ampere's law(exercise) : Problem 2 and 4</link> for illustrations. 
+
+</para>
+<para id="element-24">
+<figure id="fig-24">
+<title> Sign of current </title>
+<media id="med24" alt="">
+<image src="../../media/al2.gif" mime-type="image/gif"/>
+</media>
+<caption> We curl fingers of right hand such that it is aligned with the direction of integration along the closed path. The extended thumb, then, points in the direction of positive current. </caption>
+</figure>
+</para>
+<para id="element-25">
+In the second form of the law, the right hand side of the equation is substituted with a surface integral as given here :
+
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">J</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">S</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-27">
+Here <term>J</term> is current density through surface <term>S</term>. The <term>S</term> is the surface for which imaginary closed line serves as boundary. Note that we consider surface area element (đ<term>S</term>) as a vector. The surface area element vector is normal to the surface and its orientation across the surface is determined in the same manner as we determine the sign of the current. We curl fingers of right hand such that it is aligned with the direction of integration along the closed path. The extended thumb, then, points in the direction of surface area element vector. Alternatively, if the direction of integration along the Ampere loop is anticlockwise, then surface area element vector is directed toward the viewer of closed path and if the direction of integration is clockwise, then surface area element vector is directed away from the viewer of closed path. 
+</para>
+<para id="element-28">
+<figure id="fig-28">
+<title> Direction of surface </title>
+<media id="med28" alt="">
+<image src="../../media/al3.gif" mime-type="image/gif"/>
+</media>
+<caption> We curl fingers of right hand such that it is aligned with the direction of integration along the closed path. The extended thumb, then, points in the direction of surface area vector. </caption>
+</figure>
+
+</para>
+<para id="element-29">
+Since surface area vector is always normal, we may use the concept of normal unit vector <term>n</term> and denote surface vector as :
+
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+      <m:mi mathvariant="bold">S</m:mi>
+    <m:mo>=</m:mo>
+    <m:munderover>
+      <m:mi>n</m:mi>
+      <m:mrow/>
+      <m:mo>‸</m:mo>
+    </m:munderover>
+    <m:mi>S</m:mi>
+    <m:mspace width="1em"/>
+    <m:mtext>and</m:mtext>
+
+    <m:mspace width="1em"/>
+    <m:mi>đ</m:mi>
+      <m:mi mathvariant="bold">S</m:mi>
+    <m:mo>=</m:mo>
+    <m:munderover>
+      <m:mi>n</m:mi>
+      <m:mrow/>
+      <m:mo>‸</m:mo>
+    </m:munderover>
+    <m:mo>đ</m:mo>
+    <m:mi>S</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-31">
+Now, there can be infinite numbers of surfaces which can be drawn for a given closed boundary line. The choice of surface is easier to make if the imaginary closed line (loop) is in one plane. The surface in the same plane is generally chosen in that case. However, if the loop is not in one plane, then there is no simple choice. It does not matter then. The law is valid for all surfaces which are bounded by the loop.
+
+</para>
+<para id="element-31a">
+<figure id="fig-31a"><title>Ampere loop and surfaces </title><media id="med31a" alt="">
+<image src="../../media/al3a.gif" mime-type="image/gif"/>
+</media>
+
+<caption>Surfaces may be drawn in three dimensions with Ampere loop as boundary. </caption></figure>
+</para>
+<para id="element-32">
+If the consideration of magnetic field and current is done in a medium, then we need to substitute “<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>” by “<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mi>r</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>”or “μ” representing permeability of the medium. 
+</para>
+<section id="section-2a">
+<title> Ampere loop and enclosed current
+</title>
+<para id="element-33">
+
+One important consequence of freedom to draw imaginary loop is that it is our choice to keep a current inside or outside the loop. This appears to be a perplexing situation as we know that magnetic field at a point results due to magnetic fields due to each current. For illustration, let us consider five current carrying long conductors as shown in the figure, two of which are into the plane (shown by cross signs) and three are out of the plane of drawing (shown by filled circles). Now, we can draw valid Ampere loop in different ways to determine magnetic field at a point P in the plane of drawing as shown in the figure here.
+
+
+</para>
+<para id="element-34">
+<figure id="fig-34">
+<title> Magnetic field at a point </title>
+<media id="med34" alt="">
+<image src="../../media/al4.gif" mime-type="image/gif"/>
+</media>
+<caption> The currents are flowing perpendicular to the plane of drawing. </caption>
+</figure>
+
+</para>
+<para id="element-35">
+Here, the currents are flowing perpendicular to the plane of drawing. The magnetic fields due to currents in long wires are in the plane of drawing as we can check by applying Right hand thumb rule. Since point P is not equidistant from the length elements of the loops drawn, the actual integration would be very rigorous and difficult. We shall, therefore, make only qualitative assertions here which are consistent with Ampere’s law. Further, we also make the simplifying assumptions that current in each wire is “I” and that we carry out integration in anticlockwise direction in each case. Let the magnetic field at point P is <term>B</term> as shown.
+
+</para>
+<para id="element-36">
+For the loop 1, there are two currents out of the page and one into the page. Thus, the net current is “I” flowing out of the page. For the loop 2, there are two currents out of the page and two into the page. Thus, the net current is zero. For the loop 3, there is no current at all. Thus, the net current is again zero. Now, how is it possible that integration of magnetic fields in three cases yields an unique value of magnetic field at P? The point to understand here is that when we integrate along a path, the sum of vector dot product “<term>B</term>.d<term>l</term>” for the complete closed path, due to currents lying outside the loop, cancels out. However, it does not cancel out for the currents inside. This is the reason Ampere's law considers only currents enclosed within the imaginary boundary.
+
+</para>
+<para id="element-37">
+This fact underlines an important fact that absence of current across Ampere loop does not ensures that magnetic field in a region is zero. We can verify this by using a square loop inside a solenoid. A solenoid, as we shall study, produces a uniform magnetic field within it. Let the magnetic field be <term>B</term> as shown. Clearly, there is no current passing through the enclosure of the square loop as current in solenoid flows through the helical coil covering the region under consideration. Let us now carry out the integration in clockwise direction along ACDEA.
+</para>
+<para id="element-38">
+<figure id="fig-38">
+<title> Magnetic field at a point </title>
+<media id="med38" alt="">
+<image src="../../media/al5.gif" mime-type="image/gif"/>
+</media>
+<caption> The currents are flowing perpendicular to the plane of drawing. </caption>
+</figure>
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:msub>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>C</m:mi>
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:msub>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>D</m:mi>
+        <m:mi>E</m:mi>
+      </m:mrow>
+    </m:msub>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>E</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">l</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mi>B</m:mi>
+    <m:mo>đ</m:mo>
+    <m:mi>l</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mn>0</m:mn>
+    <m:mo>°</m:mo>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>C</m:mi>
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mi>B</m:mi>
+    <m:mo>đ</m:mo>
+    <m:mi>l</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mn>90</m:mn>
+    <m:mo>°</m:mo>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>D</m:mi>
+        <m:mi>E</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mi>B</m:mi>
+    <m:mo>đ</m:mo>
+    <m:mi>l</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mn>180</m:mn>
+    <m:mo>°</m:mo>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>E</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mi>B</m:mi>
+    <m:mo>đ</m:mo>
+    <m:mi>l</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mn>90</m:mn>
+    <m:mo>°</m:mo>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>−</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>+</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-40">
+Clearly, existence of magnetic field does not require net current through the loop. For another example, see <link document="m31927" target-id="section-1b">Ampere's law(exercise) : Problem 3</link>
+</para>
+</section>
+<section id="section-2b">
+<title> Maxwell modification
+</title>
+<para id="element-41">
+
+The basic assertion of Maxwell electromagnetic theory is that changing electric filed sets up magnetic field in the same manner in which a varying magnetic field sets up electric field as given by Farady’s induction law. The Maxwell equation is complementary to Farady’s induction law and is given as :
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>ε</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>đ</m:mi>
+        <m:msub>
+          <m:mi>φ</m:mi>
+          <m:mi>E</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>đ</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-43">
+Note how the time rate of change of electric field 
+<m:math>
+  <m:mrow>
+      <m:mfrac>
+      <m:mrow>
+        <m:mi>đ</m:mi>
+        <m:msub>
+          <m:mi>φ</m:mi>
+          <m:mi>E</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>đ</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math> is related to magnetic field (<term>B</term>) by this equation. In order to account for this additional cause of magnetic field resulting from varying electric field, a more generalized form of Ampere law including the term given by Maxwell is :
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>I</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>ε</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:msub>
+          <m:mi>φ</m:mi>
+          <m:mi>E</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+          <m:mi>đ</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-45">
+Of course for situation involving only steady current, the form of Ampere’s law is reduced to its original form.
+
+</para>
+<para id="element-46">
+The presence of magnetic field between capacitor plates during charging of a capacitor confirms Maxwell law. As the charge builds up on the capacitor plate, there is varying electric field in the gap between plates. This varying electric field, in turn, sets up magnetic field. We can, therefore, suggest that the varying electric field is equivalent to a current. After all, a current also produces magnetic field. But we know there is no actual current between two plates. Hence, this equivalent current is a sort of pseudo current and is known as "displacement" current, which when present would have produced the same magnetic field in the gap as actually produced by the varying electric field. 
+
+</para>
+<para id="element-47">
+We should understand that this assertion about displacement current or setting up of magnetic field due to varying electric field is an important step in explaining electromagnetic propagation. In a nutshell, it says that the presence or propagation of magnetic or electric field do not require either a charge or a current. That is exactly what we see with the propagation of electromagnetic field which is known to be composed of time varying electric and magnetic components. The changing electric field sets up magnetic field and changing magnetic field sets up electric field in a complementary manner. This is how electromagnetic field is continuously driven to propagate electromagnetic wave without presence of either charge or current. In other words, the two varying fields drive each other without the conventional source like charge or current.
+</para>
+</section>
+</section>
+
+
+<section id="section-3">
+<title> Application of Ampere’s law
+</title>
+<para id="element-48">
+
+Ampere’s law is a powerful tool for calculating magnetic field for certain geometric forms of conductors carrying current. It was, however, pointed out that this law may be limited as well for many other situations where left hand side integral can not be evaluated easily. Though there are no specific rules for selecting a closed Ampere loop, but there are certain guidelines which can be helpful in applying this law. These guidelines are :
+</para>
+<para id="element-49">
+<list id="list-49" type="bulleted">
+<item> Draw closed loop such that the point of observation lies on the loop.
+ </item>
+<item> If required, draw closed loop such that magnetic field is constant along the path of integration.
+ </item>
+<item> If required, draw closed loop such that magnetic field and line vectors are along the same direction or are perpendicular to each other.  </item>
+<item> If required, draw closed loop such that there is no magnetic field. This may appear bizarre but we draw such segment of Ampere loop as in the case of solenoid (we shall see this consideration subsequently in this module).
+ </item>
+<item> If required, draw closed loop as a combination of segments (like a rectangular path with four arms) in a manner which takes advantages of the situations enumerated at 2, 3 and 4. 
+ </item>
+</list>
+</para>
+
+<section id="section-3a">
+<title> Magnetic field due to a long cylindrical conductor
+</title>
+<para id="element-50">
+
+We consider three points of observation (i) A, inside the conductor (ii) C, just outside the conductor and (iii) D, outside conductor for applying Ampere’s law. One important consideration here is that magnetic field due to infinite conductor is independent of the elevations of observation points with respect to the straight cylindrical conductor. The magnetic field only depends on the perpendicular linear distance (r) of the observation point from the axis of cylindrical conductor. This situation is approximately valid for long conductor as well. If the conductor is not long enough then also we can meet the requirement of independence for observation points at those points, which are close to the conductor and the ones which are not near the ends of the conductor.
+
+</para>
+<para id="element-51">
+In order to apply Ampere’s law, we consider three imaginary circles containing these points separately with their centers lying on the axis of cylinder such that their planes are at right angles to the cylinder. Let the current through the conductor is I. We note here that current in the conductor is confined only to the surface of cylinder of radius R.
+
+
+
+</para>
+<para id="element-52">
+<figure id="fig-52">
+<title> Magnetic field due to current in cylindrical conductor </title>
+<media id="med52" alt="">
+<image src="../../media/al6a.gif" mime-type="image/gif"/>
+</media>
+<caption> The currents are flowing perpendicular to the plane of drawing. </caption>
+</figure>
+
+</para>
+<para id="element-53">
+For the point A inside the conductor, the current inside the loop is zero.
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55">
+Note that absence of current here is used to deduce that magnetic field is also absent. We can do this with the circular symmetry having constant magnetic field along the path as circle is a continuous curve without any possibility that integral values in different segments of imaginary loop cancel out along the circular path. Thus, if I = 0, then B=0.
+</para>
+<para id="element-55a">
+Now, for the point B just outside the conductor, the current inside the loop is I.
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-57">
+For the point C outside the conductor, the current inside the loop is I.
+</para>
+<para id="element-58">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-3b">
+<title> Magnetic field due to a long cylindrical conductor with uniform current density
+</title>
+<para id="element-59">
+
+In this case, current is distributed across the cross section uniformly. In order to apply Ampere’s law, we consider three imaginary circles containing these points separately with their centers lying on the axis of cylinder such that their planes are at right angles to the cylinder. Let the total current through the conductor is I. 
+
+
+
+</para>
+<para id="element-60">
+<figure id="fig-60">
+<title> Magnetic field due to a long cylindrical conductor with uniform current density
+</title>
+<media id="med60" alt="">
+<image src="../../media/al6a.gif" mime-type="image/gif"/>
+</media>
+<caption> The currents are flowing perpendicular to the plane of drawing. </caption>
+</figure>
+
+</para>
+<para id="element-61">
+For the point A inside the conductor, the current inside the loop is not zero. Since current is distributed over the cross section area uniformly, the current through the loop area is proportionately smaller and is given by :
+
+</para>
+<para id="element-62">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>I</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:msubsup>
+          <m:mi>r</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msubsup>
+          <m:mi>r</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-63">
+Now,
+</para>
+<para id="element-64">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>I</m:mi>
+    <m:mo>′</m:mo>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:msubsup>
+          <m:mi>r</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-65">
+For the point B just outside the conductor, the current inside the loop is I.
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-67">
+For the point C outside the conductor, the current inside the loop is I.
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:msub>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+<example id="example-69">
+
+<para id="element-69"><term>Problem : </term> The current density varies within a long cylindrical wire of radius “R” as J=kr where “r” is linear distance from the center in the perpendicular cross section of wire. Find the magnetic field at a distance r= R/2 and at a point outside the wire.
+
+
+</para>
+<para id="element-70"><term>Solution : </term> In order to find the current within the conductor, we consider an annular ring of infinitesimally small thickness “dr”. The current through the small cross section of annular ring is :
+
+
+
+
+
+</para>
+<para id="element-71">
+<figure id="fig-71">
+<title> Magnetic field due to a long cylindrical conductor with non-uniform current density
+</title>
+<media id="med71" alt="">
+<image src="../../media/al7.gif" mime-type="image/gif"/>
+</media>
+<caption> The currents are flowing perpendicular to the plane of drawing. </caption>
+</figure>
+
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>đ</m:mo>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>J</m:mi>
+    <m:mo>đ</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>J</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>r</m:mi>
+    <m:mo>đ</m:mo>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>k</m:mi>
+    <m:mi>r</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>r</m:mi>
+    <m:mo>đ</m:mo>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>k</m:mi>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>đ</m:mo>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-73">
+Integrating between r = 0 and r =R/2, the current inside the circular loop of radius R/2 is, 
+</para>
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>đ</m:mo>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:msubsup>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>R</m:mi>
+        <m:mo>/</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msubsup>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>k</m:mi>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>đ</m:mo>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>k</m:mi>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:msubsup>
+      <m:mo>]</m:mo>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>R</m:mi>
+        <m:mo>/</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msubsup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>k</m:mi>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>24</m:mn>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mi>k</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>12</m:mn>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-75">
+Applying Ampere’s law about a loop of radius R/2,
+
+</para>
+<para id="element-76">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>π</m:mi>
+        <m:mi>k</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>12</m:mn>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>k</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>12</m:mn>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+<para id="element-76a">
+For additional examples, see <link document="m31927" target-id="section-1c">Ampere's law(exercise) : Problem 5,6,7 and 9</link>
+</para>
+</section>
+<section id="section-3c">
+<title> Solenoid 
+</title>
+
+<para id="element-77">
+
+A solenoid is a tightly wound helical coil. It works as a magnet when current is passed through the coil. We may treat a solenoid as the aggregation of large numbers of circular current aligned about a common axis. It tends to reinforce magnetic field due to each of the circular coil, resulting into a device to produce magnetic field. An ideal solenoid has infinite length. A long coil approximates an ideal solenoid. The consideration here is valid for even short solenoid for points which are well inside the coil.
+
+
+
+</para>
+<para id="element-78">
+<figure id="fig-78">
+<title> Solenoid
+</title>
+<media id="med78" alt="">
+<image src="../../media/al8.gif" mime-type="image/gif"/>
+</media>
+<caption> A solenoid is a tightly wound helical coil. </caption>
+</figure>
+
+</para>
+<section id="section-3c1">
+<title> Nature of magnetic field
+ 
+</title>
+<para id="element-79">The current in left end coil is clockwise and serves as south end of solenoid i.e. end through which magnetic field enters the solenoid. On the other hand, the current in the right end coil is anticlockwise and serves as north end of solenoid i.e. end through which magnetic field exits the solenoid. The magnetic fields between two adjacent coils at the periphery (edge) cancel each other. The magnetic field outside solenoid is nearly zero or comparatively much weaker to be considered to be zero. The field inside the solenoid is uniform. The magnetic field at the ends of solenoid, however, spreads out. The nature of magnetic field of a solenoid is similar to magnetic field due to a bar magnet.
+
+
+
+</para>
+<para id="element-80">
+<figure id="fig-80"><title>Magnetic field due to a solenoid </title><media id="med80" alt="">
+<image src="../../media/al9a.gif" mime-type="image/gif"/>
+</media>
+
+<caption>A solenoid is a tightly wound helical coil. </caption></figure>
+
+</para>
+</section>
+<section id="section-3c2">
+<title> Magnitude of magnetic field
+
+ 
+</title>
+<para id="element-81">
+
+We draw a rectangular Ampere loop ACDEA as shown in the figure. The directions of currents at the edges are shown by filled circle for currents coming out of the plane of drawing and by cross for currents going into the plane of drawing. We carry out the integration in anticlockwise direction such that currents coming out of the plane of drawing are considered positive.
+
+
+</para>
+<para id="element-82">
+<figure id="fig-82">
+<title> Magnetic field due to a solenoid
+</title>
+<media id="med82" alt="">
+<image src="../../media/al10.gif" mime-type="image/gif"/>
+</media>
+<caption> A solenoid is a tightly wound helical coil. </caption>
+</figure>
+
+</para>
+<para id="element-83">
+Applying Ampere’s law,
+
+</para>
+<para id="element-84">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:msub>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+         <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>C</m:mi>
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:msub>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+         <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>D</m:mi>
+        <m:mi>E</m:mi>
+      </m:mrow>
+    </m:msub>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+        <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>E</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+        <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+         <m:mi mathvariant="bold">l</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-85">
+We see that magnetic filed is either perpendicular or there is no magnetic field in transverse directions from C to D and from E to A. For these conditions, the integral along these paths are zero. Further, the line segment DE falls in the region where magnetic field is zero. Thus, all three integrals except the first on the right hand side are equal to zero.
+</para>
+<para id="element-86">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mi>B</m:mi>
+    <m:mi>d</m:mi>
+    <m:mi>l</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mn>0</m:mn>
+    <m:mo>°</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-87">
+The total current through the loop is numbers of times the wire crosses the plane of drawing. If “n” be the numbers of turns per unit length, then total current is “na”. Hence,
+
+</para>
+<para id="element-88">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>n</m:mi>
+    <m:mi>a</m:mi>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>n</m:mi>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-89">
+The magnetic field is proportional to the current and numbers of turns per unit length of solenoid. Importantly, it does not depend on the radius of coil.
+</para>
+<para id="element-89a">
+For illustration, see <link document="m31927" target-id="section-1i">Ampere's law(exercise) : Problem 8</link>.
+</para>
+</section>
+
+</section>
+<section id="section-3d">
+<title> Toroid 
+
+
+ 
+</title>
+<para id="element-90">
+
+A toroid is solenoid bent along a circular path in the shape of a doughnut. By symmetry, the magnetic field is circular inside the toroid and is zero outside it. It is also constant on a circular loop of radius “r” drawn inside the toroid being equidistant from the center of doughnut. The total current passing through Ampere loop is NI where N is the total numbers of turns. Applying Ampere’s law, we have :
+
+
+
+</para>
+<para id="element-91">
+<figure id="fig-91">
+<title> Magnetic field due to a toroid
+</title>
+<media id="med91" alt="">
+<image src="../../media/al11.gif" mime-type="image/gif"/>
+</media>
+<caption> A toroid is solenoid bent along a circular path in the shape of a doughnut. </caption>
+</figure>
+</para>
+<para id="element-92">
+<m:math display="block">  <m:mrow>
+    <m:mo>∮</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>B</m:mi>
+    </m:mstyle>
+    <m:mo>.</m:mo>
+    <m:mo>đ</m:mo>
+    <m:mstyle mathvariant="bold">
+      <m:mi>l</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>N</m:mi>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-93">
+The magnetic field and line element vectors are in the same direction. Hence,
+
+</para>
+<para id="element-94">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>N</m:mi>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>N</m:mi>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-95">
+It is important to observe that magnetic field inside the toroid is not constant across the cross-section. It is inversely proportional to “r”. It depends upon the linear distance as we move from the interior side to exterior side. We may also write this expression in terms of numbers of turns per unit length as :
+
+</para>
+<para id="element-96">
+<m:math display="block">  <m:mrow>
+    <m:mi>n</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>N</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-97">
+and
+
+</para>
+<para id="element-98">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>n</m:mi>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-99">
+But this form is not advisable as it conceals the non-uniform nature of magnetic field inside the toroid. It is easy to find the direction of magnetic field. We orient the fingers of right hand in the direction of current along the turn of coil. Then, the extended thumb gives the direction of magnetic field.
+</para>
+</section>
+</section>
+
+
+</content>
+
+</document>

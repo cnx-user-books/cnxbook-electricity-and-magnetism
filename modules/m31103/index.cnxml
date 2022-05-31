@@ -1,0 +1,3126 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Magnetic field due to current in straight wire</title>
+<metadata>
+  <md:content-id>m31103</md:content-id><md:title>Magnetic field due to current in straight wire</md:title>
+  <md:abstract/>
+  <md:uuid>416f27b6-e016-47c5-b1f1-01f470fd2907</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m31277/latest/" strength="3">Magnetic field at an axial point due to current in circular wire</link>
+      <link url="http://cnx.org/content/m31199/latest/" strength="3">Magnetic field due to current in a circular wire</link>
+      <link url="http://cnx.org/content/m31057/latest/" strength="3">Biot - Savart Law</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<para id="element-1">
+The Biot-Savart law allows us to calculate magnetic field due to steady current through a small element of wire. Since direction of magnetic field due to different current elements of an extended wire carrying current is not unique, we need to add individual magnetic vectors to obtain resultant or net magnetic field at a point. This method of determining the net magnetic field follows superposition principle, which says that magnetic fields due to individual small current element are independent of each other and that the net magnetic field at a point is obtained by vector sum of individual magnetic field vectors :
+
+</para>
+<para id="element-2">
+<m:math display="block">
+  <m:mrow>
+        <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∑</m:mo>
+    <m:msub>
+        <m:mi mathvariant="bold">B</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+        <m:mi mathvariant="bold">B</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+        <m:mi mathvariant="bold">B</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+        <m:mi mathvariant="bold">B</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>…</m:mo>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-3">
+We calculate magnetic field due to individual current element (I d<term>l</term>) using Biot-Savart law :
+
+</para>
+<para id="element-4">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>d</m:mi>
+        <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>I</m:mi>
+        <m:mo>đ</m:mo>
+        <m:mi mathvariant="bold">l</m:mi>
+        <m:mi>X</m:mi>
+        <m:mi mathvariant="bold">r</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-5">
+where "d<term>l</term>" is referred as “current length element” and "I d<term>l</term>"  as “current element”.
+</para>
+<para id="element-6">
+In the case of a straight wire, the task of vector addition is simplified to a great extent because direction of magnetic field at a point due to all current elements comprising the straight wire is same.
+</para>
+<section id="section-1">
+<title> Direction of magnetic field (Right hand thumb rule)
+</title>
+
+<para id="element-7">A straight line and a point constitute an unique plane. This is true for all points in three dimensional rectangular space (x,y,z). For convenience, let us consider that the point of observation (P) lies in xy plane as shown in the figure below. We can say that the straight wire along y-axis also lie in xy plane. Clearly, this plane is the plane of current length element  d<term>l</term> and displacement vector <term>r</term>, which appear in the Biot-Savart expression. The direction of magnetic field is vector cross product  d<term>l</term>X <term>r</term>, which is clearly perpendicular to the plane xy. This means that the magnetic field is along z-axis. This conclusion is independent of the relative positions of current length elements of the wire with respect to observation point P.
+
+
+</para>
+<para id="element-8">
+In a nutshell, we conclude that the directions of magnetic fields due to all current elements constituting straight wire at a point P are same. Though, magnitudes of magnetic fields are different as different current elements are located at different linear distance from the point i.e. displacement vectors (<term>r</term>) are different for different current length elements (d<term>l</term>). 
+</para>
+<para id="element-9">
+<figure id="fig-9">
+<title> Magnetic field due to current in straight wire </title>
+<media id="med9" alt="">
+<image src="../../media/ms1a.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic fields due to all current elements constituting straight wire at a point P are same.</caption>
+</figure>
+</para>
+<para id="element-10">
+See in the figure how magnetic fields due to three current elements in positive y-direction are acting in negative z-direction. The magnetic fields due to different current elements are <m:math>
+  <m:mrow>
+    <m:msub>
+        <m:mi mathvariant="bold">B</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+, <m:math>
+  <m:mrow>
+    <m:msub>
+        <m:mi mathvariant="bold">B</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ and <m:math>
+  <m:mrow>
+    <m:msub>
+        <m:mi mathvariant="bold">B</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ acting along PZ’ as shown in the figure. Note that magnitudes of magnetic fields are not equal as current elements are positioned at different linear distance.
+
+</para>
+<para id="element-11">The magnetic field is along z-axis either in positive or negative z direction depending on the direction of current and whether observation point is on right or left of the current carrying straight wire. By convention, magnetic field vector into the plane of drawing is denoted by a cross (X) and magnetic field vector out of the plane of drawing is denoted by a dot (.). Following this convention, magnetic field depicted on either side of a current carrying straight wire is as shown here  :
+</para>
+<para id="element-12">
+<figure id="fig-12">
+<title> Magnetic field due to current in straight wire </title>
+<media id="med12" alt="">
+<image src="../../media/ms2.gif" mime-type="image/gif"/>
+</media>
+<caption> Representation of magnetic field in terms of cross and dot.</caption>
+</figure>
+</para>
+<para id="element-13">Here <m:math>
+  <m:mrow>
+    <m:msub>
+        <m:mi mathvariant="bold">B</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+, <m:math>
+  <m:mrow>
+    <m:msub>
+        <m:mi mathvariant="bold">B</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+, <m:math>
+  <m:mrow>
+    <m:msub>
+        <m:mi mathvariant="bold">B</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ and <m:math>
+  <m:mrow>
+    <m:msub>
+        <m:mi mathvariant="bold">B</m:mi>
+      <m:mn>4</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ are the net magnetic fields at four different positions due to all current elements of the wire. If we draw a circular path around the straight wire such that its plane is perpendicular to the wire and its center lies on it, then each point on the perimeter is equidistant from the center. As such magnitudes of magnetic field on all points on the circle are equal. The direction of magnetic field as determined by right hand vector cross product rule is tangential to the circle. 
+</para>
+<para id="element-14">
+<figure id="fig-14">
+<title> Magnetic field due to current in straight wire </title>
+<media id="med14" alt="">
+<image src="../../media/ms3.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field on the perimeter of circle is tangential.</caption>
+</figure>
+</para>
+<para id="element-15">The observations as above are the basis of <term>Right hand thumb rule</term> for finding direction of magnetic field due to current in straight wire. If holding straight wire with right hand so that the extended thumb points in the direction of current, then curl of the fingers gives the direction of magnetic field around the straight wire. 
+</para>
+<para id="element-19">
+<figure id="fig-19"><title>Right hand thumb rule </title><media id="med19" alt="">
+<image src="../../media/ms4.gif" mime-type="image/gif"/>
+</media>
+
+<caption>If holding straight wire with right hand so that the extended thumb points in the direction of current, then curl of the fingers gives the direction of magnetic field around the straight wire. 
+</caption></figure>
+</para>
+
+</section>
+<section id="section-2">
+<title> Magnetic field due to current in finite straight wire 
+</title>
+
+<para id="element-16">
+Since directions of magnetic fields due to all current elements are same, we can integrate the expression of magnitude as given by Biot-Savart law for the small current element (we have replaced dl by dy in accordance with notation in the figure) :
+
+</para>
+<para id="element-17">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mi>đB</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>∫</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>I</m:mi>
+        <m:mo>đ</m:mo>
+        <m:mi>y</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18">
+<figure id="fig-18">
+<title> Magnetic field due current in finite straight wire </title>
+<media id="med18" alt="">
+<image src="../../media/ms5a.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnitude of magnetic field is obtained by integration of elemental magnetic field.</caption>
+</figure>
+</para>
+<para id="element-20">In order to evaluate this integral in terms of angle φ, we determine đy, r and θ in terms of perpendicular distance “R” (which is a constant for a given point) and angle “φ”. Here,
+
+</para>
+<para id="element-21">
+<m:math display="block"> <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mi>tan</m:mi>
+    <m:mi>φ</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block"> <m:mrow>
+    <m:mi>d</m:mi>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:msup>
+      <m:mi>sec</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>φ</m:mi>
+    <m:mi>đ</m:mi>
+    <m:mi>φ</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block"> <m:mrow>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mi>sec</m:mi>
+    <m:mi>φ</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">  <m:mrow>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>-</m:mo>
+    <m:mi>φ</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-22">
+Substituting in the integral, we have :
+
+</para>
+<para id="element-23">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>∫</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>I</m:mi>
+        <m:mi>R</m:mi>
+        <m:msup>
+          <m:mi>sec</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>φ</m:mi>
+        <m:mi>đ</m:mi>
+        <m:mi>φ</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mi>π</m:mi>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+            <m:mo>−</m:mo>
+            <m:mi>φ</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>sec</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>∫</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>I</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>φ</m:mi>
+        <m:mi>đ</m:mi>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-24">
+Taking out I and R out of the integral as they are constant :
+
+</para>
+<para id="element-25">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>∫</m:mo>
+    <m:mrow>
+
+      <m:mi>cos</m:mi>
+      <m:mi>φ</m:mi>
+      <m:mi>đ</m:mi>
+      <m:mi>φ</m:mi>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-26">
+Integrating between angle “<m:math>  <m:mrow>
+    <m:msub>
+      <m:mi>φ</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>” and “<m:math>  <m:mrow>
+    <m:msub>
+      <m:mi>φ</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>”, we have :      
+
+</para>
+<para id="element-27">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:msub>
+          <m:mi>φ</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>φ</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:munderover>
+    <m:mrow>
+      <m:mi>I</m:mi>
+      <m:mi>cos</m:mi>
+      <m:mi>φ</m:mi>
+      <m:mi>đ</m:mi>
+      <m:mi>φ</m:mi>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:msub>
+          <m:mi>φ</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:mi>sin</m:mi>
+        <m:msub>
+          <m:mi>φ</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-28">We follow the convention whereby angle is measured from perpendicular line. The angle below perpendicular line is treated negative and angle above perpendicular line is positive. In case, we want to do away with the sign of angle, we put <m:math>  <m:mrow>
+    <m:msub>
+      <m:mi>φ</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>φ</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> in above equation : 
+
+
+</para>
+<para id="element-29">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:msub>
+          <m:mi>φ</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:mi>sin</m:mi>
+        <m:msub>
+          <m:mi>φ</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-30">Note that angles being used with this expression are positive numbers only. Also note that the magnitude of magnetic field depends on where the point of observation P lies with respect to straight wire, which is reflected in the value of angle φ. 
+</para>
+<para id="element-101">
+We can also express magnetic field due to current in a straight wire at a perpendicular distance “R” in terms of angles between straight wire and line joining point of observation and end points. 
+</para>
+<para id="element-102">
+<figure id="fig-102">
+<title> Magnetic field due to current in wire </title>
+<media id="med102" alt="">
+<image src="../../media/ms5d.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field due current in finite straight wire </caption>
+</figure>
+</para>
+<para id="element-103">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mo>[</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>θ</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>θ</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+                          
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mo>[</m:mo>
+    <m:mi>cos</m:mi>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>cos</m:mi>
+    <m:msub>
+      <m:mi>θ</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+
+<section id="section-2a">
+<title> Magnetic field at a point on perpendicular bisector </title>
+
+<para id="element-64"> 
+
+In this case, angles on either side of the bisector are equal :
+
+ 
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>φ</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>φ</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>φ</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-65a">
+<figure id="fig-65a">
+<title> Magnetic field at a point on perpendicular bisector </title>
+<media id="med65a" alt="">
+<image src="../../media/ms9.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field at a point on perpendicular bisector </caption>
+</figure>
+
+</para>
+
+
+<para id="element-66">
+Magnetic field at a point on perpendicular bisector is :
+
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mo>[</m:mo>
+    <m:mi>sin</m:mi>
+    <m:msub>
+      <m:mi>φ</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mi>sin</m:mi>
+    <m:msub>
+      <m:mi>φ</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>sin</m:mi>
+    <m:mi>φ</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+ 
+</para>
+<para id="element-68">
+Let “L” be the length of wire. Then,
+
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>φ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>O</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>P</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfrac>
+          <m:mi>L</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mrow>
+            <m:mo>{</m:mo>
+            <m:msup>
+              <m:mfenced>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mi>L</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mfenced>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>R</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>}</m:mo>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>L</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>L</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>4</m:mn>
+              <m:msup>
+                <m:mi>R</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-70">
+Putting in the equation of magnetic field,
+
+</para>
+<para id="element-71">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>L</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>L</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>4</m:mn>
+              <m:msup>
+                <m:mi>R</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+<example id="example-72">
+
+<para id="element-72"> <term>Problem : </term> A square loop of side “L” carries a current “I”. Determine the magnetic field at the center of loop.
+
+
+
+</para>
+<para id="element-73"> <term>Solution : </term> The magnetic field due to each side of the square here is same as Magnetic field due to current in straight wire at a distance L/2 on the perpendicular bisector.  The magnetic fields due to current in the four sides are in the same direction. Hence, magnitude of magnetic field due to current in loop is four times the magnetic field due to current in one side :
+
+
+
+</para>
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>L</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>L</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>4</m:mn>
+              <m:msup>
+                <m:mi>R</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-75"> Here, R = L/2
+
+
+</para>
+
+<para id="element-76">
+<figure id="fig-76">
+<title> Magnetic field at the center of square loop </title>
+<media id="med76" alt="">
+<image src="../../media/ms10.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field at the center of square loop </caption>
+</figure>
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>L</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mfrac>
+          <m:mi>L</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:msqrt>
+          <m:mrow>
+            <m:mo>{</m:mo>
+            <m:msup>
+              <m:mi>L</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:mn>4</m:mn>
+            <m:msup>
+              <m:mfenced>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mi>L</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mfenced>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>}</m:mo>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>L</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mi>L</m:mi>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:mi>L</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mi>L</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+
+
+</example>
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+</section>
+
+
+<section id="section-2b">
+<title> Magnetic field at a point near the end of current carrying
+finite straight wire 
+</title>
+<para id="element-31">
+
+In this case, the angles involved are :
+
+</para>
+<para id="element-31a">
+<figure id="fig-31a"><title>Magnetic field due current in finite straight wire </title><media id="med31a" alt="">
+<image src="../../media/ms5c.gif" mime-type="image/gif"/>
+</media>
+
+<caption>Magnitude of magnetic field is obtained by integration of elemental magnetic field.</caption></figure>
+</para>
+<para id="element-32">
+<m:math display="block">  <m:mrow>
+    <m:msub>
+      <m:mi>φ</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>φ</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>φ</m:mi>
+
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-33">
+and
+
+</para>
+<para id="element-34">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mn>0</m:mn>
+
+        <m:mo>+</m:mo>
+        <m:mi>sin</m:mi>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+
+<para id="element-78">
+We can also get the expression for magnetic field in terms of length of wire. Here,
+</para>
+<para id="element-79">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mi>φ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>O</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>P</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>L</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mrow>
+            <m:mfenced>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>L</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+                <m:mo>+</m:mo>
+                <m:msup>
+                  <m:mi>R</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfenced>
+          </m:mrow>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-80">
+Putting in the expression of magnetic field, we have :
+</para>
+<para id="element-81">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>L</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>L</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:msup>
+                <m:mi>R</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-82">
+In case, R = L, then,
+</para>
+<para id="element-83">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>L</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>L</m:mi>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>L</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:msup>
+                <m:mi>L</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>L</m:mi>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>L</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+<example id="example-104">
+
+<para id="element-104"><term>Problem : </term> A current 10 ampere flows through the wire having configuration as shown in the figure. Determine magnetic field at P.
+</para>
+<para id="element-105"> 
+<figure id="fig-105">
+<title> Magnetic field due to current in the arrangment </title>
+<media id="med105" alt="">
+<image src="../../media/ms12.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field due current in the arrangment </caption>
+</figure>
+
+</para>
+<para id="element-106"><term>Solution : </term> We shall determine magnetic field to different straight segments of wires. Let us consider the out of plane orientation as positive. Now, for wire segment AC, the point P is at the end of straight wire of length 4 m and is at a perpendicular linear distance of 4 m. The magnetic field at P due to segment AC is perpendicular and out of the plane of drawing. The magnetic field due to segment AC is :
+
+
+
+</para>
+<para id="element-107"> 
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mtext>AC</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>L</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>4</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>32</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+                                                                                   
+
+</para>
+<para id="element-108"> For the wire segment CD, the point P lies on the extended line passing through the wire.  The magnetic field due to this segment, therefore, is zero.
+
+
+</para>
+<para id="element-109"> 
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mtext>CD</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-110"> For the wire segment DE, the angles between the line segment and line joining the point P with end points are known by geometry of the figure. Hence, Magnetic field due to this segment is :
+ 
+
+</para>
+<para id="element-111">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mtext>DE</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>cos</m:mi>
+        <m:msub>
+          <m:mi>θ</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:mi>cos</m:mi>
+        <m:msub>
+          <m:mi>θ</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>cos</m:mi>
+        <m:msup>
+          <m:mn>45</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+        <m:mo>+</m:mo>
+        <m:mi>cos</m:mi>
+        <m:msup>
+          <m:mn>45</m:mn>
+          <m:mn>0</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mtext>DE</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>2</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+ 
+
+</para>
+<para id="element-112">
+For the wire segment EF, the point P lies on the extended line passing through the wire.  The magnetic field due to this segment, therefore, is zero.
+
+</para>
+<para id="element-113">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mtext>EF</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-114">
+For the wire segment GA, the point P is at the end of straight wire of length 4 m and is at a perpendicular linear distance of 4 m. The magnetic field at P due to segment GA is perpendicular and out of the plane of drawing. The magnetic field is :
+
+
+</para>
+<para id="element-115">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mtext>FA</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>32</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-116">
+The net magnetic field at P is :
+
+</para>
+<para id="element-117">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mtext>AC</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mtext>CD</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mtext>DE</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mtext>EF</m:mtext>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mtext>FA</m:mtext>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>32</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>32</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msqrt>
+              <m:mn>2</m:mn>
+            </m:msqrt>
+            <m:mo>−</m:mo>
+            <m:mn>4</m:mn>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>16</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2.59</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>7</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>16</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2.59</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>7</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mn>4</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>0.65</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>6</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>6.5</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>5</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-118">
+The net magnetic field is into the plane of drawing.
+</para>
+</example>
+
+
+
+</section>
+
+
+</section>
+<section id="section-3">
+<title> Magnetic field due to current in infinite (long) straight wire 
+</title>
+
+
+
+<para id="element-45">
+
+The expression for the magnitude of magnetic field due to infinite wire can be obtained by suitably putting appropriate values of angles in the expression of magnetic field due to finite wire. Here,
+
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>φ</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>φ</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">
+and
+
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:msub>
+          <m:mi>φ</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:mi>sin</m:mi>
+        <m:msub>
+          <m:mi>φ</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mi>sin</m:mi>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-49">
+The important point to note here is that magnetic field is independent of the relative angular position of point of observation with respect to infinite wire. Magnetic field, however, depends on the perpendicular distance from the wire.  </para>
+
+<para id="element-51">
+In reality, however, we always work with finite wire or at the most with long wire. A finite length wire is approximated as infinite or long wire for at least for close points around the wire.  
+
+</para>
+<section id="section-3a">
+<title> Magnetic field at a point near the end of current carrying long wire 
+</title>
+
+<para id="element-52">
+
+The wire here extends from an identified position to infinity in only one direction. In this case, the angles involved are :
+
+</para>
+<para id="element-53">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>φ</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>φ</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-54">
+and
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mn>0</m:mn>
+        <m:mo>+</m:mo>
+        <m:mi>sin</m:mi>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<example id="example-56">
+<para id="element-56"> <term>Problem : </term> Calculate magnetic field at point P due to current 5 A flowing through a long wire bent at right angle as shown in the figure. The point P lies at a linear distance 1 m from the corner. 
+
+</para>
+<para id="element-57">
+<figure id="fig-57">
+<title> Magnetic field due to current in wire </title>
+<media id="med57" alt="">
+<image src="../../media/ms8.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field due to current in wire.</caption>
+</figure>
+</para>
+<para id="element-58">
+The point P lies on the extension of wire segment in x-direction. Here angle between current element and displacement vectors is zero i.e. θ
+ =0 and sinθ
+. As such this segment does not produce any magnetic field at point P. On the other hand, the point P lies near one of the end of the segment of wire in y-direction. The wire being long, the magnetic field due to wire segment in y-direction is :
+
+</para>
+<para id="element-59">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-60">
+Putting values,
+
+</para>
+<para id="element-61">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>7</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>5</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-62">
+Applying Right hand thumb rule, the magnetic field at P is perpendicular to xy plane and into the plane of drawing (i.e. negative z-direction).
+
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+      <m:mi mathvariant="bold">k</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+
+</section>
+
+<section id="section-4">
+<title> Exercises
+</title>
+
+
+<para id="element-119">
+<exercise id="exercise-119">
+<problem id="fs-id6370806">
+<para id="element-120">
+Two long straight wires at A and C, perpendicular to the plane of drawing, carry currents such that point D is a null point. The wires are placed at a linear distance of 10 m. If the current in the wire at A is 10 A and its direction is out of the plane of drawing, then find (i) the direction of current and (ii) magnitude of current in the second wire.
+</para>
+<para id="element-121">
+<figure id="fig-121">
+<title> Two straight wires carrying current </title>
+<media id="med121" alt="">
+<image src="../../media/ms13.gif" mime-type="image/gif"/>
+</media>
+<caption> Two straight wires carrying current </caption>
+</figure>
+</para>
+</problem>
+
+<solution id="fs-id7438648">
+<para id="element-122">
+In order to nullify the magnetic field at D due to current in wire at A, the direction of magnetic field due to current in the wire at C should be equal and opposite. This means that the current in the wire at C should be opposite that of wire at A. Hence, the direction of current in the wire at C should be into the plane of drawing. Now, the magnitudes of magnetic fields due to currents are equal. Let the current in second wire be I, then:
+</para>
+<para id="element-123">
+<figure id="fig-123">
+<title> Two straight wires carrying current </title>
+<media id="med123" alt="">
+<image src="../../media/ms14.gif" mime-type="image/gif"/>
+</media>
+<caption> Two straight wires carrying current </caption>
+</figure>
+</para>
+<para id="element-124">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>5</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>15</m:mn>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>I</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>50</m:mn>
+      <m:mn>15</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>3.34</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+
+
+
+
+
+
+
+
+
+<para id="element-35a">
+<exercise id="exercise-35a">
+<problem id="fs-id1168409798539">
+<para id="element-35">Calculate magnetic field at the center due to current flowing in clockwise direction through a wire in the shape of regular hexagon. The arm of hexagon measures 0.2 m and current through the wire is 10 A.
+</para>
+</problem>
+<solution id="fs-id1168409491844">
+
+<para id="element-36">Applying right hand rule for vector cross product, we realize that magnetic field due to each arm of the hexagon for given current direction (clockwise) is into the plane of hexagon. As such, we can algebraically add magnetic field due to each arm to obtain net magnetic field.
+</para>
+<para id="element-37">
+<m:math display="block">  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>6</m:mn>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38">
+where <m:math>  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ is magnetic field due to current in one of the arms. Now, we consider one of the arms of hexagon as shown in the figure. Here, 
+</para>
+<para id="element-39">
+<figure id="fig-39">
+<title> Magnetic field at the center due current </title>
+<media id="med39" alt="">
+<image src="../../media/ms6.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnitude of magnetic field is six times the magnetic field due to one arm.</caption>
+</figure>
+</para>
+<para id="element-40">
+<m:math display="block">  <m:mrow>
+    <m:msub>
+      <m:mi>φ</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>φ</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>π</m:mi>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>a</m:mi>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>cot</m:mi>
+    <m:msub>
+      <m:mi>φ</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>0.2</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>cot</m:mi>
+    <m:mfrac>
+    <m:mi>φ</m:mi>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+
+    <m:mo>=</m:mo>
+    <m:mn>0.1</m:mn>
+    <m:mi>X</m:mi>
+    <m:msqrt>
+      <m:mn>3</m:mn>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mn>0.1732</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-41">
+and
+
+</para>
+<para id="element-42">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>6</m:mn>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mi>a</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>6</m:mn>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>sin</m:mi>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>6</m:mn>
+        </m:mfrac>
+        <m:mo>+</m:mo>
+        <m:mi>sin</m:mi>
+        <m:mfrac>
+          <m:mi>π</m:mi>
+          <m:mn>6</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-43">
+Putting values, we have :
+
+</para>
+<para id="element-44">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>6</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>7</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>0.1732</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>3.462</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>5</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-84a">
+<exercise id="exercise-84a">
+<problem id="fs-id1168407926817">
+
+<para id="element-84">
+
+A current 10√2 ampere flows through the wire having configuration as shown in the figure. Determine magnetic field at P.
+</para>
+<para id="element-85">
+<figure id="fig-85">
+<title> Magnetic field due to current in wire </title>
+<media id="med85" alt="">
+<image src="../../media/ms11.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field due to current in wire </caption>
+</figure>
+</para>
+</problem>
+
+<solution id="fs-id1168409811709">
+
+<para id="element-86"> 
+
+We shall determine magnetic field to different straight segments of wires. Let us consider the out of plane orientation as positive. Now, for wire segment AC, the point P is at the end of straight wire of length 4 m and is at a perpendicular linear distance of 4 m. The magnetic field at P due to segment AC is perpendicular and out of the plane of drawing. The magnetic field due to segment AC is :
+
+</para>
+<para id="element-87">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>L</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>4</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>32</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+                                                                                   
+</para>
+<para id="element-88">
+For the wire segment CD, the point P lies on the extended line passing through the wire.  The magnetic field due to this segment, therefore, is zero.
+
+</para>
+<para id="element-89">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mi>C</m:mi>
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-90">
+For the wire segment DE, the point P is at the end of straight wire of length 2 m and is at a perpendicular linear distance of 2 m. The magnetic field at P due to segment DE is perpendicular and into the plane of drawing. The magnetic field is :
+
+</para>
+<para id="element-91">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mi>D</m:mi>
+        <m:mi>E</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>L</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>16</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+ 
+</para>
+<para id="element-92">
+For the wire segment EF, the point P is at the end of straight wire of length 2 m and is at a perpendicular linear distance of 2 m. The magnetic field at P due to segment DE is perpendicular and into the plane of drawing. The magnetic field is :
+
+</para>
+<para id="element-93">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mi>E</m:mi>
+        <m:mi>F</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>16</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-94">
+For the wire segment FG, the point P lies on the extended line passing through the wire.  The magnetic field due to this segment, therefore, is zero.
+
+</para>
+<para id="element-95">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mi>F</m:mi>
+        <m:mi>G</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-96">
+For the wire segment GA, the point P is at the end of straight wire of length 4 m and is at a perpendicular linear distance of 4 m. The magnetic field at P due to segment GA is perpendicular and out of the plane of drawing. The magnetic field is :
+
+</para>
+<para id="element-97">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>32</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-98">
+The net magnetic field at P is :
+
+</para>
+<para id="element-99">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mi>C</m:mi>
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mi>D</m:mi>
+        <m:mi>E</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mi>E</m:mi>
+        <m:mi>F</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mi>F</m:mi>
+        <m:mi>G</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mi>G</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>32</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>16</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>16</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mn>0</m:mn>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>32</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>16</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:mi>X</m:mi>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>7</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>16</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>7</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-100">
+The net magnetic field is into the plane of drawing.
+</para>
+</solution>
+</exercise>
+</para>
+
+
+</section>
+
+
+</content>
+
+</document>

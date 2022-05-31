@@ -1,0 +1,1464 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Magnetic field at an axial point due to current in circular wire</title>
+<metadata>
+  <md:content-id>m31277</md:content-id><md:title>Magnetic field at an axial point due to current in circular wire</md:title>
+  <md:abstract/>
+  <md:uuid>9a928cd6-2df1-47f0-a75a-a5a5fc02bb93</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m31103/latest/" strength="3">Magnetic field due to current in straight wire</link>
+      <link url="http://cnx.org/content/m31199/latest/" strength="3">Magnetic field due to current in a circular wire</link>
+    </link-group>
+    <link-group type="prerequisite">
+      <link url="http://cnx.org/content/m31057/latest/" strength="3">Biot - Savart Law</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<para id="element-1">
+We have already determined magnetic field due to current in circular wire at its center. The approach to determine magnetic field at an axial point is similar. We begin with magnetic field due to small current element and then try to integrate the Biot-Savart expression for the small magnetic field for the entire circle following superposition principle. 
+
+</para>
+<para id="element-2">
+This extension of earlier procedure, however, demands a bit of extra three dimensional imagination to arrive at the correct result. In this module, we shall attempt to grasp three dimensional elements as clearly as possible with figures. Let us have a look at the differential Biot-Savart expression :
+
+</para>
+<para id="element-3">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>I</m:mi>
+        <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">l</m:mi>
+        <m:mi>X</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-4">
+There are three vector quantities d<term>B</term>, d<term>l</term> and <term>r</term>. We investigate the spatial relation among these quantities for magnetic field at an axial point. 
+</para>
+<section id="section-1">
+<title> Magnetic field on an axial point
+</title>
+
+
+<para id="element-5">
+
+The magnitude of magnetic field due to current in a current element is given by :
+
+</para>
+<para id="element-6">
+<m:math display="block">  <m:mrow>
+    <m:mo>đ</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>I</m:mi>
+        <m:mo>đ</m:mo>
+        <m:mi>l</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-7">
+In order to evaluate magnetic field due to complete circular wire, we need to set up corresponding integral properly with respect to various elements constituting the expression. In following subsections, we study these elements in which point of observation is a point on axial line.
+</para>
+<section id="section-1a">
+<title> The angle between current length element and displacement vectors
+</title>
+<para id="element-8">
+
+The angle (θ
+) as appearing in the Biot-Savart expression between current length element vector d<term>l</term> and displacement vector <term>r</term> is right angle. See figure. This right angle should be distinguished with acute angle φ, which is the angle between OA and AP as shown in the figure. 
+ 
+</para>
+<para id="element-9">
+<figure id="fig-9">
+<title> The angle between current length element and displacement vectors </title>
+<media id="med9" alt="">
+<image src="../../media/cl1.gif" mime-type="image/gif"/>
+</media>
+<caption> The angle between current length element and displacement vectors is right angle.</caption>
+</figure>
+
+</para>
+<para id="element-10">
+The above fact reduces Biot-Savart expression to :
+
+</para>
+<para id="element-11">
+<m:math display="block">  <m:mrow>
+    <m:mo>đ</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>I</m:mi>
+        <m:mo>đ</m:mo>
+        <m:mi>l</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mn>90</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>I</m:mi>
+        <m:mo>đ</m:mo>
+        <m:mi>l</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-12">
+This simplification due to enclosed angle being right angle is true for all points on the circle.
+</para>
+</section>
+<section id="section-1b">
+<title> Magnitude of magnetic field
+</title>
+<para id="element-13">
+
+All current elements are at equal linear distance from point P. As a result, the magnitude of magnetic field at P due to any of the equal current elements is same. 
+
+</para>
+<para id="element-14">
+<m:math display="block">  <m:mrow>
+    <m:mo>đ</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>đ</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>…</m:mo>
+    <m:mo>.</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-1c">
+<title> Direction of elemental magnetic field
+
+</title>
+<para id="element-15">
+
+Unlike enclosed angle (θ), linear distance (r) and magnitude of magnetic field, the direction of magnetic field due to current elements are not same. As such, we can not integrate Biot-Savart differential expression to determine net magnetic field at P. Let us investigate the direction of magnetic fields due to two diametrically opposite current elements. Let the circular wire lie in yz plane as shown in the figure.
+
+</para>
+<para id="element-16">
+<figure id="fig-16">
+<title> Direction of elemental magnetic field
+</title>
+<media id="med16" alt="">
+<image src="../../media/cl2.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field is perpendicular to plane formed by current length element and displacement vectors.</caption>
+</figure>
+
+</para>
+<para id="element-17">
+The current length vector <m:math>  <m:mrow>
+    <m:mi>d</m:mi>
+    <m:msub>
+      <m:mi mathvariant="bold">l</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> and displacement vector <m:math>  <m:mrow>
+    <m:msub>
+      <m:mi mathvariant="bold">r</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> form a plane shown as plane 1 and the magnetic field due to current element, <m:math>  <m:mrow>
+    <m:msub>
+      <m:mi mathvariant="bold">B</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>, is perpendicular to plane 1. Similarly, the current length vector <m:math>  <m:mrow>
+    <m:mi>d</m:mi>
+    <m:msub>
+      <m:mi mathvariant="bold">l</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>  and displacement vector <m:math>  <m:mrow>
+    <m:msub>
+      <m:mi mathvariant="bold">r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> form a plane shown as plane 2 and the magnetic field due to current element, <m:math>  <m:mrow>
+    <m:msub>
+      <m:mi mathvariant="bold">B</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>), is perpendicular to plane 2. Clearly, these magnetic fields are directed in three dimensional space. If we imagine magnetic fields due to other current elements of the circular wire, then it is not difficult to imagine that these elemental magnetic fields are aligned on the outer surface of a conic section and that they are not in same plane. 
+
+</para>
+<para id="element-17a">
+<figure id="fig-17a">
+<title> Direction of elemental magnetic field
+</title>
+<media id="med17a" alt="">
+<image src="../../media/cl5.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic fields are aligned on the outer surface of a conic section.</caption>
+</figure>
+
+</para>
+<para id="element-18">
+Another important point to observe is that all elemental magnetic field vectors form same angle φ. This can be verified from the fact that <m:math>  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> is perpendicular to AP and Px is perpendicular to OA. Hence, angle between <m:math>  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> and Px is equal to angle between OA and AP i.e. φ with x-axis. By symmetry, we can see that all elemental magnetic field vectors form the same angle with x- axis.
+</para>
+</section>
+
+
+<section id="section-1d">
+<title> Resolution of elemental magnetic field vectors and net magnetic field
+
+
+</title>
+<para id="element-19">
+
+We resolve magnetic field vectors along x-axis and perpendicular to it, which lies on a plane perpendicular to axis i.e a plane parallel to the plane of circular coil (yz plane) as shown in the figure. We have shown two pairs of diametrically opposite current elements. See that axial components are in positive x-direction. The perpendicular components, however, cancels each other for a diametrically opposite pair. 
+
+</para>
+<para id="element-20">
+<figure id="fig-20">
+<title> Resolution of elemental magnetic field vectors and net magnetic field
+
+</title>
+<media id="med20" alt="">
+<image src="../../media/cl3.gif" mime-type="image/gif"/>
+</media>
+<caption> Net magnetic field is axial.</caption>
+</figure>
+
+</para>
+<para id="element-21">
+This situation greatly simplifies the integration process. We need only to algebraically add axial components. Since all are in same direction, we integrate the axial component of differential Biot-Savart expression :
+
+</para>
+<para id="element-22">
+<m:math display="block">  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mo>đ</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>∫</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>l</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>cos</m:mi>
+    <m:mi>φ</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-23">
+Note that both r and cos φ are constants and they can be taken out of integral,
+
+</para>
+<para id="element-24">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>∫</m:mo>
+    <m:mrow>
+      <m:mo>đ</m:mo>
+      <m:mi>l</m:mi>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>R</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-25">
+Now, 
+</para>
+<para id="element-26">
+
+</para>
+<para id="element-27">
+<m:math display="block">  <m:mrow>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mi>x</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msup>
+            <m:mi>R</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+      <m:mrow>
+        <m:mfrac>
+          <m:mn>1</m:mn>
+          <m:mn>2</m:mn>
+        </m:mfrac>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-28">
+In triangle OAP,
+
+</para>
+<para id="element-29">
+<m:math display="block">  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mi>φ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>R</m:mi>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>R</m:mi>
+      <m:mrow>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:msup>
+                <m:mi>R</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>1</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+ 
+</para>
+<para id="element-30">
+Putting these values in the expression of magnetic field, we have :
+
+</para>
+<para id="element-31">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>R</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:msup>
+                <m:mi>R</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>3</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-32">
+This is the expression of magnitude of magnetic field on axial line. Note that we have derived this expression for anticlockwise current. For clockwise current, the magnetic field will have same magnitude but oriented towards the circular wire. Clearly, direction of axial magnetic field follows Right hand thumb rule. 
+
+</para>
+<para id="element-33">
+If there are N turns of circular wires stacked, then magnetic field is reinforced N times and magnetic field is :
+
+</para>
+<para id="element-34">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>N</m:mi>
+        <m:mi>I</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:msup>
+                <m:mi>R</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>3</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+ 
+</para>
+<para id="element-35">
+In order to show the direction, we may write the expression for magnetic field vector using unit vector in the axial direction as :
+
+</para>
+<para id="element-36">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>N</m:mi>
+        <m:mi>I</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:msup>
+                <m:mi>R</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>3</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+      <m:mi mathvariant="bold">i</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-37">
+Recall that one of the faces of circular wire has clockwise direction of current, whereas other face of the same circular wire has anticlockwise direction of current. The magnetic field lines enter from the face where current is clockwise and exit from the face where current is anticlockwise. 
+</para>
+<example id="example-65">
+<para id="element-65"><term>Problem : </term> Two identical circular coils of radius R are placed face to face with their centers on a straight line at a distance 2√ 3 R apart. If the current in each coil is I flowing in same direction, then determine the magnetic field at a point “O” midway between them on the straight line.
+</para>
+<para id="element-66"> 
+<figure id="fig-66"><title>Two identical circular coils at a distance </title><media id="med66" alt="">
+<image src="../../media/cl6a.gif" mime-type="image/gif"/>
+</media>
+
+<caption>Two identical circular coils at a distance
+</caption></figure>
+</para>
+<para id="element-67"><term>Solution : </term> For an observer at “O”, the current in coil A is anticlockwise. The magnetic field due to this coil is towards the observer i.e. towards right. On the other hand, the current in coil C is clockwise for an observer at “O”. The magnetic field due to this coil is away from the observer i.e. again towards right. The magnitude of magnetic field due to either coil is :
+</para>
+<para id="element-68"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:msup>
+                <m:mi>R</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+          <m:mrow>
+            <m:mn>3</m:mn>
+            <m:mo>/</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-69"> 
+Here, x = √3 R,
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>3</m:mn>
+              <m:msup>
+                <m:mi>R</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:msup>
+                <m:mi>R</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+          <m:mrow>
+            <m:mn>3</m:mn>
+            <m:mo>/</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>4</m:mn>
+              <m:msup>
+                <m:mi>R</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+          <m:mrow>
+            <m:mn>3</m:mn>
+            <m:mo>/</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>16</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">
+The net magnetic field is twice the magnetic field due to one coil,
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>B</m:mi>
+    <m:mo>′</m:mo>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>B</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>16</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-73">The net magnetic field is directed towards right.
+</para>
+</example>
+
+</section>
+</section>
+
+
+
+
+<section id="section-2">
+<title> Variation of magnetic field along the axis
+</title>
+
+<para id="element-38">
+
+As far as magnitude of magnetic field is concerned, it decreases away from the circular wire. It is maximum when point of observation is center. In this case,
+
+</para>
+<para id="element-39">
+x = 0 and magnetic field, B is :
+
+</para>
+<para id="element-40">
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:msup>
+                <m:mi>R</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>3</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-42">
+This result is consistent with the one derived for this case in earlier module. For magnetic field at a far off point on the axis,
+
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>≫</m:mo>
+    <m:msup>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>≈</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44">
+Putting in the expression of magnetic field, we have :
+
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:msup>
+                <m:mi>R</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>3</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-46">
+Clearly, magnetic field falls off rapidly i.e. inversely with the cube of linear distance x along the axis. A plot of the magnitude of current is shown here in the figure :
+</para>
+<para id="element-47">
+<figure id="fig-47">
+<title> Variation of magnetic field along the axis
+
+</title>
+<media id="med47" alt="">
+<image src="../../media/cl4.gif" mime-type="image/gif"/>
+</media>
+<caption> Variation of magnetic field along the axis </caption>
+</figure>
+</para>
+</section>
+
+
+<section id="section-3">
+<title> Magnetic moment
+</title>
+
+<para id="element-48">
+
+The concept of moment is a very helpful concept for describing magnetic properties. The description of circular coil as magnetic source in terms of magnetic moment, as a matter of fact, underlines yet another parallelism that runs between electrostatics and electromagnetism.
+
+</para>
+<para id="element-49">
+Magnetic moment of a closed shaped wire is given by :
+
+</para>
+<para id="element-50">
+<m:math display="block">
+  <m:mrow>
+      <m:mi mathvariant="bold">M</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>N</m:mi>
+    <m:mi>I</m:mi>
+      <m:mi mathvariant="bold">A</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-51">
+For a single turn of circular wire :
+
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+      <m:mi mathvariant="bold">M</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>I</m:mi>
+      <m:mi mathvariant="bold">A</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-53">
+The magnetic moment is a vector obtained by multiplying area vector with current. The direction of area vector is perpendicular to the plane of wire. For circular wire shown in the module,
+
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+      <m:mi mathvariant="bold">A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>π</m:mi>
+    <m:msup>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+      <m:mi mathvariant="bold">i</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-55">
+Now, axial magnetic field vector is given by :
+
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:msup>
+                <m:mi>R</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>3</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+      <m:mi mathvariant="bold">i</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-57">
+But,
+</para>
+<para id="element-58">
+<m:math display="block">
+  <m:mrow>
+      <m:mi mathvariant="bold">M</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>I</m:mi>
+      <m:mi mathvariant="bold">A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>I</m:mi>
+        <m:mi>π</m:mi>
+    <m:msup>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+      <m:mi mathvariant="bold">i</m:mi>
+
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-59">
+Substituting in the expression of magnetic field,
+
+</para>
+<para id="element-60">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      <m:mi mathvariant="bold">M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>x</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:msup>
+                <m:mi>R</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mn>3</m:mn>
+              <m:mn>2</m:mn>
+            </m:mfrac>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-61">
+For a far off axial point (<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:msup>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>≈</m:mo>
+    <m:msup>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>):
+
+
+</para>
+<para id="element-62">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      <m:mi mathvariant="bold">M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mn>2</m:mn>
+      <m:mi mathvariant="bold">M</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-63">
+See the resemblance; it has the same form as that for electrical field due to an electrical dipole having dipole moment <term>p</term>on an axial point :
+
+</para>
+<para id="element-64">
+<m:math display="block">
+  <m:mrow>
+      <m:mi mathvariant="bold">E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      <m:mi mathvariant="bold">p</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msub>
+          <m:mi>ε</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:msup>
+          <m:mi>x</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+
+</section>
+
+
+</content>
+
+</document>

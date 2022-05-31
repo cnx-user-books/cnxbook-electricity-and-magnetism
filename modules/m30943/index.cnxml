@@ -1,0 +1,2302 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Kirchhoff's circuit laws</title>
+<metadata>
+  <md:content-id>m30943</md:content-id><md:title>Kirchhoff's circuit laws</md:title>
+  <md:abstract/>
+  <md:uuid>79e288b2-b57b-49b0-96b2-e31c35581911</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">Kirchhoff’s circuit laws are facilitating rules for analyzing electrical circuits. These rules are handy where circuits are more complex beyond the scope of series and parallel combination of resistances and where circuits involve intermixing of electrical sources and resistances (appliances or resistors). Kirchhoff’s laws are brilliant reflection of fundamental laws like conservation of charge and energy in the context of electrical circuits. 
+
+</para>
+<para id="element-2">
+There are two Kirchhoff’s laws which are known by different names :
+</para>
+<para id="element-3"><term>1: </term>Kirchhoff’s current law (KCL) : It is also referred as Junction or point or Kirchhoff’s first rule.
+
+</para>
+<para id="element-4"><term>2: </term>Kirchhoff’s voltage law (KVL) : It is also referred as Loop or Mesh or Kirchhoff’s second rule.
+</para>
+<section id="section-1">
+<title> Kirchhoff’s current law (KCL)</title>
+<para id="element-5">
+No point in the circuit accumulates charge. This is the basic consideration here. Then, the principle of conservation of charge implies that the amount of current flowing towards a point should be equal to the amount of current flowing away from that point. In other words, net current at a point in the circuit is zero. We follow the convention whereby incoming current is treated as positive and outgoing current as negative. Mathematically,
+
+</para>
+<para id="element-6">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-7">
+There is one exception to this law. A point on a capacitor plate is a point of accumulation of charge. 
+</para>
+
+<example id="example-1">
+
+
+<para id="element-8"> <term>Problem : </term> Consider the network of resistors as shown here :
+
+</para>
+<para id="element-9">
+<figure id="fig-9"><title>Network of resistors </title><media id="med9" alt=""><image src="../../media/kl1a.gif" mime-type="image/gif"/></media>
+
+<caption>Each resistor in the network has resistance R.</caption></figure>
+</para>
+<para id="element-10">
+Each resistor in the network has resistance R. The EMF of battery is E having internal resistance r. If I be the current that flows into the network at point A, then find current in each resistor.
+</para>
+<para id="element-11"><term>Solution : </term>
+</para>
+<para id="element-12">It would be very difficult to reduce this network and obtain effective or equivalent resistance using theorems on series and parallel combination. Here, we shall use the property of symmetric distribution of current at each node and apply KCL. The current is equally distributed to the branches AB, AD and AK due to symmetry of each branch meeting at A. We should be very careful about symmetry. The mere fact that resistors in each of three arms are equal is not sufficient. Consider branch AB. The end point B is connected to a network BCML, which in turn is connected to other networks. In this case, however, the branch like AK is also connected to exactly similar networks. Thus, we deduce that current is equally split in three parts at the node A. If I be the current entering the network at A, then applying KCL :
+</para>
+<para id="eip-52">Current flowing away from A = Current flowing towards A</para><para id="eip-324">As currents are equal in three branches, each of them is equal to one-third of current entering the circuit at A :</para>
+
+<para id="element-13"><m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mrow>
+
+        <m:mi>A</m:mi>
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>K</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+
+      <m:mi>I</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-14">
+Currents are split at other nodes like B, D and K symmetrically. Applying KCL at all these nodes, we have :
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+
+      <m:mi>I</m:mi>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>L</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mrow>
+        <m:mi>D</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:msub>
+
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mrow>
+        <m:mi>D</m:mi>
+        <m:mi>N</m:mi>
+      </m:mrow>
+
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mrow>
+        <m:mi>K</m:mi>
+        <m:mi>N</m:mi>
+
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mrow>
+        <m:mi>K</m:mi>
+
+        <m:mi>L</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>I</m:mi>
+      <m:mn>6</m:mn>
+
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-16">
+<figure id="fig-16"><title>Network of resistors </title><media id="med16" alt=""><image src="../../media/kl2a.gif" mime-type="image/gif"/></media>
+	
+<caption>Current in resistors </caption></figure>
+</para>
+<para id="element-17">On the other hand, currents recombine at points C, L, N and M. Applying KCL at C,L and N, we have :
+
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mrow>
+        <m:mi>L</m:mi>
+
+        <m:mi>M</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mrow>
+
+        <m:mi>C</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+
+      <m:mrow>
+        <m:mi>N</m:mi>
+        <m:mi>M</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+
+      <m:mi>I</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18a"> These three currents regroup at M and finally current I emerges from the network.
+</para>
+</example>
+
+</section>
+
+<section id="section-2">
+<title> Kirchoff’s Voltage law (KVL) </title>
+<para id="element-19">
+This law is based on conservation of energy. Sum of potential difference (drop or gain) in a closed circuit is zero. It follows from the fact that if we start from a point and travel along the closed path to the same point, then the potential difference is zero. Recall that electrical work done in carrying electrical charge in a closed path is zero and hence potential difference is also zero :
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-21">
+where V stands for potential difference across an element of the circuit.
+</para>
+
+</section>
+<section id="section-3">
+<title> Applications </title>
+
+
+<para id="element-22">
+Kirchhoff’s laws are extremely helpful in analyzing complex circuits. Their application requires a bit of practice and handful of methods i.e. techniques. Many people like to use a set of procedures which yield results, but they are not intuitive. We shall take a midway approach. We shall rely mostly on the laws as defined and few additional techniques. Some of the useful techniques or procedures are discussed here with examples illustrating the application. The basic idea is to generate as many equations as there are unknowns (current, voltage etc.) to analyze the circuit. 
+</para>
+<section id="section-3a">
+<title> Direction of current (DOC) </title>
+<para id="element-23">
+We assign current direction between two nodes i.e. in the arm in any manner we wish. The solution of the problem will eventually yield either positive or negative current value. A positive value indicates that the assumed direction of current is correct. On the other hand, a negative value simply means that current in that particular arm flows in a direction opposite to assumed direction. See the manner in which current directions are indicated for the same circuit in two different ways :
+</para>
+<para id="element-24">
+<figure id="fig-24" orient="horizontal"><title>Direction of currents </title><subfigure id="fig-24a">
+<media id="med24a" alt="">
+<image src="../../media/kl3.gif" mime-type="image/gif"/>
+</media>
+<caption> Direction of current can be arbitrarily chosen.</caption>
+</subfigure>
+<subfigure id="fig-24b">
+<media id="med24b" alt="">
+<image src="../../media/kl4.gif" mime-type="image/gif"/>
+</media>
+<caption> Direction of current can be arbitrarily chosen. </caption>
+</subfigure>
+</figure>
+</para>
+<para id="element-25">Application of KCL to the current assignments in first figure at node C yields :
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-27">Application of KCL to the current assignments in first figure at node C yields :
+
+</para>
+<para id="element-28"><m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:mi>I</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>3</m:mn>
+
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-29">
+Alternatively, we denote currents in different branches such that numbers of unknowns are minimized. We can use KCL to reduce number of variables in the circuit using first figure as :
+
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+
+          <m:mi>I</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>2</m:mn>
+
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-31">
+<figure id="fig-31"><title>Current in resistors </title><media id="med31" alt="">
+<image src="../../media/kl5.gif" mime-type="image/gif"/>
+</media>
+
+<caption>Network of resistors </caption></figure>
+</para>
+<para id="element-32">
+Further, we should also clearly understand that direction of current (DOC) in a closed loop need not be cyclic. Consider the loop EDCFE in the figure above. Here <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> is clockwise whereas <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> is anticlockwise.
+</para>
+</section>
+<section id="section-3b">
+<title> Direction of travel (DOT) </title>
+<para id="element-33">
+We apply Kirchhoff’s voltage law to each of the closed loop. In the figure below, there are two loops ABCFA and EDCFE. We arbitrarily select direction of travel (DOT) either clockwise or counterclockwise. There is no restriction on the choice because a change in the direction changes the sign of voltage drop for all elements, which is equated to zero. Hence, choice of direction of travel does not effect the final equation. We write down voltage drop across various circuit elements moving from a node following DOT till we return to the starting node. 
+</para>
+<para id="element-34">
+<figure id="fig-34">
+<title> Direction of travel </title>
+<media id="med34" alt="">
+<image src="../../media/kl6a.gif" mime-type="image/gif"/>
+</media>
+<caption> Network of resistors </caption>
+</figure>
+</para>
+</section>
+<section id="section-3c">
+<title> Voltage across resistor and power source </title>
+
+<para id="element-35">The sign of voltage drop across a resistor depends on the relative direction of DOC and DOT. Consider the loop EDCFE. Starting from node E (say), we move toward D following clockwise DOT (Direction of Travel). From the direction of current (DOC), it is clear that the end of resistor 5 Ω where current enters is at higher potential than at the end where current exits the resistor. Hence, there is a potential drop, which is indicated by a negative sign. On the other hand, we move in the arm CF from C to F in the opposite direction of the current (COD). Here again, the end of resistor 4 Ω where current enters is at higher potential than at the end where current exits the resistor. Hence, there is a potential gain as we move across resistor from C to F, which is indicated by a positive sign.
+
+</para>
+<para id="element-36">
+We conclude that if DOT and DOC are same then potential difference across resistor is negative and if they are opposite then the potential difference across resistor is positive.
+
+</para>
+<para id="element-37">
+The sign of power source is easier to decide. It merely depends on the direction of travel (DOT). Moving across a EMF source from negative to positive terminal is like moving from a point of lower to point of higher potential. Thus, if traveling across a source, we move from negative to positive terminal then potential difference is positive otherwise negative. 
+
+</para>
+<para id="element-38">
+Combining above considerations, we write KVL equations for loops ABCFA and EDCFE as : 
+</para>
+<para id="element-39">
+<figure id="fig-39"><title>Voltage across circuit elements </title><media id="med39" alt="">
+<image src="../../media/kl6a.gif" mime-type="image/gif"/>
+</media>
+
+<caption>Network of resistors</caption></figure>
+</para>
+<para id="element-40">
+Loop EDCFE (Starting from E) : 
+
+</para>
+<para id="element-41">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:msub>
+      <m:mi>I</m:mi>
+
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>4</m:mn>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>8</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+<m:math display="block">
+  <m:mrow>
+    <m:mn>5</m:mn>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+
+    <m:mn>4</m:mn>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-42">
+Loop ABCFA (Starting from A) : 
+
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:mo>+</m:mo>
+    <m:mn>5</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+
+          <m:mi>I</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>2</m:mn>
+
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mn>4</m:mn>
+    <m:msub>
+      <m:mi>I</m:mi>
+
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>8</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>5</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+
+          <m:mi>I</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>2</m:mn>
+
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mn>4</m:mn>
+    <m:msub>
+      <m:mi>I</m:mi>
+
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>5</m:mn>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+
+    <m:mo>+</m:mo>
+    <m:mn>9</m:mn>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+
+    <m:mo>-</m:mo>
+    <m:mn>3</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-44">Subtracting first from second we eliminate <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> and we have :
+
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>13</m:mn>
+
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>1</m:mn>
+
+  </m:mrow>
+</m:math>
+
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>13</m:mn>
+    </m:mfrac>
+
+    <m:mspace width="1em"/>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-46">
+Current in ED, 
+
+</para>
+<para id="element-47">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mo>-</m:mo>
+
+            <m:mn>2</m:mn>
+            <m:mo>+</m:mo>
+            <m:mn>4</m:mn>
+            <m:msub>
+              <m:mi>I</m:mi>
+              <m:mn>2</m:mn>
+
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mn>5</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>2</m:mn>
+            <m:mo>+</m:mo>
+            <m:mn>4</m:mn>
+
+            <m:mi>X</m:mi>
+            <m:mfrac>
+              <m:mrow>
+                <m:mo>−</m:mo>
+                <m:mn>1</m:mn>
+              </m:mrow>
+              <m:mn>13</m:mn>
+
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mn>5</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+
+    <m:mfrac>
+      <m:mn>6</m:mn>
+      <m:mn>13</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mi>A</m:mi>
+  </m:mrow>
+
+</m:math>
+
+
+</para>
+<para id="element-48">
+Current in BA, 
+
+</para>
+<para id="element-49">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>1</m:mn>
+
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>13</m:mn>
+    </m:mfrac>
+
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mn>6</m:mn>
+      <m:mn>13</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+
+    <m:mfrac>
+      <m:mn>7</m:mn>
+      <m:mn>13</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mi>A</m:mi>
+  </m:mrow>
+
+</m:math>
+</para>
+<para id="element-50">Clearly, direction of current in each of the branch are opposite to the ones assumed. 
+</para>
+</section>
+<example id="example-51">
+
+<para id="element-51"><term>Problem : </term> Consider the network of resistors as shown here :
+
+</para>
+<para id="element-52">
+<figure id="fig-52">
+<title> Network of resistors </title>
+<media id="med52" alt="">
+<image src="../../media/kl7.gif" mime-type="image/gif"/>
+</media>
+<caption> Network of resistors connected to EMF source </caption>
+</figure>
+</para>
+<para id="element-53">
+Each resistor in the network has resistance 2 Ω. The EMF of battery is 10 V having internal resistance 1/6 Ω. Determine the equivalent resistance of the network.
+</para>
+<para id="element-54"><term>Solution : </term> We have seen in the earlier example that if I be the current, then current is distributed in different branches of the network as shown in the figure. 
+</para>
+<para id="element-55">
+<figure id="fig-55">
+<title> Network of resistors </title>
+<media id="med55" alt="">
+<image src="../../media/kl8.gif" mime-type="image/gif"/>
+</media>
+<caption> Network of resistors connected to EMF source </caption>
+</figure>
+</para>
+<para id="element-56">
+Clearly, we need to determine current I in order to calculate equivalent resistance of the network. For this, we consider the loop ABCMA in clockwise direction. Applying KVL :
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mi>I</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mi>I</m:mi>
+
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mi>I</m:mi>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+
+    <m:mo>−</m:mo>
+    <m:mi>I</m:mi>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+
+    <m:mo>+</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>5</m:mn>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mn>6</m:mn>
+
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mi>I</m:mi>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+
+    <m:mn>10</m:mn>
+  </m:mrow>
+</m:math>
+
+
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+
+    <m:mn>10</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-58">
+Let <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>R</m:mi>
+
+      <m:mrow>
+        <m:mi>e</m:mi>
+        <m:mi>q</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math> be the equivalent resistance of the network. Reducing given circuit and applying KVL in clockwise direction, we have :
+
+</para>
+<para id="element-59">
+<figure id="fig-59">
+<title> Equivalent resistance </title>
+<media id="med59" alt="">
+<image src="../../media/kl9.gif" mime-type="image/gif"/>
+</media>
+<caption> Network of resistors connected to EMF source </caption>
+</figure>
+</para>
+<para id="element-60">
+<m:math display="block">
+  <m:mrow>
+
+    <m:mo>∑</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+
+    <m:msub>
+      <m:mi>R</m:mi>
+      <m:mrow>
+        <m:mi>e</m:mi>
+        <m:mi>q</m:mi>
+      </m:mrow>
+    </m:msub>
+
+    <m:mo>−</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+
+    <m:mo>+</m:mo>
+    <m:mn>10</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+<m:math display="block">
+  <m:mrow>
+
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>R</m:mi>
+      <m:mrow>
+        <m:mi>e</m:mi>
+        <m:mi>q</m:mi>
+      </m:mrow>
+
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>50</m:mn>
+      <m:mn>60</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+
+    <m:mfrac>
+      <m:mn>5</m:mn>
+      <m:mn>6</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mi>Ω</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+</example>
+
+</section>
+<section id="section-4">
+<title> Exercise </title>
+
+<para id="element-61">
+<exercise id="exercise-61">
+<problem id="fs-id1171368231519">
+<para id="element-62">
+Consider the network of resistors as shown here :
+</para>
+<para id="element-63">
+<figure id="fig-63">
+<title> Electrical Network </title>
+<media id="med63" alt="">
+<image src="../../media/kl10.gif" mime-type="image/gif"/>
+</media>
+<caption> Electrical Network </caption>
+</figure>
+</para>
+<para id="element-64">
+Determine the equivalent resistance of the network between A and C. 
+</para>
+</problem>
+
+<solution id="fs-id1171368209013">
+<para id="element-65">
+In order to determine equivalent resistance, we assume that given network is connected to an external source of EMF equal to E. Now, the external EMF is related to effective resistance as :
+
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>I</m:mi>
+    <m:msub>
+      <m:mi>R</m:mi>
+
+      <m:mrow>
+        <m:mi>e</m:mi>
+        <m:mi>q</m:mi>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-67">
+Once this relation is known, we can determine equivalent resistance of the given network. It is important to note that current distribution is already given in the problem figure. 
+</para>
+<para id="element-68">
+<figure id="fig-68">
+<title> Electrical Network </title>
+<media id="med68" alt="">
+<image src="../../media/kl11.gif" mime-type="image/gif"/>
+</media>
+<caption> Electrical Network </caption>
+</figure>
+</para>
+<para id="element-69">
+Considering loop ABCEA in clockwise travel, we have KVL equation as :
+
+
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+
+    <m:mo>∑</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+
+    </m:msub>
+    <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+
+      <m:mi>R</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+
+    </m:msub>
+    <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-71">
+Considering loop ABDA in clockwise travel, we have KVL equation as :
+
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+
+    <m:mo>∑</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+
+    </m:msub>
+    <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>I</m:mi>
+
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>3</m:mn>
+
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-73">
+We solve for <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> to get an expression for it in terms of <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> as :
+
+</para>
+<para id="element-74">
+<m:math display="block">
+
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mfenced>
+          <m:mrow>
+
+            <m:msub>
+              <m:mi>R</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>R</m:mi>
+
+              <m:mn>3</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+
+            <m:msub>
+              <m:mi>R</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>R</m:mi>
+
+              <m:mn>3</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-75">
+Substituting above expression of <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> in the equation obtained earlier for E, we have :
+</para>
+<para id="element-76">
+<m:math display="block">
+
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+
+    </m:msub>
+    <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+
+      <m:mrow>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+
+              <m:mi>R</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>R</m:mi>
+              <m:mn>3</m:mn>
+
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+        <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>R</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+
+            <m:msub>
+              <m:mi>R</m:mi>
+              <m:mn>3</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>R</m:mi>
+              <m:mn>2</m:mn>
+
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>R</m:mi>
+              <m:mn>3</m:mn>
+            </m:msub>
+          </m:mrow>
+
+        </m:mfenced>
+        <m:mi>E</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msub>
+          <m:mi>R</m:mi>
+
+          <m:mn>3</m:mn>
+        </m:msub>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>R</m:mi>
+              <m:mn>1</m:mn>
+
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>R</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+
+        </m:mfenced>
+        <m:mo>+</m:mo>
+        <m:mn>2</m:mn>
+        <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+
+        <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-77">
+Putting this expression for <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> in the expression obtained earlier for <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>, we have :
+
+</para>
+<para id="element-78">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>R</m:mi>
+              <m:mn>1</m:mn>
+
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>R</m:mi>
+              <m:mn>3</m:mn>
+            </m:msub>
+          </m:mrow>
+
+        </m:mfenced>
+        <m:mi>E</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msub>
+          <m:mi>R</m:mi>
+
+          <m:mn>3</m:mn>
+        </m:msub>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>R</m:mi>
+              <m:mn>1</m:mn>
+
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>R</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+
+        </m:mfenced>
+        <m:mo>+</m:mo>
+        <m:mn>2</m:mn>
+        <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+
+        <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-79">
+But, we know that :
+
+</para>
+<para id="element-80">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-81">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>R</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+
+            <m:msub>
+              <m:mi>R</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:mn>2</m:mn>
+            <m:msub>
+
+              <m:mi>R</m:mi>
+              <m:mn>3</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>E</m:mi>
+      </m:mrow>
+
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>3</m:mn>
+        </m:msub>
+        <m:mfenced>
+
+          <m:mrow>
+            <m:msub>
+              <m:mi>R</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+
+              <m:mi>R</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+        <m:mo>+</m:mo>
+        <m:mn>2</m:mn>
+
+        <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+
+        </m:msub>
+        <m:mo>]</m:mo>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-82">
+Thus,
+
+</para>
+<para id="element-83">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+
+    <m:msub>
+      <m:mi>R</m:mi>
+      <m:mrow>
+        <m:mi>e</m:mi>
+        <m:mi>q</m:mi>
+      </m:mrow>
+    </m:msub>
+
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>E</m:mi>
+      <m:mi>I</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+
+      <m:mrow>
+        <m:mo>[</m:mo>
+        <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>3</m:mn>
+        </m:msub>
+        <m:mfenced>
+
+          <m:mrow>
+            <m:msub>
+              <m:mi>R</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+
+              <m:mi>R</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+        <m:mo>+</m:mo>
+        <m:mn>2</m:mn>
+
+        <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+
+        </m:msub>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>R</m:mi>
+
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>R</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+
+            <m:mo>+</m:mo>
+            <m:mn>2</m:mn>
+            <m:msub>
+              <m:mi>R</m:mi>
+              <m:mn>3</m:mn>
+            </m:msub>
+          </m:mrow>
+
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-84">
+<exercise id="exercise-84">
+<problem id="fs-id1171368213857">
+<para id="element-84a">
+Consider the network of resistors and batteries as shown here :
+</para>
+<para id="element-85">
+<figure id="fig-85">
+<title> Electrical Network </title>
+<media id="med85" alt="">
+<image src="../../media/kl12.gif" mime-type="image/gif"/>
+</media>
+<caption> Electrical Network </caption>
+</figure>
+</para>
+<para id="element-86">
+Find the currents in different braches of the network. 
+</para>
+</problem>
+
+<solution id="fs-id2368546">
+<para id="element-87">
+We assign currents with directions in different branches as shown in the figure. We can, however, assign current directions in any other manner we wish. Here, starting from <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> and <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> in branches CA and AB respectively and applying KCL at A, the current in AD is <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+
+  </m:mrow>
+</m:math>. Let the current in FE is <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+
+      <m:mn>3</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>. Applying KCL at B, current in BC is <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>. Again applying KCL at C, current in CD is <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+
+      <m:mi>I</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+
+    </m:msub>
+  </m:mrow>
+</m:math>.     
+</para>
+<para id="element-88">
+<figure id="fig-88">
+<title> Electrical Network </title>
+<media id="med88" alt="">
+<image src="../../media/kl13.gif" mime-type="image/gif"/>
+</media>
+<caption> Electrical Network </caption>
+</figure>
+</para>
+<para id="element-89">
+Considering loop ABCA in clockwise travel, we have KVL equation as :
+
+</para>
+<para id="element-90">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∑</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+
+    <m:mn>1</m:mn>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>3</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+
+    <m:mn>20</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+
+
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-91">
+Considering loop ADCA in anticlockwise travel, we have KVL equation as :
+
+</para>
+<para id="element-92">
+<m:math display="block">
+  <m:mrow>
+
+    <m:mo>∑</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>2</m:mn>
+    <m:mfenced>
+      <m:mrow>
+
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>I</m:mi>
+
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+
+          <m:mi>I</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>3</m:mn>
+
+        </m:msub>
+        <m:mo>−</m:mo>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+
+    <m:mn>20</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+
+
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+
+    <m:mn>5</m:mn>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:mn>3</m:mn>
+
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>20</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-93">
+Considering loop BCDFEB in anticlockwise travel, we have KVL equation as :
+
+</para>
+<para id="element-94">
+<m:math display="block">
+  <m:mrow>
+
+    <m:mo>∑</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>I</m:mi>
+
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>3</m:mn>
+        </m:msub>
+
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>−</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>2</m:mn>
+
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>3</m:mn>
+        </m:msub>
+        <m:mo>−</m:mo>
+
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>+</m:mo>
+
+    <m:mn>10</m:mn>
+    <m:mo>−</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+
+
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>-</m:mo>
+
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:mn>4</m:mn>
+    <m:msub>
+      <m:mi>I</m:mi>
+
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-95">
+We have three equations with three variables. Solving, we have :
+
+</para>
+<para id="element-96">
+<m:math display="block">
+  <m:mrow>
+
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>40</m:mn>
+    <m:mo>/</m:mo>
+
+    <m:mn>7</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>A</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>I</m:mi>
+
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>13</m:mn>
+    <m:mo>/</m:mo>
+    <m:mn>7</m:mn>
+
+    <m:mspace width="1em"/>
+    <m:mi>A</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>3</m:mn>
+
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-97">
+Currents in different branches are :
+
+</para>
+<para id="element-98">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mrow>
+        <m:mi>C</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+
+    <m:mfrac>
+      <m:mn>40</m:mn>
+      <m:mn>7</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mi>A</m:mi>
+    <m:mo>;</m:mo>
+
+    <m:mspace width="1em"/>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+
+    <m:mfrac>
+      <m:mn>13</m:mn>
+      <m:mn>7</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mi>A</m:mi>
+  </m:mrow>
+
+</m:math>
+
+
+
+
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>D</m:mi>
+
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+
+      <m:mn>40</m:mn>
+      <m:mn>7</m:mn>
+    </m:mfrac>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mn>13</m:mn>
+      <m:mn>7</m:mn>
+
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>27</m:mn>
+      <m:mn>7</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mrow>
+
+        <m:mi>B</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>13</m:mn>
+      <m:mn>7</m:mn>
+    </m:mfrac>
+    <m:mo>+</m:mo>
+    <m:mn>3</m:mn>
+
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>34</m:mn>
+      <m:mn>7</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mi>A</m:mi>
+
+  </m:mrow>
+</m:math>
+
+
+
+
+
+
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mrow>
+        <m:mi>C</m:mi>
+
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>34</m:mn>
+
+      <m:mn>7</m:mn>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mn>40</m:mn>
+      <m:mn>7</m:mn>
+    </m:mfrac>
+
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mn>6</m:mn>
+      <m:mn>7</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+
+
+
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mrow>
+
+        <m:mi>D</m:mi>
+        <m:mi>F</m:mi>
+        <m:mi>E</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:mspace width="1em"/>
+
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-99">
+Note that current in branch CD  is negative. It means that current in the branch is opposite to the assumed direction.
+</para>
+</solution>
+</exercise>
+</para>
+
+</section>
+
+
+</content>
+
+</document>

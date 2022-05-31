@@ -1,0 +1,2349 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Ampere’s law (Exercise)</title>
+<metadata>
+  <md:content-id>m31927</md:content-id><md:title>Ampere’s law (Exercise)</md:title>
+  <md:abstract/>
+  <md:uuid>dc953fd0-b11f-475e-8af9-b9a5a453fb51</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="prerequisite">
+      <link url="http://cnx.org/content/m31895/latest/" strength="3">Ampere's law</link>
+      <link url="http://cnx.org/content/m31057/latest/" strength="2">Biot-Savart law</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<section id="section-1">
+<title> Worked out exercises 
+</title>
+<section id="section-1j">
+<title> 
+</title>
+<para id="element-89"> <term>Problem 1: </term> 
+Two wires each carrying current I are perpendicular to xy plane. The current in one of them is into the plane denoted by a cross sign and the current in the other wire is out of the plane denoted by a filled circle. If the linear distance between the positions of two wires is “2a”, then find the net magnetic field at a distance 
+”b” on the perpendicular bisector of the line joining the positions of two wires. 
+
+</para>
+<para id="element-90">
+<figure id="fig-90">
+<title> Magnetic field at perpendicular bisector </title>
+<media id="med90" alt="">
+<image src="../../media/alq13.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field at perpendicular bisector </caption>
+</figure>
+</para>
+<para id="element-91"><term>Solution : </term> 
+
+The magnitudes of magnetic fields due to wires at A and B are equal. Applying Ampere's law, the magnetic field due to each wire is :
+
+</para>
+<para id="element-92">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-93">
+The magnetic fields are directed tangential to the circle drawn containing point “P” with centers “A” and “B” as shown in the figure. Each magnetic field makes an angle say “θ” with the bisector. The components in y-direction cancel out, whereas x-components add up. Clearly, the net magnetic field is directed in negative x – direction. The magnitude of net magnetic field is :
+</para>
+<para id="element-94">
+<figure id="fig-94"><title>Magnetic field at perpendicular bisector </title><media id="med94" alt="">
+<image src="../../media/alq14a.gif" mime-type="image/gif"/>
+</media>
+
+<caption>Magnetic field at perpendicular bisector </caption></figure>
+</para>
+<para id="element-95">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-96">
+Now,
+
+</para>
+<para id="element-97">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>a</m:mi>
+      <m:mi>r</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>a</m:mi>
+      <m:mrow>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>a</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:msup>
+                <m:mi>b</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-98">
+and
+
+</para>
+<para id="element-99">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:msqrt>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>b</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:msqrt>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-100">
+Putting these expressions in the equation for the magnetic field at “P”, we have :
+
+
+</para>
+<para id="element-101">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>a</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>a</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:msup>
+                <m:mi>b</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>a</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:msup>
+                <m:mi>b</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>a</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>b</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+
+
+<section id="section-1h">
+<title> 
+</title>
+
+<para id="element-74"><term>Problem 2: </term> Five straight wires, carrying current I, are perpendicular to the plane of drawing. Four of them are situated at the corners and fifth wire is situated at the center of a square of side "a". Two of the wires at the corners are flowing into the plane whereas the remaining three are flowing out of the plane. Find the net magnetic field at the center of square. 
+
+</para>
+<para id="element-75"> 
+<figure id="fig-75">
+<title> Five straight wires, carrying current I </title>
+<media id="med75" alt="">
+<image src="../../media/alq11a.gif" mime-type="image/gif"/>
+</media>
+<caption> Five straight wires, carrying current I </caption>
+</figure>
+
+
+
+</para>
+<para id="element-76"><term>Solution : </term> According to <link document="m31895" target-id="section-1">Ampere’s law</link>, the magnetic field due to a straight wire carrying current "I" at a perpendicular distance "r" is given as :
+
+
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-78"> The wires at the corners carry equal currents and the center "O" is equidistant from these wires. Thus, magnetic fields due to these four wires have equal magnitude. In order to find the directions of magnetic fields, we draw circles containing point of observation "O". The direction of magnetic field is tangential to the circle. Applying Right hand thumb rule for straight wire, we determine the orientation of magnetic field as shown in the figure.  Clearly, the net magnetic field due to these four wires at the center is zero.
+</para>
+<para id="element-78a"> 
+<figure id="fig-78a">
+<title> Directions of magnetic fields </title>
+<media id="med78a" alt="">
+<image src="../../media/alq11b.gif" mime-type="image/gif"/>
+</media>
+<caption> Directions of magnetic fields </caption>
+</figure>
+
+</para>
+<para id="element-79"> Now, magnetic field at a point on the wire itself is zero. Thus, magnetic fields due to all the five wires at the center "O" is zero.
+
+</para>
+<para id="element-79a"> It is interesting to note that if straight wires with currents are arranged differently, for example, two currents out of the plane at A and C respectively and the other two currents into the plane at D and E respectively are arranged, then magnetic fields do not cancel and there is net non-zero magnetic field at "O" due to currents in four wires. 
+
+</para>
+</section>
+
+
+<section id="section-1a">
+<title> 
+</title>
+
+<para id="element-1"> <term>Problem 3: </term> There are five long wires perpendicular to the plane of drawing, each carrying current I as shown by filled circles (out of plane) and crosses (into the plane) in the figure below. Determine closed line integrals <m:math>
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>d</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+  </m:mrow>
+</m:math>
+for each of the four contours in the direction of integration shown.
+</para>
+<para id="element-2"> 
+<figure id="fig-2">
+<title> Currents and Ampere’s loops </title>
+<media id="med2" alt="">
+<image src="../../media/alq1.gif" mime-type="image/gif"/>
+</media>
+<caption> Currents and Ampere’s loops </caption>
+</figure>
+
+</para>
+<para id="element-3"><term>Solution : </term>
+</para>
+<para id="element-4">According to <link document="m31895" target-id="section-2">Ampere’s law</link>, the closed line integral is related to enclosed current as :
+
+</para>
+<para id="element-5">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>đ</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-6"> For loop 1, the integration direction is anticlockwise. The current out of the page is positive and current into the page is negative. There are one in and one out current here. The net current is zero. Hence,
+</para>
+<para id="element-7">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>đ</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-8">
+For loop 2, the integration direction is clockwise. The current out of the page is negative and current into the page is positive. There are one in and two out current here. The net current is one out current i.e. “-I”. Hence,
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>đ</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-10">
+For loop 3, the integration direction is clockwise. The current out of the page is negative and current into the page is positive. There are one in and one out current here. The net current is zero. Hence,
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>d</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-12">
+For loop 4, the integration direction is clockwise. The current out of the page is negative and current into the page is positive. There are three in and two out current here. The net current is one in current i.e. “I”. Hence,
+</para>
+<para id="element-13">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>đ</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-1b">
+<title> 
+</title>
+<para id="element-14"> <term>Problem 4: </term> 
+The magnetic field in a region is given by relation :
+
+
+</para>
+<para id="element-15"> 
+<m:math display="block">
+  <m:mrow>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:munderover>
+      <m:mi mathvariant="bold">l</m:mi>
+      <m:mrow/>
+      <m:mo>‸</m:mo>
+    </m:munderover>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-16"> 
+<figure id="fig-16">
+<title> Closed line integral of magnetic field  </title>
+<media id="med16" alt="">
+<image src="../../media/alq2.gif" mime-type="image/gif"/>
+</media>
+<caption> Closed line integral of magnetic field  </caption>
+</figure>
+
+
+</para>
+<para id="element-17"> where <term>i</term> is the unit vector in x direction. Determine closed line integral of magnetic field along the triangle ACD.
+
+</para>
+<para id="element-18"><term>Solution : </term> 
+
+</para>
+<para id="element-19"> For line segment AC, magnetic field and length element are in the same direction. Applying Ampere’s law :
+
+
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:msub>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>đ</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mn>5</m:mn>
+    <m:mi>đ</m:mi>
+    <m:mi>x</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mn>0</m:mn>
+    <m:mo>°</m:mo>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mn>5</m:mn>
+    <m:mi>đ</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:msub>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>đ</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mi>đ</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>8</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>40</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>T</m:mi>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-21"> We see that magnetic field is perpendicular to line segment CD. Therefore, magnetic line integral for this segment is equal to zero. 
+
+
+</para>
+<para id="element-22"> For the line segment DA, the length is <m:math>
+  <m:mrow>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:msup>
+            <m:mn>8</m:mn>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo>+</m:mo>
+          <m:msup>
+            <m:mn>6</m:mn>
+            <m:mn>2</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+  </m:mrow>
+</m:math>
+m. 
+
+
+
+</para>
+<para id="element-23"> 
+<figure id="fig-23">
+<title> Closed line integral of magnetic field  </title>
+<media id="med23" alt="">
+<image src="../../media/alq3.gif" mime-type="image/gif"/>
+</media>
+<caption> Closed line integral of magnetic field  </caption>
+</figure>
+
+
+</para>
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>D</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>đ</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>D</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mn>5</m:mn>
+    <m:mi>đ</m:mi>
+    <m:mi>x</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mo>∠</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>E</m:mi>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>D</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mi>đ</m:mi>
+    <m:mi>x</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mo>-</m:mo>
+        <m:mo>∠</m:mo>
+        <m:mi>D</m:mi>
+        <m:mi>E</m:mi>
+        <m:mi>F</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>D</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mi>đ</m:mi>
+    <m:mi>x</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mo>∠</m:mo>
+    <m:mi>D</m:mi>
+    <m:mi>E</m:mi>
+    <m:mi>F</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>D</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>đ</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>D</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mi>đ</m:mi>
+    <m:mi>x</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mo>∠</m:mo>
+    <m:mi>D</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>C</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>D</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>C</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>D</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>đ</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>D</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mfrac>
+      <m:mn>8</m:mn>
+      <m:mrow>
+        <m:mn>10</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>đ</m:mi>
+    <m:mi>x</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>D</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>đ</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>4</m:mn>
+    <m:msub>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>D</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mi>đ</m:mi>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>X</m:mi>
+    <m:mi>D</m:mi>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mn>40</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>T</m:mi>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-25">
+Adding two values, the value of closed line integral is zero.
+</para>
+<para id="element-26">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>đ</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-27">
+Thus, we see that current though the region is zero even though there exists magnetic field in the region.
+</para>
+</section>
+<section id="section-1g">
+<title> 
+</title>
+<para id="element-67"> <term>Problem 5: </term> Straight wires are mounted tightly over a long hollow cylinder of radius "R" such that they are parallel to the axis of cylinder. The perpendicular cross-section of the arrangement is shown in the figure below. If there are N such wires each carrying a current I, then determine magnetic field inside and outside the cylinder. 
+</para>
+<para id="element-68"> 
+<figure id="fig-68">
+<title> Magnetic field due to current in tightly packed straight wires </title>
+<media id="med68" alt="">
+<image src="../../media/alq9.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field due to current in tightly packed straight wires </caption>
+</figure>
+
+
+</para>
+<para id="element-69"><term>Solution : </term> We draw an Ampere loop of radius "r" for applying <link document="m31895" target-id="section-2">Ampere’s law</link> at a point inside the cylinder. But there is no current inside. Hence,
+
+</para>
+<para id="element-70"> 
+<figure id="fig-70">
+<title> Magnetic field due to current in tightly packed straight wires </title>
+<media id="med70" alt="">
+<image src="../../media/alq10.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field due to current in tightly packed straight wires </caption>
+</figure>
+
+</para>
+<para id="element-71">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>đ</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-72"> Here integration of dl along the loop is equal to perimeter of loop i.e. 2πr. Hence, B = 0. For determining magnetic field at an outside point, we draw an Ampere loop of radius "r". Here, the total current is NI. Hence,
+
+
+</para>
+<para id="element-73">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>đ</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>N</m:mi>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>r</m:mi>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>N</m:mi>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>N</m:mi>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-1c">
+<title> 
+</title>
+<para id="element-28"> <term>Problem 6: </term> 
+A cylindrical conductor of radius R carries current I distributed uniformly across the cross-section. Draw the curve showing variation of magnetic field as we move away from the axis of conductor in perpendicular direction.
+
+
+</para>
+<para id="element-29"> <term>Solution : </term> 
+Let the perpendicular direction to the axis be x-axis. The magnetic field at a point inside the conductor is given by :
+
+</para>
+<para id="element-30"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-31"> Clearly, magnetic field increases linearly as move away from the axis towards the edge of conductor and attains the maximum at the surface, when x=R and magnetic field is given as: 
+
+
+</para>
+<para id="element-32"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-33"> The magnetic field at a point outside the conductor is :
+
+
+</para>
+<para id="element-34"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>x</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-35"> The magnetic field is inversely proportional to the linear distance “x”. The required plot of magnetic field .vs. x is as shown in the figure below :
+
+</para>
+<para id="element-36">
+<figure id="fig-36">
+<title> Variation of magnetic field  </title>
+<media id="med36" alt="">
+<image src="../../media/alq4.gif" mime-type="image/gif"/>
+</media>
+<caption> Variation of magnetic field  </caption>
+</figure>
+</para>
+</section>
+<section id="section-1d">
+<title> 
+</title>
+<para id="element-37"> <term>Problem 7: </term> 
+A long annular cylindrical conductor of radii “a” and “b” carries current I. The perpendicular cross section of annular cylinder is shown in the figure below. If the current distribution in the annular region is uniform, determine magnetic field at a point in the annular region at a radial distance “r” from the axis.
+
+
+
+</para>
+<para id="element-38"> 
+<figure id="fig-38">
+<title> Magnetic field due to current in annular cylindrical conductor  </title>
+<media id="med38" alt="">
+<image src="../../media/alq5.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field due to current in annular cylindrical conductor  </caption>
+</figure>
+
+
+
+</para>
+<para id="element-39"> <term>Solution : </term> 
+According to <link document="m31057" target-id="section-2">Ampere’s law</link>,
+
+
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>đ</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-41"> In order to evaluate this equation, we need to know the current in the annular region from r=a to r=r. For this we need the value of current density. Here, total current is given. Dividing this by the total area of the region gives us the current density, 
+
+
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>J</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>I</m:mi>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>b</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>−</m:mo>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-43"> The net current through the Ampere loop of radius “r” falling in the annular region is given by multiplying current density with the annular area between r=a and r=r. Applying Ampere’s law for a loop of radius r,
+
+</para>
+<para id="element-44">
+<figure id="fig-44">
+<title> Magnetic field due to current in annular cylindrical conductor  </title>
+<media id="med44" alt="">
+<image src="../../media/alq6.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field due to current in annular cylindrical conductor  </caption>
+</figure>
+
+</para>
+<para id="element-45">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>đ</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>π</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>-</m:mo>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>J</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>π</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>b</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>r</m:mi>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>b</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>b</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>r</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>b</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-1e">
+<title> 
+</title>
+<para id="element-46"><term>Problem 8: </term> A long annular cylindrical conductor of radii “a” and “b” carries a current. If the current distribution in the annular region is given as J = kr, where k is a constant, then determine magnetic field at a point in the annular region at a radial distance “r” from the axis.
+
+</para>
+<para id="element-47"><term>Solution : </term> This question is similar to earlier question with one difference that areal current density is not uniform.
+We see here that the current distribution in the annular region is given as J=kr. Clearly, current density increases as we move from inner edge to the outer edge of the annular cylinder. The current in the small strip đr is :
+
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>đ</m:mi>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>r</m:mi>
+    <m:mi>đ</m:mi>
+    <m:mi>r</m:mi>
+    <m:mi>J</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>r</m:mi>
+    <m:mi>đ</m:mi>
+    <m:mi>r</m:mi>
+    <m:mi>k</m:mi>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>k</m:mi>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>đ</m:mi>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-49">
+<figure id="fig-49">
+<title> Magnetic field due to current in annular cylindrical conductor  </title>
+<media id="med49" alt="">
+<image src="../../media/alq7.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field due to current in annular cylindrical conductor  </caption>
+</figure>
+
+</para>
+<para id="element-50">
+</para>
+<para id="element-51">
+Applying Ampere’s law for a loop of radius r and considering that current is distributed from r=a to r=r, 
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>d</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>∮</m:mo>
+    <m:mi>d</m:mi>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:munderover>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>k</m:mi>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>d</m:mi>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>k</m:mi>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:munderover>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>d</m:mi>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>r</m:mi>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>k</m:mi>
+    <m:mo>[</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>3</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:munderover>
+      <m:mo>]</m:mo>
+      <m:mrow>
+        <m:mi>a</m:mi>
+      </m:mrow>
+      <m:mi>r</m:mi>
+    </m:munderover>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>k</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>3</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>3</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>k</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>3</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>a</m:mi>
+              <m:mn>3</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>a</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>r</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>b</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+<section id="section-1i">
+<title> 
+</title>
+<para id="element-80"> <term>Problem 9: </term> 
+A long solenoid having 1000 turns per meter carries a current of 1 A. A long straight conductor of radius 0.5 cm and carrying a current of 10π A is placed coaxially along the axis of solenoid. Compare magnetic fields due to two currents at that point. Also determine magnetic field at a point on the surface of straight conductor. 
+</para>
+<para id="element-81"><term>Solution : </term> The magnetic field due to solenoid is uniform inside the solenoid and is given as :
+</para>
+<para id="element-82">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>B</m:mi>
+      </m:mstyle>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>n</m:mi>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:mn>1000</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>1</m:mn>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>4</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-83"> The magnetic field due to straight conductor on its surface is :
+</para>
+<para id="element-84">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mstyle mathvariant="bold">
+        <m:mi>B</m:mi>
+      </m:mstyle>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>7</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>0.5</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>2</m:mn>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>4</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-85"> 
+<figure id="fig-85">
+<title> Magnetic field due solenoid and straight conductor </title>
+<media id="med85" alt="">
+<image src="../../media/alq12.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field due solenoid and straight conductor </caption>
+</figure>
+
+</para>
+<para id="element-86"> The magnetic field due to straight conductor is tangential to the circumference and hence is perpendicular to magnetic field due to solenoid. The resultant magnetic field is, therefore,
+
+
+</para>
+<para id="element-87"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>2</m:mn>
+          <m:mi>X</m:mi>
+          <m:mn>16</m:mn>
+          <m:msup>
+            <m:mi>π</m:mi>
+            <m:mn>2</m:mn>
+          </m:msup>
+          <m:mi>X</m:mi>
+          <m:msup>
+            <m:mn>10</m:mn>
+            <m:mrow>
+              <m:mo>-</m:mo>
+              <m:mn>8</m:mn>
+            </m:mrow>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mi>X</m:mi>
+    <m:mn>4</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>4</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>1.778</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>3</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-88"> Both solenoid and straight conductor produces equal magnetic field at the surface of conductor. It is interesting to observe that a straight conductor requires a current of magnitude which is 10π i.e. 31.4 times the current in solenoid. This illustrates the effectiveness of solenoid over a straight conductor in setting up a magnetic field with respect to straight conductor. For this reason, a solenoid is generally used as a magnet in application situations.
+
+</para>
+</section>
+<section id="section-1f">
+<title> 
+</title>
+<para id="element-53"> <term>Problem 10: </term> 
+A long cylindrical conductor of radii “a” is coaxially placed inside an annular cylindrical conductor of radii “b” and “c”. The perpendicular cross section of the coaxial annular cylinders is shown in the figure below. If currents in two conductors are I each but in opposite direction, then find magnetic field at a point (i) inside the inner conductor (ii) region between two cylinders (iii) inside annular cylinder and (iv) outside the annular cylinder. Assume current density to be uniform in both cylinders. 
+
+
+
+</para>
+<para id="element-54"> <figure id="fig-54">
+<title> Magnetic field due to current in coaxial cylindrical conductors  </title>
+<media id="med54" alt="">
+<image src="../../media/alq8.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field due to current in coaxial cylindrical conductors  </caption>
+</figure>
+
+
+
+</para>
+<para id="element-55"> <term>Solution : </term> 
+We note that current densities in two cylinders are uniform. To find magnetic field at a point inside the inner cylinder, we first determine its current density. 
+
+
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>J</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>I</m:mi>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-57">
+Note that current outside the Ampere loop in the inner cylinder and current in the outer conductor do not contribute towards enclosed current. Applying Ampere’s law for a loop of radius r inside the inner cylinder, 
+</para>
+<para id="element-58">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>đ</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>π</m:mi>
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mi>J</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>r</m:mi>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+        <m:msup>
+          <m:mi>a</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>r</m:mi>
+    <m:mo>&lt;</m:mo>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-59">To find magnetic field at a point between inner and outer cylinders, we apply Ampere’s law for a loop of radius r between the region (a&lt;r&lt;b). Note that outer conductor does not contribute towards enclosed current. Applying <link document="m31895" target-id="section-2">Ampere’s law</link> for a loop of radius r between inner and outer cylinders,
+</para>
+<para id="element-60">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>đ</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>r</m:mi>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-61">
+To find magnetic field at a point inside the outer cylinder, we apply Ampere’s law for a loop of radius r between the region (b&lt;r&lt;c). Note that current in the inner conductor and annular region defined by b&lt;r&lt;c contribute towards enclosed current. In order to find the enclosed current in the outer cylinder, we first determine its current density. 
+
+</para>
+<para id="element-62">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>J</m:mi>
+      <m:mi>o</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>I</m:mi>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>c</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>b</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-63">
+Further the current in inner and outer cylinders are opposite in direction. We observe here that current density of inner cylinder is greater as current I is divided by smaller area. Thus, we shall deduct the current through the annular region of outer cylinder from the current in inner cylinder. Applying Ampere’s law for a loop of radius r inside the outer cylinder, 
+</para>
+<para id="element-64">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>đ</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>I</m:mi>
+    <m:mo>-</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>b</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>X</m:mi>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>c</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>b</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>μ</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>[</m:mo>
+    <m:mi>I</m:mi>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>b</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+        <m:mi>X</m:mi>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>c</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>b</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>r</m:mi>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>c</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>b</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>+</m:mo>
+            <m:msup>
+              <m:mi>b</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>c</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>b</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>c</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>c</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>b</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>c</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:msup>
+              <m:mi>c</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+            <m:mo>-</m:mo>
+            <m:msup>
+              <m:mi>b</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-65">
+To find magnetic field at a point outside the outer cylinder, we apply Ampere’s law for a loop of radius r  (r&gt;c). The net current the loop is zero. Hence,
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>∮</m:mo>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>.</m:mo>
+    <m:mi>đ</m:mi>
+      <m:mi mathvariant="bold">l</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>r</m:mi>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+</section>
+
+</content>
+
+</document>

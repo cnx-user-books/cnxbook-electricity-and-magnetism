@@ -1,0 +1,3004 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Magnetic field due to current in a circular wire</title>
+<metadata>
+  <md:content-id>m31199</md:content-id><md:title>Magnetic field due to current in a circular wire</md:title>
+  <md:abstract/>
+  <md:uuid>40386543-56e7-4091-a79e-255431cd1b21</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://cnx.org/content/m31277/latest/" strength="3">Magnetic field at an axial point due to current in circular wire</link>
+    </link-group>
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m31057/latest/" strength="3">Biot - Savart Law</link>
+      <link url="http://cnx.org/content/m31103/latest/" strength="3">Magnetic field due to current in straight wire</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<para id="element-1">
+Magnetic field due to current in circular wire is largely axial. It means that we need to concentrate our investigation of magnetic field on axial positions. One of the important axial positions is center of the circular wire itself. We shall limit our discussion in this module to this case of magnetic field at the center of circular coil. The procedure for deriving expression for the magnetic field due to current in circular wire is same as that of current carrying straight wire. Here also, we make use of superposition principle whereby we combine the small magnetic fields due to each of the small current elements composing the circular coil.
+
+</para>
+<para id="element-2">
+Circular wire is considered to be composed of small linear current elements. We determine magnetic field due to each of the linear current elements applying Biot-Savart law. Finally, we determine net magnetic field using superposition principle (i.e. by determining vector sum of magnetic fields due to all current elements).
+</para>
+<para id="element-2a">
+In general, the bending of current carrying wire in circular shape has the effect of strengthening or localizing magnetic field in narrower region about the axis. 
+</para>
+<section id="section-1">
+<title> Direction of magnetic field (Right hand thumb rule)
+</title>
+
+<para id="element-3">
+
+Let us consider two diametrically opposite small current elements on the circular wire. The magnetic field lines are compressed inside the circle as it accommodates all the circular closed lines drawn outside. This compression of magnetic field lines is maximum at the center. In the figure here, we consider the circular coil in horizontal plane. The magnetic field lines being perpendicular to current elements are in the plane of drawing.
+</para>
+<para id="element-4">
+<figure id="fig-4">
+<title> Magnetic field due to current in circular wire </title>
+<media id="med4" alt="">
+<image src="../../media/mc1.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field lines due to oppositely placed current elements </caption>
+</figure>
+</para>
+<para id="element-5">
+Such is the case with any other pair of current elements as well. This means that magnetic field line passing though axis is reinforced by all such diametrically opposite pairs of current element. The magnetic field due to current in circular wire, therefore, is nearly axial. 
+
+</para>
+<para id="element-6">
+The observations as above are the basis of Right hand thumb rule for current in circular wire. If we orient right hand such that curl of fingers follows the direction of current in the circular wire, then extended thumb points in the direction of magnetic field at its center.
+</para>
+<para id="element-7">
+<figure id="fig-7">
+<title> Right hand thumb rule </title>
+<media id="med7" alt="">
+<image src="../../media/mc2.gif" mime-type="image/gif"/>
+</media>
+<caption> If we orient right hand such that curl of fingers follows the direction of current in the circular wire, then extended thumb points in the direction of magnetic field at its center.
+ </caption>
+</figure>
+</para>
+<para id="element-8">
+Right hand thumb rules for straight wire and circular wire are opposite in the notations. The curl of hand represents magnetic field in the case of straight wire, whereas it represents current in the case of circular wire. Similarly, the extended thumb represents current in the case of straight wire, whereas it represents magnetic field in the case of circular wire.
+
+</para>
+<para id="element-9">
+There is yet another simple way to find the direction of axial magnetic field at the center. Just look at the circular loop facing it. If the current is clockwise, then magnetic field is away from you and if the current is anticlockwise, then magnetic field is towards you.
+</para>
+<section id="section-1a">
+<title> Current in circular wire and magnet
+</title>
+<para id="element-10">
+
+The directional attributes of the magnetic field due to current in circular wire have an important deduction. If the current in a circular loop is anticlockwise when we look from one end (face), then the same current is clockwise when we look from opposite end (face). What it means that if direction of magnetic field is towards you from one face, then the direction of magnetic field is away from you from the other end and vice versa. 
+</para>
+<para id="element-11">
+<figure id="fig-11">
+<title> Directions of current in circular wire </title>
+<media id="med11" alt="">
+<image src="../../media/mc2a.gif" mime-type="image/gif"/>
+</media>
+<caption> Directions of current in circular wire </caption>
+</figure>
+</para>
+<para id="element-12">
+The magnetic lines of force enters from the face in which current is clockwise and exits from the face in which current is anticlockwise. This is exactly the configuration with real magnet. The anticlockwise face of the circular wire is equivalent to north pole and clockwise face is equivalent to south pole of the physical magnet. For this reason, a current in a circular wire is approximately equivalent to a tiny bar magnet.
+</para>
+<para id="element-13">
+<figure id="fig-13">
+<title> Equivalence of current in circular wire with magnet </title>
+<media id="med13" alt="">
+<image src="../../media/mc3.gif" mime-type="image/gif"/>
+</media>
+<caption> The magnetic field lines are similar in two cases </caption>
+</figure>
+</para>
+<para id="element-14">
+We shall learn more about this aspect when we study magnetic moment and physical magnets.
+</para>
+</section>
+</section>
+<section id="section-2">
+<title> Magnitude of magnetic field due to current in circular wire
+</title>
+
+
+<para id="element-15">
+Evaluation of Biot-Savart expression at the center of circle for current in circular wire is greatly simplified. There are threefold reasons :
+</para>
+<para id="element-16"><term>1: </term>The directions of magnetic fields due to all current elements at the center are same just as in the case of straight wire.
+
+</para>
+<para id="element-17">
+<term>2: </term>The linear distance (r) between current length element (d<term>l</term>) and the point of observation (center of circular wire) is same for all current elements.
+
+</para>
+<para id="element-18">
+<term>3: </term>The angle between current length element vector (d<term>l</term>) and displacement vector  (<term>R</term>) is right angle for all current elements. Recall that angle between tangent and radius of a circle is right angle at all positions on the perimeter of a circle.
+</para>
+<para id="element-19">
+<figure id="fig-19">
+<title> Magnetic field due to current in circular wire </title>
+<media id="med19" alt="">
+<image src="../../media/mc3a.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field due to current in circular wire </caption>
+</figure>
+</para>
+<para id="element-20">
+The magnitude of magnetic field due to a current element according to <link document="m31057" target-id="section-1b">Biot-Savart law</link> is given by :
+</para>
+
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>đB</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>I</m:mi>
+        <m:mi>đ</m:mi>
+        <m:mi>l</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-22">
+But, θ=90° and sin90°=1. Also, r = R = Radius of circular wire.
+
+</para>
+<para id="element-23">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>đB</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>I</m:mi>
+        <m:mi>đ</m:mi>
+        <m:mi>l</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-24">
+All parameters except "đl" in the right hand expression of the equation are constants and as such they can be taken out of the integral.
+
+</para>
+<para id="element-25">
+<m:math display="block">  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mi>đB</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>∫</m:mo>
+    <m:mi>đ</m:mi>
+    <m:mi>l</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-26">
+The integration of dl over the complete circle is equal to its perimeter i.e. 2πR. 
+
+</para>
+<para id="element-27">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-28">
+If the wire is a coil having N circular turns, then magnetic filed at the center of coil is reinforced N times :
+
+</para>
+<para id="element-29">
+<m:math display="block">  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>N</m:mi>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+
+<example id="example-124">
+
+<para id="element-124"><term>Problem : </term> A thin ring of radius “R” has uniform distribution of charge, q, on it. The ring is made to rotate at an angular velocity “ω” about an axis passing through its center and perpendicular to its plane. Determine the magnitude of magnetic field at the center.  
+</para>
+<para id="element-125"> <term>Solution : </term> 
+A charged ring rotating at constant angular velocity is equivalent to a steady current in circular wire. We need to determine this current in order to calculate magnetic field. For this, let us concentrate at any cross section of the ring. All the charge passes through this cross section in one time period of revolution. Thus, equivalent current is :
+</para>
+<para id="element-126">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>q</m:mi>
+      <m:mi>T</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>ω</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-127"> Now, magnetic field due to steady current in circular wire is :
+
+
+</para>
+<para id="element-128"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-129"> Substituting for current, we have :
+
+
+</para>
+<para id="element-130">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>q</m:mi>
+        <m:mi>ω</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+
+<example id="example-29">
+<para id="element-30"><term>Problem : </term> Calculate magnetic field at the center O for the current flowing through wire segment as shown in the figure. Here, current through wire is 10 A and radius of the circular part is 0.1 m. 
+
+</para>
+<para id="element-31">
+<figure id="fig-31">
+<title> Magnetic field due to current in wire </title>
+<media id="med31" alt="">
+<image src="../../media/mc4.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field due to current in wire </caption>
+</figure>
+</para>
+<para id="element-32"><term>Solution : </term>
+Magnetic field at O is contributed by long straight wire and circular wire. The direction of magnetic field at O due to straight part of the wire is into the plane of drawing as obtained by applying Right hand thumb rule for straight wire. The direction of current in the circular part is anticlockwise and hence magnetic field due to this part is out of the plane of drawing as obtained by applying Right hand thumb rule for circular wire. 
+
+</para>
+<para id="element-33">
+The magnitude of magnetic field due to circular wire is :
+
+</para>
+<para id="element-34">
+<m:math display="block">  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-35">
+The magnitude of magnetic field due to straight wire is :
+
+</para>
+<para id="element-36">
+<m:math display="block">  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-37">
+Hence, magnitude of magnetic field at O is algebraic sum of two magnetic fields (we consider outward direction as positive) :
+
+</para>
+<para id="element-38">
+<m:math display="block">  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mi>S</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-39">
+Putting values :
+
+</para>
+<para id="element-40">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>7</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>0.1</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>7</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>0.1</m:mn>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>62.9</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>6</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>−</m:mo>
+    <m:mn>20</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>6</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>42.9</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>μ</m:mi>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-41">
+The net magnetic field is acting out of the plane of paper.
+</para>
+</example>
+</section>
+
+
+<section id="section-3">
+<title> Magnitude of magnetic field due to current in circular arc
+</title>
+
+
+
+<para id="element-42">
+
+The magnitude of magnetic field due to current in arc shaped wire can be obtained by integrating Biot-Savart expression in an appropriate range. Now, the integral set up for current in circular wire is :
+
+</para>
+<para id="element-43">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mo>đ</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>∫</m:mo>
+    <m:mo>đ</m:mo>
+    <m:mi>l</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-44">
+Circular arc is generally referred in terms of the angle θ, it subtends at the center of the circle. From geometry, we know that :
+
+</para>
+<para id="element-45">
+<m:math display="block">  <m:mrow>
+    <m:mo>đ</m:mo>
+    <m:mi>l</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>đ</m:mo>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+
+Substituting in the integral and taking the constant R out of the integral, we have :
+
+</para>
+<para id="element-46">
+<m:math display="block">  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>∫</m:mo>
+    <m:mi>đ</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-47">
+This is the expression for the magnitude of magnetic field due to current in an arc which subtends an angle θ at the center. Note that the expression is true for the circle for which θ = 2π and magnetic field is :
+
+
+</para>
+<para id="element-48">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<example id="example-49">
+<para id="element-49"><term>Problem : </term>
+Find the magnetic field at the corner O due to current in the wire as shown in the figure. Here, radius of curvature is 0.1 m for the quarter circle arc and current is 10 A.
+</para>
+<para id="element-50">
+<figure id="fig-50">
+<title> Magnetic field due to current in wire </title>
+<media id="med50" alt="">
+<image src="../../media/mc5.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field due to current in wire </caption>
+</figure>
+</para>
+<para id="element-51"><term>Solution : </term>
+</para>
+<para id="element-52">
+Here the straight line wire segment AB and CD when extended meet at O. As such, there is no magnetic field due to current in these segments. The magnetic field at O is, therefore, solely due to magnetic field due to quarter arc AC. The arc subtends an angle  π/2 at its center i.e O. Now,
+
+</para>
+<para id="element-53">
+<m:math display="block">  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-54">
+Putting values, we have :
+
+</para>
+<para id="element-55">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>7</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+        <m:mi>X</m:mi>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>0.1</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>0.157</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>6</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>0.157</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>μ</m:mi>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-56">
+Since current in the arc is anticlockwise, magnetic field is perpendicular and out of the plane of drawing.
+</para>
+<para id="element-57">
+</para>
+</example>
+</section>
+
+<section id="section-5">
+<title> Current in straight wire .vs. current in circular wire
+</title>
+<para id="element-83"> A length of wire, say L, is given and it is asked to maximize magnetic field in a region due to a current I in the wire. Which configuration would we consider – a straight wire or a circular wire? Let us examine the magnetic fields produced by these two configurations. 
+</para>
+<para id="element-84"> If we bend the wire in the circle, then the radius of the circle is :
+</para>
+<para id="element-85"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>L</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-86"> The magnetic field due to current I in the circular wire is :
+</para>
+<para id="element-87"> 
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>L</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>L</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3.14</m:mn>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>L</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-88"> In the case of straight wire, let us consider that wire is long enough for a point around middle of the wire. For comparison purpose, we assume that perpendicular linear distance used for calculating magnetic field due to current in straight wire is equal to the radius of circle. The magnetic field at a perpendicular distance “R” due to current in long straight wire is given as :
+
+</para>
+<para id="element-89">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mi>L</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>L</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>L</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>0.5</m:mn>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>L</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-90"> Clearly, the magnetic field due to current in circular wire is 6.28 times greater than that due to current in straight wire at comparable points of observations. Note that this is so even though we have given advantage to straight wire configuration by assuming it to be long wire. In a nutshell, a circular configuration tends to concentrate magnetic field along axial direction which is otherwise spread over the whole length of wire. 
+</para>
+<example id="example-91">
+<para id="element-91"><term>Problem : </term> A current 10 A flowing through a straight wire is split at point A in two semicircular wires of radius 0.1 m. The resistances of upper and lower semicircular wires are 10 Ω and 20 Ω respectively. The currents rejoin to flow in the straight wire again as shown in the figure. Determine the magnetic field at the center “O”.
+</para>
+<para id="element-92"> 
+<figure id="fig-92"><title>Magnetic field due to current in wire </title><media id="med92" alt="">
+<image src="../../media/mc8a.gif" mime-type="image/gif"/>
+</media>
+
+<caption>Magnetic field due to current in wire </caption></figure>
+
+</para>
+<para id="element-93"><term>Solution : </term> The straight wire sections on extension pass through the center. Hence, magnetic field due to straight wires is zero. Here, the incoming current at A is distributed in the inverse proportion of resistances. Let the subscripts “1” and “2’ denote upper and lower semicircular sections respectively. The two sections are equivalent to two resistances in parallel combination as shown in the figure. Here,  potential difference between “A” and “B” is :
+
+
+</para>
+<para id="element-94"> 
+<figure id="fig-94"><title>Currents in semicircular segments </title><media id="med94" alt="">
+<image src="../../media/mc9a.gif" mime-type="image/gif"/>
+</media>
+
+<caption>Currents in semicircular segments </caption></figure>
+</para>
+<para id="element-95">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mrow>
+        <m:mi>A</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+  <m:mfrac>
+  <m:mrow>
+    <m:mi>I</m:mi>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+  <m:mrow>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mo>+</m:mo>
+        <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+  </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>I</m:mi>
+        <m:mi>X</m:mi>
+        <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>R</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>R</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>10</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>20</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>30</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>20</m:mn>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>I</m:mi>
+        <m:mi>X</m:mi>
+        <m:msub>
+          <m:mi>R</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>R</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+            <m:mo>+</m:mo>
+            <m:msub>
+              <m:mi>R</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>10</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>30</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mn>3</m:mn>
+    </m:mfrac>
+    <m:mspace width="1em"/>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+   
+</para>
+<para id="element-96">We see that current in the upper section is twice that in the lower section i.e. <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>. Also, the magnetic field is perpendicular to the plane of semicircular section (plane of drawing). The current in the upper semicircular wire is clockwise. Thus, the magnetic field due to upper section is into the plane of drawing. However, the current in the lower semicircular is anticlockwise. Thus, the magnetic field due to lower section is out of the plane of drawing. Putting θ = π for each semicircular section, the net magnetic field due to semicircular sections at “O” is:
+
+</para>
+<para id="element-97">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>7</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>20</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>8</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>0.1</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>8.3</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-98">The net magnetic field is into the plane of drawing.
+</para>
+</example>
+
+</section>
+
+
+<section id="section-4">
+<title>Exercises</title>
+
+
+<para id="element-58">
+<exercise id="exercise-58">
+<problem id="fs-id1170314184650">
+<para id="element-59">
+An electron circles a single proton nucleus of radius <m:math>  <m:mrow>
+    <m:mn>3.2</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>11</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+m with a frequency of <m:math>  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mn>16</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+Hz. The charge on the electron is <m:math>  <m:mrow>
+    <m:mn>1.6</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>19</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ Coulomb. What is the magnitude of magnetic field due to orbiting electron at the nucleus?
+
+</para>
+</problem>
+
+<solution id="fs-id5667424">
+<para id="element-60">
+The equivalent current is given by :
+
+</para>
+<para id="element-61">
+<m:math display="block">  <m:mrow>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>q</m:mi>
+      <m:mi>T</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>q</m:mi>
+    <m:mi>ν</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-62">
+where ν and T are frequency and time period of revolutions respectively. The magnitude of magnetic field due to circular wire is given by :
+
+</para>
+<para id="element-63">
+<m:math display="block">  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-64">
+Substituting for I, we have :
+
+</para>
+<para id="element-65">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>q</m:mi>
+        <m:mi>ν</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-66">
+Putting values,
+
+</para>
+<para id="element-67">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>7</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>1.6</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>19</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mn>16</m:mn>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>3.2</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>11</m:mn>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>31.4</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math></para>
+</solution>
+</exercise>
+</para>
+
+
+<para id="element-68">
+<exercise id="exercise-68">
+<problem id="fs-id1170309372226">
+<para id="element-69">
+Calculate the magnetic field at O for the current loop shown in the figure. 
+
+</para>
+<para id="element-70">
+<figure id="fig-70">
+<title> Magnetic field due to current in wire </title>
+<media id="med70" alt="">
+<image src="../../media/mc6.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field due to current in wire </caption>
+</figure>
+</para>
+</problem>
+
+<solution id="fs-id6111539">
+<para id="element-71">
+The magnetic field due to linear part of the wire is zero as they pass through O when extended. The magnetic field due to inner arc is greater than outer arc. Further, magnetic field due to anticlockwise current in the inner arc is out of the plane of drawing and magnetic field due to clockwise current in the outer arc is into the plane of drawing. Net magnetic field due to the current in the wire is out of the plane of drawing, whose magnitude is :
+
+
+</para>
+<para id="element-72">
+<m:math display="block">  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:mi>X</m:mi>
+        <m:mn>4</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>−</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mi>X</m:mi>
+        <m:mn>4</m:mn>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>16</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:msub>
+              <m:mi>r</m:mi>
+              <m:mn>2</m:mn>
+            </m:msub>
+            <m:mo>−</m:mo>
+            <m:msub>
+              <m:mi>r</m:mi>
+              <m:mn>1</m:mn>
+            </m:msub>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-98a">
+<exercise id="exercise-98a">
+<problem id="fs-id20056266">
+<para id="element-99">
+A current of 10 ampere flows in anticlockwise direction through the arrangement shown in the figure. Determine the magnetic field at the center “O”.
+
+</para>
+<para id="element-100">
+<figure id="fig-100">
+<title> Magnetic field due to current in wire </title>
+<media id="med100" alt="">
+<image src="../../media/mc10.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field due to current in wire </caption>
+</figure>
+</para>
+</problem>
+
+<solution id="fs-id19750125">
+<para id="element-101">
+The magnetic field at “O” due to ¾ th of the circular arc is :
+
+</para>
+<para id="element-102">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>3</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>3</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>7</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>3</m:mn>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>5</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>15.7</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-103">
+Two linear part segments when extended pass through “O” and as such do not contribute to magnetic field. The magnetic field at “O” due to one 5 m segment is  :
+
+
+
+</para>
+<para id="element-104">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:msub>
+          <m:mi>L</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:mi>X</m:mi>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>7</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>5</m:mn>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:msub>
+          <m:mi>L</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+              
+
+</para>
+<para id="element-105">
+The magnetic field at “O” due to two 5 m segments is  :
+
+</para>
+<para id="element-106">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mi>L</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:msub>
+          <m:mi>L</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>2.83</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-107">
+Magnetic fields due to both circular arc and linear segments are acting out of the plane of drawing, the net magnetic field at “O” is :
+
+</para>
+<para id="element-108">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mi>L</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>15.7</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>2.83</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>18.53</m:mn>
+    <m:mi>X</m:mi>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>1.853</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>6</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+
+
+
+<para id="element-109">
+<exercise id="exercise-109">
+<problem id="fs-id20042122">
+<para id="element-109a">
+A current of 10 ampere flows in anticlockwise direction through the arrangement shown in the figure. The curved part is a semicircular arc. Determine the magnetic field at the center “O”.
+
+ 
+</para>
+<para id="element-110">
+<figure id="fig-110">
+<title> Magnetic field due to current in wire </title>
+<media id="med110" alt="">
+<image src="../../media/mc11.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field due to current in wire </caption>
+</figure>
+
+</para>
+</problem>
+
+<solution id="fs-id19732671">
+
+<para id="element-111">
+The magnetic field at “O” due to semicircular arc acts upward and its magnitude is :
+
+</para>
+<para id="element-112"> 
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>X</m:mi>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+
+          <m:mi>X</m:mi>
+          <m:mn>1</m:mn>
+
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>7</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>31.4</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-113">
+The magnetic field due to lower straight conductor acts upward and its magnitude is :
+
+</para>
+<para id="element-114">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:msub>
+          <m:mi>L</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+        <m:mi>X</m:mi>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>7</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>8</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-115">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:msub>
+      <m:mi>L</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mi>X</m:mi>
+    <m:mn>5</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>7.07</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-116">
+The magnetic field due to upper straight conductor acts upward and its magnitude is equal to that due to lower straight conductor :
+        
+</para>
+<para id="element-117">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:msub>
+          <m:mi>L</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+    <m:mi>X</m:mi>
+    <m:mn>5</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>7.07</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-118">
+For the straight conductor at the far end, the center “O” lies on the bisector. The magnetic field acts upward and its magnitude is :
+
+
+</para>
+<para id="element-119">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:msub>
+          <m:mi>L</m:mi>
+          <m:mn>3</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>L</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>L</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>4</m:mn>
+              <m:msup>
+                <m:mi>R</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-120">
+Here, R = 2 m, L = 2 m. Putting values in the equation, we have :
+
+</para>
+<para id="element-121">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:msub>
+          <m:mi>L</m:mi>
+          <m:mn>3</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>I</m:mi>
+        <m:mi>L</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mi>L</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>4</m:mn>
+              <m:msup>
+                <m:mi>R</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>7</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>10</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>2</m:mn>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:msup>
+                <m:mn>2</m:mn>
+                <m:mn>2</m:mn>
+              </m:msup>
+              <m:mo>+</m:mo>
+              <m:mn>4</m:mn>
+              <m:mi>X</m:mi>
+              <m:msup>
+                <m:mn>2</m:mn>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:msub>
+          <m:mi>L</m:mi>
+          <m:mn>3</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mn>5</m:mn>
+    </m:msqrt>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>2.24</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-122">
+The net magnetic field at “O” is :
+
+</para>
+<para id="element-123">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mi>C</m:mi>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:msub>
+          <m:mi>L</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:msub>
+          <m:mi>L</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:msub>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:msub>
+          <m:mi>L</m:mi>
+          <m:mn>3</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>31.4</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>7.07</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>7.07</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>+</m:mo>
+    <m:mn>2.24</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>4.78</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>6</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+<para id="element-131">
+<exercise id="exercise-131">
+<problem id="fs-id25608782">
+<para id="element-132"> A thin disc of radius “R” has uniform distribution of charge, q, on it. The ring is made to rotate at an angular velocity “ω” about an axis passing through its center and perpendicular to its plane. Determine the magnitude of magnetic field at the center of the disc.
+
+</para>
+</problem>
+
+<solution id="fs-id25574001">
+<para id="element-133">
+We consider disc to be composed of infinite numbers of thin ring. We consider one such ring of thickness dr at a distance “r” from the center carrying charge dq. This ring carrying charge “dq” and rotating is equivalent to a current. The magnetic field at the center to this thin ring is (as obtained earlier in the example problem) :
+
+</para>
+<para id="element-134"> 
+<figure id="fig-134">
+<title> Magnetic field due to rotating charged disc </title>
+<media id="med134" alt="">
+<image src="../../media/mc12.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field due to rotating charged disc </caption>
+</figure>
+
+
+</para>
+<para id="element-135"> 
+<m:math display="block">
+  <m:mrow>
+    <m:mo>đ</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mo>đ</m:mo>
+        <m:mi>q</m:mi>
+        <m:mi>ω</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-136">
+We need to determine “dq” in terms of given parameters. The current surface density, σ, is :
+
+</para>
+<para id="element-137">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>σ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>q</m:mi>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-138">
+The area of the thin ring is :
+
+</para>
+<para id="element-139">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>đ</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>r</m:mi>
+    <m:mo>đ</m:mo>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-140">
+Hence, charge on the ring is :
+
+</para>
+<para id="element-141">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>đ</m:mo>
+    <m:mi>q</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>σ</m:mi>
+    <m:mo>đ</m:mo>
+    <m:mi>A</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+        <m:mi>q</m:mi>
+        <m:mo>đ</m:mo>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>r</m:mi>
+        <m:mi>q</m:mi>
+        <m:mo>đ</m:mo>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-142">
+Putting this espression for “dq”, the expression of magnetic field at the center due to rotating ring is :
+
+</para>
+<para id="element-143">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>đ</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mn>2</m:mn>
+        <m:mi>r</m:mi>
+        <m:mi>q</m:mi>
+        <m:mi>ω</m:mi>
+        <m:mo>đ</m:mo>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>q</m:mi>
+        <m:mi>ω</m:mi>
+        <m:mo>đ</m:mo>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>ω</m:mi>
+        <m:mi>q</m:mi>
+        <m:mo>đ</m:mo>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-144">
+In order to obtain magnetic field due to the rotating disc, we integrate the expression of magnetic field due to ring from r = 0  to r =R.
+
+</para>
+<para id="element-145">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mi>đB</m:mi>
+    <m:mo>=</m:mo>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:munderover>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>ω</m:mi>
+        <m:mi>q</m:mi>
+        <m:mo>đ</m:mo>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-146">
+Taking out constants out of the integration sign, we have :
+
+</para>
+<para id="element-147">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>w</m:mi>
+        <m:mi>q</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>R</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:munderover>
+      <m:mo>∫</m:mo>
+      <m:mrow>
+        <m:mn>0</m:mn>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:munderover>
+    <m:mo>đ</m:mo>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:mi>w</m:mi>
+        <m:mi>q</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</solution>
+</exercise>
+</para>
+
+</section>
+
+
+</content>
+
+</document>

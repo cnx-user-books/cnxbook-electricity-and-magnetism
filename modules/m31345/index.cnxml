@@ -1,0 +1,1422 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Motion of a charged particle in magnetic field</title>
+<metadata>
+  <md:content-id>m31345</md:content-id><md:title>Motion of a charged particle in magnetic field</md:title>
+  <md:abstract/>
+  <md:uuid>77faa148-866e-4e96-8d6e-1858487a520f</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m31547/latest/" strength="2">Motion of a charged particle in electric and magnetic fields</link>
+    </link-group>
+    <link-group type="prerequisite">
+      <link url="http://cnx.org/content/m31327/latest/" strength="3">Lorentz force</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<para id="element-1">
+Motion of a charged particle in magnetic field is characterized by the change in the direction of motion. It is expected also as magnetic field is capable of only changing direction of motion. In order to keep the context of study simplified, we assume magnetic field to be uniform. This assumption greatly simplifies the description and lets us easily visualize the motion of a charged particle in magnetic field. 
+
+</para>
+<para id="element-2">
+Lorentz magnetic force law is the basic consideration here. Hence, we shall first take a look at the <link document="m31327" version="" target-id="">
+    Lorentz magnetic force</link>
+ expression :
+
+</para>
+<para id="element-3">
+<m:math display="block">
+  <m:mrow>
+      <m:mi mathvariant="bold">F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>q</m:mi>
+    <m:mfenced>
+      <m:mrow>
+      <m:mi mathvariant="bold">v</m:mi>
+        <m:mi>X</m:mi>
+      <m:mi mathvariant="bold">B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-4">
+We briefly describe following important points about this expression :
+
+</para>
+<para id="element-5">
+<term>1: </term>There is no magnetic force on a stationary charge (v=0). As such, our study here refers to situations in which charge is moving with certain velocity in the magnetic field. This condition is met when the charge is released with certian velocity in the magnetic field.
+</para>
+<para id="element-6">
+<term>2: </term>The magnetic field (<term>B</term>) is an uniform stationary magnetic field for our consideration in the module. It means that the magnitude and direction of magnetic field do not change during motion. The charged particle, however, is subjected to magnetic force acting side way. The direction of motion of charged particle, therefore, changes. In turn, the direction of magnetic force being perpendicular to velocity also changes. Important point to underline here is that this loop of changing directions of velocity and magnetic force is continuous. In other words, the directions of both velocity and magnetic force keeps changing continuously with the progress of motion.
+
+</para>
+<para id="element-6a">
+This aspect of continuous change is shown in the figure below. Note that direction of magnetic field is fixed in y-direction. Initially, the charged particle is at the origin of coordinate reference with a velocity <term>v</term> in x-direction. Applying right hand rule for vector cross product and considering a point positive charge, we see that magnetic force is directed in z-direction. As a result, the particle is drawn to move along a curved path with velocity (having same speed) directed tangential to it. The magnetic force vector also changes sign being perpendicular to velocity vector. In this manner, we see that the directions of both velocity and magnetic force keeps changing continuously as pointed out.  
+
+</para>
+<para id="element-6b">
+<figure id="fig-6b">
+<title> Motions of a charged particle in magnetic field </title>
+<media id="med6b" alt="">
+<image src="../../media/mm1b.gif" mime-type="image/gif"/>
+</media>
+<caption> Motions of a charged particle in magnetic field </caption>
+</figure> 
+
+</para>
+<para id="element-7">
+<term>3: </term>The nature of motion depends on the initial directions of both velocity and magnetic field. The initial angle between velocity and magnetic field ultimately determines the outcome i.e. nature of motion.
+
+</para>
+<para id="element-8">
+We shall, therefore, discuss motion of charged particular on the basis of the enclosed angle (θ) between velocity and magnetic field vectors. There are following three cases :
+
+</para>
+<para id="element-9a">
+•	The motion of the charged particle is along the direction of magnetic field.
+
+</para>
+<para id="element-9b">
+
+•	The motion of the charged particle is perpendicular to the direction of magnetic field.
+
+</para>
+<para id="element-9c">
+
+•	The motion of the charged particle is neither along nor perpendicular to the direction of magnetic field.
+</para>
+<section id="section-1">
+<title> Motion of the charged particle along magnetic field
+</title>
+
+<para id="element-10">
+There are two possibilities. The enclosed angle (θ) is either 0° or 180°. In either case, sine of the angle is zero. Therefore, magnetic force is zero and the motion of particle remains unaffected (of course here we assume that there is no other force field present). 
+
+
+</para>
+</section>
+<section id="section-2">
+<title> Motion of the charged particle perpendicular to magnetic field
+
+</title>
+<para id="element-11">
+
+This is the case in which charged particle experiences maximum magnetic force. It is given by :
+            
+</para>
+<para id="element-12">
+<m:math display="block">  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>q</m:mi>
+    <m:mi>B</m:mi>
+    <m:mi>v</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mn>90</m:mn>
+    <m:mo>°</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>q</m:mi>
+    <m:mi>v</m:mi>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-13">If the span of magnetic field is sufficient around the charged particle, then it will describe a circular path as magnetic force is always perpendicular to the motion. The magnetic force provides the centripetal force required for circular motion. The span of magnetic field around charged particle is important. Here, we consider some interesting cases as shown in the figure. For all cases, we assume that motion of charged particle is in the plane of the drawing and magnetic field is perpendicular and into the plane of drawing. Magnetic field is shown by evenly distributed X sign indicating that it is an uniform magnetic field directed into the plane of drawing.
+</para>
+<para id="element-14">
+<figure id="fig-14">
+<title> Motions of a charged particle in magnetic field </title>
+<media id="med14" alt="">
+<image src="../../media/mm1.gif" mime-type="image/gif"/>
+</media>
+<caption> Motions of a charged particle in magnetic field </caption>
+</figure>
+
+</para>
+<para id="element-15">
+In the first case, there is sufficient span of magnetic field around charged particle and it is able to describe circular path. In second case, the charged particle enters the region of magnetic field and never completes the circular trajectory. Similarly, the charged particle in third case also does not complete the circular path as it comes out of the region of magnetic field even before completing half circle.
+
+</para>
+<para id="element-16">
+Now, we consider the first case in which the charged particle is able to complete circular path. Let the mass of the particle carrying charge is m. Then, magnetic force is equal to centripetal force,
+
+</para>
+<para id="element-17">
+<m:math display="block">  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:msup>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>q</m:mi>
+    <m:mi>v</m:mi>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>q</m:mi>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-18">
+The radius of circular path, R, is given as :
+</para>
+<para id="element-19">
+<m:math display="block">  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-20">
+We can easily interpret the effects of various parameters in determining the radius of circular path. Greater charge and magnetic field result in smaller radius. On the other hand, greater mass and speed result in greater radius. Now, the time period of revolution is :
+
+</para>
+<para id="element-21">
+<m:math display="block">  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>R</m:mi>
+      </m:mrow>
+      <m:mi>v</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-22">
+Frequency of revolution is :
+</para>
+<para id="element-23">
+<m:math display="block">  <m:mrow>
+    <m:mi>ν</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mi>T</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-24">
+Angular speed is :
+
+</para>
+<para id="element-25">
+<m:math display="block">  <m:mrow>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>ν</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-26">
+Important aspect of these results is that properties related to periodicity of revolutions i.e. time period, frequency and angular velocity all are independent of the speed of the particle. It is a very important result which is used in cyclotron (to accelerate charged particle) to synchronize with the frequency of application of electric field. We shall learn about this in another module.
+</para>
+<section id="section-2a">
+<title> Specific charge
+
+</title>
+<para id="element-76">
+
+The ratio of charge and mass of the particle is known as specific charge and is denoted by α. Evidently, its unit is Coulomb/kg. This quantity is important in describing motion of charged particle in magnetic field. We observe that magnetic force is proportional to charge q, whereas acceleration of the particle carrying charge is inversely proportional to mass m. Clearly, the effects of these two quantities are opposite and hence they appear as the ratio q/m in most of the formula describing motion. Recasting formulas with specific charge, we have :
+
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>α</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>α</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>ν</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>α</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>α</m:mi>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+<section id="section-2a1">
+<title> Angular deviation
+
+
+</title>
+<para id="element-27">
+
+Having known the time period, it is easy to know the angle subtended at the center by the arc of travel during the motion in a particular time interval. Since time period T corresponds to a angular travel of 2π, the angular travel or deviation (φ) corresponding to any time travel, t, is :
+
+</para>
+<para id="element-28">
+<m:math display="block">  <m:mrow>
+    <m:mi>φ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mi>T</m:mi>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-29">
+Alternatively,   
+
+</para>
+<para id="element-30">
+<m:math display="block">  <m:mrow>
+    <m:mi>φ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+<section id="section-2b">
+<title> Equations of motion
+</title>
+
+<para id="element-78">
+
+We consider circular motion of a particle carrying a positive charge q moving in x-direction with velocity 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi mathvariant="bold">v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ in a uniform magnetic field <term>B</term>, which is perpendicular and into the plane of drawing. Let xy be the plane of drawing and -z be the direction of magnetic field. Here,
+
+</para>
+<para id="element-79">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi mathvariant="bold">v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+      <m:mi mathvariant="bold">i</m:mi>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+      <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mi>B</m:mi>
+      <m:mi mathvariant="bold">k</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-80">
+where 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ is the magnitude of velocity. Applying Right hand rule of vector cross product, we see that magnetic force <term>F</term> is directed in y-direction. These initial orientations are shown in the figure assuming that we begin our observation of motion when particle is at the origin. 
+
+</para>
+<para id="element-81">
+<figure id="fig-81"><title>Motion of particle carrying charge </title><media id="med81" alt="">
+<image src="../../media/mm3c.gif" mime-type="image/gif"/>
+</media>
+
+<caption>Motion of particle carrying charge </caption></figure>
+</para>
+<para id="element-82">
+The magnetic force <term>F</term> provides the necessary centripetal force for the particle to execute circular motion in xy plane in anticlockwise direction with center of circle lying on y-axis. Let the particle be at a point P after time t. Expressing velocity vector in components :
+
+</para>
+<para id="element-83">
+<m:math display="block">
+  <m:mrow>
+      <m:mi mathvariant="bold">v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+      <m:mi mathvariant="bold">i</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+      <m:mi mathvariant="bold">j</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-84">
+Let the velocity vector makes an angle φ with the x-axis. As the magnitude of velocity does not change due to magnetic force, we have :
+
+</para>
+<para id="element-85">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+      <m:mi mathvariant="bold">v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:mi>φ</m:mi>
+      <m:mi mathvariant="bold">i</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mi>φ</m:mi>
+      <m:mi mathvariant="bold">j</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-86">
+Since particle is executing a uniform circular motion with a constant angular speed,
+
+</para>
+<para id="element-87">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>φ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-88">
+Substituting this in the expression of velocity, 
+
+</para>
+<para id="element-89">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+      <m:mi mathvariant="bold">v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+      <m:mi mathvariant="bold">i</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+      <m:mi mathvariant="bold">j</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-90">
+Again substituting for angular speed, 
+
+</para>
+<para id="element-91">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+      <m:mi mathvariant="bold">v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+      <m:mi mathvariant="bold">i</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+      <m:mi mathvariant="bold">j</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-92">
+This is the expression of velocity at any time "t" after the start of motion. Let the displacement vector of the particle from the origin is <term>r</term>. Then :
+
+</para>
+<para id="element-93">
+<m:math display="block">
+  <m:mrow>
+      <m:mi mathvariant="bold">r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+      <m:mi mathvariant="bold">i</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>y</m:mi>
+      <m:mi mathvariant="bold">j</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+      <m:mi mathvariant="bold">r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>φ</m:mi>
+      <m:mi mathvariant="bold">i</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>R</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>R</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>φ</m:mi>
+      </m:mrow>
+    </m:mfenced>
+      <m:mi mathvariant="bold">j</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-94">
+Substituting for R and φ,
+
+
+</para>
+<para id="element-95">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+      <m:mi mathvariant="bold">r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>B</m:mi>
+        <m:mi>q</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>[</m:mo>
+    <m:mi>sin</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mi>φ</m:mi>
+      <m:mi mathvariant="bold">i</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>1</m:mn>
+        <m:mo>−</m:mo>
+        <m:mi>cos</m:mi>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>q</m:mi>
+            <m:mi>B</m:mi>
+            <m:mi>t</m:mi>
+          </m:mrow>
+          <m:mi>m</m:mi>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+      <m:mi mathvariant="bold">j</m:mi>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+
+
+<section id="section-2c">
+<title> Motion of charged particle entering a magnetic field
+</title>
+<para id="element-31">
+
+The charged particle entering a magnetic field describes an arc which is at most a semicircle. If the span of magnetic field is limited, then there is no further bending of path due to magnetic force. Let us consider a case in which a particle traveling in the plane of drawing enters a region of magnetic field at angle α.  
+
+
+</para>
+<para id="element-32">
+<figure id="fig-32">
+<title> Motion of charged particle entering a magnetic field </title>
+<media id="med32" alt="">
+<image src="../../media/mm2a.gif" mime-type="image/gif"/>
+</media>
+<caption> Motion of charged particle entering a magnetic field </caption>
+</figure>
+
+</para>
+<para id="element-33">
+We should realize here that even though the charged particle enters magnetic region obliquely (i.e at an angle) in the plane of motion, the directions of velocity and magnetic field are still perpendicular to each other. The particle, in turn, follows a circular path. However, the particle needs to move in the region behind the boundary YY’ in order to complete the circular path. But, there is no magnetic field behind the boundary. Therefore, the charged particle is unable to complete the circular path. From geometry, it is clear that point of entry and point of exit are points on the circle which is intersected by the boundary YY’. By symmetry, the angle that the velocity vector makes with the boundary YY’ at the point of entry is same as the angle that velocity vector makes with the boundary YY' at the point of exit. 
+
+</para>
+<para id="element-34">
+By geometry, the angle between pair of lines is same as the angle between the lines perpendicular to them. Hence,
+
+</para>
+<para id="element-35">
+<m:math display="block">  <m:mrow>
+    <m:mo>∠</m:mo>
+    <m:mi>O</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>D</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∠</m:mo>
+    <m:mi>C</m:mi>
+    <m:mi>O</m:mi>
+    <m:mi>D</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math></para>
+<para id="element-36">
+and
+
+</para>
+<para id="element-37">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mo>∠</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>O</m:mi>
+    <m:mi>C</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>α</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-38">
+The length of arc, AEC is :
+
+</para>
+<para id="element-39">
+<m:math display="block">  <m:mrow>
+    <m:mi>l</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>A</m:mi>
+    <m:mi>E</m:mi>
+    <m:mi>C</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>α</m:mi>
+    <m:mi>R</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-40">
+Substituting for R, we have :
+
+
+</para>
+<para id="element-41">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>l</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>α</m:mi>
+        <m:mi>m</m:mi>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-42">
+The time of travel in the magnetic field is :
+</para>
+<para id="element-43">
+<m:math display="block">  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>l</m:mi>
+      <m:mi>v</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>α</m:mi>
+        <m:mi>m</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-44">
+When charged particle enters magnetic field at right angle, velocity vector is perpendicular to the boundary of magnetic field. We know that a tangent can be drawn on a circle in this direction only at the points obtained by the intersection of the circle by the boundary line which divides the circle in two equal sections. A charged particle can, therefore, travel a semicircular path when it enters into the region magnetic field at right angle, provided of course the span of magnetic is sufficient.
+</para>
+<para id="element-45">
+<figure id="fig-45">
+<title> Motion of charged particle entering a magnetic field at right angle </title>
+<media id="med45" alt="">
+<image src="../../media/mm3a.gif" mime-type="image/gif"/>
+</media>
+<caption> Motion of charged particle entering a magnetic field at right angle </caption>
+</figure>
+
+
+</para>
+<para id="element-46">
+We should understand that circular arc path as obtained by the analysis above can be subject to availability of magnetic field till the charged particle begins to move backwards. For a smaller extent of the magnetic field, we find that the particle emerges out of the magnetic field without being further deviated. If the extent of magnetic field is greater than or equal to R, then charged particle describes up to a semicircle depending on the angle at which it enters magnetic region. However, if the extent of magnetic field is less than R, then particle emerges out of the magnetic field without being further deviated.
+</para>
+</section>
+
+
+
+</section>
+
+<section id="section-3">
+<title> Motion of the charged particle oblique to magnetic field
+
+</title>
+    
+<para id="element-48">
+
+This is the general case of motion of a charged particle in magnetic field. Here, velocity and magnetic field vectors are at an acute angle θ. In order to study the motion, we resolve the velocity vector such that one of the components is parallel and other is perpendicular to the magnetic field. 
+
+</para>
+<para id="element-49">
+<m:math display="block">  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mo>|</m:mo>
+        <m:mo>|</m:mo>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>v</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mo>⊥</m:mo>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>v</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-50">
+The velocity component perpendicular to the magnetic field results in a magnetic force which provides the necessary centripetal force for the particle to move along a circular path as discussed in previous section. On the other hand, the velocity component parallel to magnetic field results in zero magnetic force and motion in this direction is unaffected due to this component of velocity. The charged particle moves in this direction without being accelerated. 
+
+</para>
+<para id="element-51">
+We can visualize superimposition of two motions. The initial conditions of set up are shown in the figure in which particle is shown to have velocity <term>v</term> at the origin of coordinate system. The magnetic field is directed in x-direction. The magnetic force (F) due to perpendicular component of velocity and magnetic field is directed in negative z-direction. 
+</para>
+<para id="element-52">
+<figure id="fig-52">
+<title> Helical motion </title>
+<media id="med52" alt="">
+<image src="../../media/mm4.gif" mime-type="image/gif"/>
+</media>
+<caption> Motion of charged particle oblique to magnetic field </caption>
+</figure>
+
+
+</para>
+<para id="element-53">
+If we ignore the parallel component of velocity, then particle will follow circular path due to perpendicular component of velocity in y-z plane as shown here :
+
+
+</para>
+<para id="element-54">
+<figure id="fig-54">
+<title> Helical motion </title>
+<media id="med54" alt="">
+<image src="../../media/mm5.gif" mime-type="image/gif"/>
+</media>
+<caption> Motion of charged particle oblique to magnetic field </caption>
+</figure>
+
+
+</para>
+<para id="element-55">
+But, there is a component of velocity in x-direction. The charged particle still completes a revolution, but not in the circular plane because charged particle also moves in the direction perpendicular to the circular plane. The net result is that the path of revolution is a stretched out series of circles in the form of a helix. 
+
+
+</para>
+<para id="element-56">
+<figure id="fig-56">
+<title> Helical motion </title>
+<media id="med56" alt="">
+<image src="../../media/mm6.gif" mime-type="image/gif"/>
+</media>
+<caption> Motion of charged particle oblique to magnetic field </caption>
+</figure>
+
+</para>
+<para id="element-57">
+The expression for radius is similar as that for the circular motion under magnetic field (earlier case). The only change is that v is exchanged by 
+<m:math>  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mo>⊥</m:mo>
+      </m:mrow>
+    </m:msub>
+  </m:mrow>
+</m:math>
+.
+</para>
+<para id="element-58">
+<m:math display="block">  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mrow>
+            <m:mo>⊥</m:mo>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>v</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-59">
+The expressions for time period, frequency and angular velocity etc do not change as these parameters are independent of velocity. 
+
+</para>
+<para id="element-60">
+The distance between two consecutive points in x-direction determines the pitch of the helical path. This distance in x-direction is traveled by the particle with the parallel component of velocity in the time in which particle completes a revolution. If  T be the time period of revolution, then pitch, p, of the helical path is :
+
+</para>
+<para id="element-61">
+<m:math display="block">  <m:mrow>
+    <m:mi>p</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mo>|</m:mo>
+        <m:mo>|</m:mo>
+      </m:mrow>
+    </m:msub>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>v</m:mi>
+    <m:mi>T</m:mi>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>m</m:mi>
+        <m:mi>v</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<example id="example-63">
+
+<para id="element-63"><term>Problem : </term> An electron with a kinetic energy of 10 eV moves into a region of uniform magnetic field of 
+<m:math>
+  <m:mrow>
+    <m:mn>5</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>4</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+  T. The initial angle between velocity and magnetic field vectors is 60 degree. Determine the pitch of resulting helical motion.
+
+</para>
+<para id="element-64"><term>Solution : </term> The expression of pitch of helical path is :
+
+
+</para>
+<para id="element-65">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>p</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>m</m:mi>
+        <m:mi>v</m:mi>
+        <m:mi>cos</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-66"> We notice here that speed is not directly given. However, kinetic energy is given in electron volt unit. By definition, an electron volt is equal to kinetic energy gained by an electron while passing through a potential difference of 1 V. We get kinetic energy in Joule by multiplying electron-volt value by <m:math>
+  <m:mrow>
+    <m:mn>1.6</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>19</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+.
+
+
+</para>
+<para id="element-67">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>K</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:msup>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>e</m:mi>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>10</m:mn>
+    <m:mi>X</m:mi>
+    <m:mn>1.6</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>19</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>J</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>16</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mi/>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>19</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>J</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:mi>K</m:mi>
+            </m:mrow>
+            <m:mi>m</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mn>2</m:mn>
+
+                <m:mi>X</m:mi>
+                <m:mn>16</m:mn>
+
+              <m:mi>X</m:mi>
+              <m:msup>
+                <m:mn>10</m:mn>
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mn>19</m:mn>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+            <m:mrow>
+              <m:mn>9.1</m:mn>
+
+                <m:mi>X</m:mi>
+                <m:msup>
+                  <m:mn>10</m:mn>
+                  <m:mrow>
+                    <m:mo>-</m:mo>
+                    <m:mn>31</m:mn>
+                  </m:mrow>
+                </m:msup>
+
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>3.52</m:mn>
+          <m:mi>X</m:mi>
+          <m:msup>
+            <m:mn>10</m:mn>
+            <m:mrow>
+              <m:mn>12</m:mn>
+            </m:mrow>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+    <m:mo>=</m:mo>
+    <m:mn>1.88</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mn>6</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-68">
+Putting values in the expression of pitch :
+
+</para>
+<para id="element-69">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>p</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>9.1</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>31</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>1.88</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mn>6</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>0.5</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>1.6</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>19</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>5</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>4</m:mn>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>p</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>6.71</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>2</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>6.71</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>c</m:mi>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+
+
+</example>
+
+</section>
+<section id="section-4">
+<title> Magnetic bottle
+</title>
+
+<para id="element-70">
+
+In plasma research, one of the main tasks is to contain plasma (ions or charged elementary particles). Plasma particles can not be restrained in any material confinement because of extraordinarily high temperature associated with them. A magnetic bottle is an arrangement of two magnetic sources (solenoids or any other magnetic source) which produce magnetic fields. The arrangement is such that direction of magnetic field is from one solenoid to another. The magnetic field between two solenoids is non-uniform. It is stronger near the solenoid and weaker in the middle. See that lines of force are denser near the solenoids and rarer in the middle. 
+
+
+</para>
+<para id="element-71">
+A charged particle is in the helical motion in this magnetic region. As it moves in stronger magnetic region near the solenoid, the radius of helical path is smaller. On the other hand, the radius of helical path is greater in the middle as magnetic field is weaker there. 
+
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-73">
+<figure id="fig-73">
+<title> Magnetic bottle </title>
+<media id="med73" alt="">
+<image src="../../media/mm7.gif" mime-type="image/gif"/>
+</media>
+<caption> The charged particle is trapped in magnetic field </caption>
+</figure>
+
+</para>
+<para id="element-74">
+As the particle reaches towards the solenoid i.e. end of the arrangement, it is rebounded because there is a component of magnetic force pointing towards the central part of the arrangement. See figure that how force components point toward middle. This component decelerates the particle till it stops and starts moving in opposite direction. The stronger magnetic region near the solenoid, therefore, functions as reflector of charged particles. 
+
+</para>
+<para id="element-75">
+In this manner, plasma particles are confined within a region due to suitably designed magnetic field. The whole arrangement works like a bottle for the charged particles and hence is called magnetic bottle.
+</para>
+</section>
+
+
+</content>
+
+</document>

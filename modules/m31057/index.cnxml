@@ -1,0 +1,665 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Biot - Savart Law</title>
+<metadata>
+  <md:content-id>m31057</md:content-id><md:title>Biot - Savart Law</md:title>
+  <md:abstract/>
+  <md:uuid>0785f350-0337-4cb2-bb2f-81d14e3ae36e</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="example">
+      <link url="http://cnx.org/content/m31103/latest/" strength="3">Magnetic field due to current in straight wire</link>
+      <link url="http://cnx.org/content/m31199/latest/" strength="2">Magnetic field due to current in a circular wire</link>
+      <link url="http://cnx.org/content/m31277/latest/" strength="1">Magnetic field at an axial point due to current in circular wire</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<para id="element-1">
+Biot – Savart law is the basic law providing a relation between cause and effect in electromagnetism. In electrostatics, Coulomb’s law tells us the relation between point charge (cause) and electric field (effect) that the charge produces in its surrounding. Similarly, Biot-Savart’s law tells us the relation between current element or moving charge (cause) and magnetic field (effect) that the current element or moving charge produces in its surrounding. Besides, Biot – Savart law is an empirical law (a result of experimental observations) just like Coulomb’s law. 
+
+</para>
+<para id="element-2">Clearly, there is a strong evidence of parallelism in the study of electrostatics and electromagnetism. There is, however, one important distinction between them. The electric field is along the straight line joining charge and the position in space i.e. along displacement vector. The relationship here is linear. The magnetic field, on the other hand, is along the perpendicular direction of the plane constituted by the small current element and displacement vector. This feature of magnetic field introduces a new dimension to the formulation of Biot-Savart law. We have to compulsorily rely on vector notations and operations. In a nutshell, we are required to be a bit conscious of the direction of magnetic field, which often requires visualization in three dimensional space.
+</para>
+<section id="section-1">
+<title> Magnetic field due to small thin current element
+</title>
+
+<para id="element-3">
+The Biot – Savart law is formulated in a restricted context. This law is true for (i) a small element "<term>dl </term>" of a thin wire carrying current and (ii) steady current i.e. flow of charge per unit time through the wire is constant. Biot – Savart’s law for free space is given by :
+</para>
+<para id="element-4">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>đ</m:mo>
+        <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfrac>
+      <m:mrow>
+
+        <m:mi>I</m:mi>
+        <m:mo>đ</m:mo>
+        <m:mi mathvariant="bold">l</m:mi>
+        <m:mi>X</m:mi>
+        <m:mi mathvariant="bold">r</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>3</m:mn>
+
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-5">
+<figure id="fig-5">
+<title> Magnetic field due to small thin current element </title>
+<media id="med5" alt="">
+<image src="../../media/bs1.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic field acts perpendicular to the drawing plane containing wire. </caption>
+</figure>
+</para>
+<para id="element-6">
+The ratio <m:math>
+  <m:mrow>
+    <m:mrow>
+      <m:msub>
+        <m:mi>μ</m:mi>
+
+        <m:mn>0</m:mn>
+      </m:msub>
+    </m:mrow>
+    <m:mo>/</m:mo>
+    <m:mrow>
+      <m:mn>4</m:mn>
+      <m:mi>π</m:mi>
+
+    </m:mrow>
+  </m:mrow>
+</m:math> is the proportionality constant and has the value of <m:math>
+
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>Tm/A. The constant <m:math>
+
+  <m:mrow>
+    <m:msub>
+      <m:mi>μ</m:mi>
+
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> is known as permeability of free space. The SI unit of magnetic field is Tesla (T), which is defined in the context of magnetic force on a moving charge in magnetic field  (<link document="m31327" version="" target-id="section-3">
+    See module Lorentz force </link>).
+ It is expressed as 1 Newton per Ampere - meter. Further, the vector representation of small length element of wire "d<term>l</term>" in the expression is referred as "current length element" and the vector "Id<term>l</term>" is referred simply as "current element". The direction of current length vector "d<term>l</term>" is the direction of tangent drawn to it in the direction of current in the wire.
+</para>
+<para id="element-7">
+Note the vector cross product in the numerator. Direction of magnetic field produced is given by the direction of vector cross product d<term>lXr </term>.  Further, it is also clear that as far as magnitude of magnetic field is concerned it is inversely proportional to the square of the linear distance i.e. <m:math>
+
+  <m:mrow>
+    <m:mn>1</m:mn>
+    <m:mo>/</m:mo>
+
+    <m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ (one of r in the numerator cancels with that in the denominator). This means that Biot-Savart Law is also inverse square law like Coulomb's law.  
+
+</para>
+<para id="element-8">
+Now, the unit vector in the direction of line joining current element and point is given by :
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+
+    <m:munderover>
+        <m:mi mathvariant="bold">r</m:mi>
+      <m:mrow>
+        <m:mspace width="1em"/>
+      </m:mrow>
+      <m:mo>‸</m:mo>
+
+    </m:munderover>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi mathvariant="bold">r</m:mi>
+      </m:mrow>
+
+      <m:mi>r</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+        <m:mi mathvariant="bold">r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>r</m:mi>
+    <m:mrow>
+      <m:munderover>
+        <m:mi mathvariant="bold">r</m:mi>
+        <m:mrow>
+          <m:mspace width="1em"/>
+        </m:mrow>
+        <m:mo>‸</m:mo>
+      </m:munderover>
+    </m:mrow>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-10">
+Substituting in the Biot-Savart expression for <term>r</term>, we have :
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>đ</m:mo>
+        <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>I</m:mi>
+        <m:mo>đ</m:mo>
+        <m:mi mathvariant="bold">l</m:mi>
+        <m:mi>X</m:mi>
+        <m:mrow>
+          <m:munderover>
+        <m:mi mathvariant="bold">r</m:mi>
+            <m:mrow>
+              <m:mspace width="1em"/>
+            </m:mrow>
+            <m:mo>‸</m:mo>
+          </m:munderover>
+        </m:mrow>
+      </m:mrow>
+      <m:mrow>
+
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-12">
+Some important deductions arising from Biot-Savart law are given in the following subsections.
+
+</para>
+<section id="section-1a">
+<title> Direction of magnetic field and superposition principle
+</title>
+<para id="element-13">The direction of magnetic field is the direction of vector cross product <term>dl X r</term>. In the figure shown below, the wire and displacement vector are considered to be in the plane of drawing (xy plane). Clearly, direction of magnetic field is perpendicular to the plane of drawing. In order to know the orientation, we align or curl the fingers of right hand as we travel from vector <term>dl </term>to vector <term>r</term> as shown in the figure. The extended thumb indicates that magnetic field is into the plane of drawing (-z direction), which is shown by a cross (X) symbol at point P. 
+
+</para>
+<para id="element-14">
+<figure id="fig-14"><title>Magnetic field due to small thin current element </title><media id="med14" alt="">
+		<image src="../../media/bs2a.gif" mime-type="image/gif"/>
+	</media>
+	
+<caption>Magnetic field acts perpendicular to the drawing plane </caption></figure>
+</para>
+<para id="element-15">
+This was a simplified situation. What if wire lies in three dimensional space (not in xy plane of reference shown in figure) such that different parts of the wire form different planes with displacement vectors. In such situations, magnetic fields due to different current elements of the current carrying wire are in different directions as shown here.
+</para>
+<para id="element-16">
+<figure id="fig-16"><title>Magnetic field due to small thin current element </title><media id="med16" alt="">
+		<image src="../../media/bs3a.gif" mime-type="image/gif"/>
+	</media>
+	
+<caption>Magnetic field acts perpendicular to the plane formed by current element and displacement vectors </caption></figure>
+</para>
+<para id="element-17">
+It is clear that directions of magnetic field due to different elements of the wire may not be along the same line. On the other hand, a single mathematical expression such as that of Biot-Savart can not denote multiple directions. For this reason, Biot-Savart’s law is stated for a small element of wire carrying current – not for the extended wire carrying current. However, we can find magnetic field due to extended wire carrying current by using superposition principle i.e. by using vector additions of the individual magnetic fields due to various current elements. We shall see subsequently that as a matter of fact we can integrate Biot-Savart’s vector expression for certain situations like straight wire or circular coil etc as :  
+
+
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+        <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mo>đ</m:mo>
+        <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∫</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfrac>
+
+      <m:mrow>
+        <m:mi>I</m:mi>
+        <m:mo>đ</m:mo>
+        <m:mi mathvariant="bold">l</m:mi>
+        <m:mi>X</m:mi>
+
+        <m:mrow>
+          <m:munderover>
+        <m:mi mathvariant="bold">r</m:mi>
+            <m:mrow>
+              <m:mspace width="1em"/>
+            </m:mrow>
+
+            <m:mo>‸</m:mo>
+          </m:munderover>
+        </m:mrow>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-19">
+For better appreciation of directional property of magnetic field, yet another visualization of three dimensional representation of magnetic field due to a small element of current is shown here :
+</para>
+<para id="element-20">
+<figure id="fig-20"><title>Magnetic field due to small thin current element </title><media id="med20" alt="">
+		<image src="../../media/bs4.gif" mime-type="image/gif"/>
+	</media>
+	
+<caption>Magnetic field acts perpendicular to the plane formed by current element and displacement vectors </caption></figure>
+</para>
+<para id="element-21">The circles have been drawn such that their centers lie on the tangent YY’ drawn along the current length element <term>dl </term>and the planes of circles are perpendicular to it as shown in the figure. Note that magnetic field being perpendicular to the plane formed by vectors <term>dl </term>and <term>r</term> are tangential to the circles drawn. Also, each point on the circle is equidistant from the current element. As such, magnitudes of magnetic field along the circumference are having same value. Note, however, that they have shown as different vectors 
+<m:math>
+  <m:mrow>
+  <m:msub>
+        <m:mi mathvariant="bold">B</m:mi>
+    <m:mn>1</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math>
+, <m:math>
+  <m:mrow>
+  <m:msub>
+        <m:mi mathvariant="bold">B</m:mi>
+    <m:mn>2</m:mn>
+  </m:msub>
+  </m:mrow>
+</m:math> etc. as their directions are different. 
+
+</para>
+<para id="element-22">For the time being we shall use the right hand rule for the vector cross product to determine the direction of magnetic field for each current element. There are, however, few elegant direction finding rules for cases of extended wires carrying current like straight wire or circular coil. These rules will be described in separate modules on the respective topics. 
+</para>
+</section>
+<section id="section-1b">
+<title> Magnitude of magnetic field
+</title>
+<para id="element-23">
+The magnitude of magnetic field is given by :
+
+</para>
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>đ</m:mo>
+    <m:mi>B</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>I</m:mi>
+
+        <m:mo>đ</m:mo>
+        <m:mi>l</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>r</m:mi>
+
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-25">The magnitude depends on angle (θ) between two vector elements "d<term>l</term>" and "<term>r</term>". For a point on the wire element or on the tangent drawn to it, the angle θ = 0° or 180° and the trigonometric sine ratio of the angle is zero i.e. sinθ = 0. Thus, magnetic field at a point on the extended line passing through vector "d<term>l</term>"  is zero. 
+
+</para>
+<para id="element-26">Further magnetic field is very small due to small value of proportionality constant, which is equal to <m:math>
+		<m:mrow>
+			<m:msup>
+				<m:mn>10</m:mn>
+				<m:mrow>
+					<m:mo>-</m:mo>
+					<m:mn>7</m:mn>
+				</m:mrow>
+			</m:msup>
+		</m:mrow>
+	</m:math>
+
+
+
+
+
+
+
+
+ SI unit. The relative weakness of magnetic field is evident from the fact that proportionality constant for Coulomb’s law has the value <m:math>
+		<m:mrow>
+			<m:mn>9</m:mn>
+			<m:mi>X</m:mi>
+			<m:msup>
+				<m:mn>10</m:mn>
+				<m:mn>9</m:mn>
+			</m:msup>
+		</m:mrow>
+	</m:math>
+ in SI unit.
+</para>
+</section>
+<section id="section-1c">
+<title> Other form of Biot – Savart’s law
+</title>
+<para id="element-27">
+
+We have stated earlier that source of magnetic field is a small element of current or a moving charge. After all, current is nothing but passage of charge. Clearly, there needs to be an alternative expression for the Biot-Savart’s law in terms of charge and its velocity. Now, for steady current :
+
+</para>
+<para id="element-28">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>I</m:mi>
+    <m:mo>đ</m:mo>
+    <m:mi>l</m:mi>
+    <m:mo>=</m:mo>
+
+    <m:mfrac>
+      <m:mi>q</m:mi>
+      <m:mi>t</m:mi>
+    </m:mfrac>
+    <m:mo>đ</m:mo>
+    <m:mi>l</m:mi>
+    <m:mo>=</m:mo>
+
+    <m:mi>q</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>l</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>q</m:mi>
+    <m:mi>v</m:mi>
+  </m:mrow>
+
+</m:math>
+
+</para>
+<para id="element-29">This equivalence for current with moving charge with respect to production of magnetic field helps us to formulate Biot – Savart’ law for a charge q, which is moving with constant speed v as : 
+
+</para>
+<para id="element-30">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>đ</m:mo>
+        <m:mi mathvariant="bold">B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi mathvariant="bold">v</m:mi>
+        <m:mi>X</m:mi>
+        <m:mrow>
+          <m:munderover>
+        <m:mi mathvariant="bold">r</m:mi>
+            <m:mrow>
+
+              <m:mspace width="1em"/>
+            </m:mrow>
+            <m:mo>‸</m:mo>
+          </m:munderover>
+        </m:mrow>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>r</m:mi>
+
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-31">
+The equivalence noted for current and moving charge is quite interesting for sub-atomic situations. An electron moving around nucleus can be considered to be equivalent to current. In Bohr’s atom,
+
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>I</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mi>e</m:mi>
+      </m:mrow>
+      <m:mi>T</m:mi>
+
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+
+
+
+
+</para>
+<para id="element-33">
+where T is time period of revolution. Now,
+
+</para>
+<para id="element-34">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+      <m:mi>v</m:mi>
+    </m:mfrac>
+  </m:mrow>
+
+</m:math>
+
+</para>
+<para id="element-35">
+where v is the speed of electron moving around. Combining above two equations, we have :
+
+</para>
+<para id="element-36">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>-</m:mo>
+    <m:mfrac>
+
+      <m:mrow>
+        <m:mi>e</m:mi>
+        <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-37">
+Thus, an electron moving in circular path is equivalent to a steady current I. Negative sign here indicates that the equivalent current is opposite to the direction of motion of electron around nucleus. 
+</para>
+</section>
+<section id="section-1d">
+<title> The source (cause) of magnetic field
+</title>
+<para id="element-38">
+The basic source (cause) of electric field is a scalar point charge. What is the correspondence here? Is current (I) the corresponding basic source for the magnetic field? An examination of the Biot – Savart’s law reveals that it is not “I” alone which is basic source (cause) – rather it is the vector Id<term>l</term>, referred as "current element". This means that the source responsible for magnetic field is identified by current (I) and length of element (dl) together. Equivalently, the basic source of magnetism is a moving charge represented by the vector q<term>v</term>. 
+</para>
+</section>
+</section>
+
+<section id="section-2">
+<title> Experimental verification of Biot-Savart’s law
+</title>
+<para id="element-39">Current flows through a closed circuit. As such, it would be difficult to determine magnetic field due to a small current element as required for verification of Biot-Savart’s law. There is, however, a cleverly designed circuit arrangement which allows us to approximate requirements of determining magnetic field due to small current element. Look at the circuit arrangement shown in the figure. The parts of the wire along AB and CD when extended meet at point P. We arrange the layout in such a manner that the segment AD represents a small current element. The direction of magnetic field produced at P due to this small current element is out of the plane of drawing (shown by a filled circle i.e. dot) as current flows upward in the arm AD (apply right hand vector product rule). 
+</para>
+<para id="element-40"><figure id="fig-40"><title>Magnetic field due to small thin current element </title><media id="med40" alt="">
+		<image src="../../media/bs5.gif" mime-type="image/gif"/>
+	</media>
+	
+<caption>Magnetic field acts perpendicular to the plane formed by current element and displacement vectors </caption></figure>
+</para>
+<para id="element-41">The current in the arm AB and CD do not produce magnetic field at point P as the point lies on the extended line of the current length element. Recall that θ=0, sinθ=0, hence B=0. On the other hand the wire segment BC is designed to be far off from point P in comparison to small wire segment AD. Since magnetic field due to individual current element of segment AD is inversely proportional to the square of linear distance, the magnetic field at P due to AC is relatively negligible with respect to magnetic field due to small wire element AD. Clearly, magnetic field at P is nearly equal to magnetic field due to small current element AD. The measurement of magnetic field at P with this arrangement allows us to determine magnetic field due to small current element AD and thus, allows us to verify the law.
+</para>
+
+</section>
+<section id="section-3">
+<title> Electromagnetism 
+</title>
+<para id="element-41a">We study magnetism under the nomenclature “electromagnetism” to emphasize that magnetism is actually a specific facet of electrical phenomenon. This is not farther from the reality as well. Let us see what happens when charge flows through the wire.  Every particle carrying charge is capable of producing electrical field. In this case of a wire carrying steady current, however, charge is moving with certain velocity through the wire (conductor).  Though, there is net velocity associated with the charge, the net electric charge in any infinitesimal volume element is zero. This means that the "charge density" at any point is zero but the "current density" at that point is non-zero for a conductor carrying current. 
+</para>
+<para id="element-41b">
+Since there is no charge density, there is no electric field. Recall that a net charge stationary or moving produces electric field. On the other hand, since there is net motion of charge, there is magnetic field.   
+</para>
+<para id="element-41b1">
+Subsequently, we shall learn that a varying or changing magnetic field sets up an electric field. This aspect is brought out by Faraday's induction law. The electromagnetic induction sets up the basis of interlinking of electrical and magnetic  phenomena. The production of electric field (and hence current in a conductor) due to varying magnetic field suggests that its inverse should also be true. As a matter of fact, this is so. Maxwell discovered that a varying electric field sets up a magnetic field. Thus, two phenomena are reciprocal of each other and prove the strong connection between electricity and magnetism. 
+</para>
+<para id="element-41b2"> In general, we consider electrical property to be the precursor of magnetic property. One of the most important arguments that advances this thinking is the existence of electrical monople i.e. a charge of specific polarity. There is no such magnetic monopole as yet. Magnetic polarities exist in pair (recall a magnet has a pair of north and south pole). 
+</para>
+<para id="element-41b3"> The connection between electric and magnetic field is futher verified by the fact that a stationary charge in one frame of reference sets up only electric field in that reference. But the same stationary charge in one frame of reference sets up both electric and magnetic fields in a frame of reference, which is moving at certain relative velcoity with respect to first reference. Similarly, a moving charge in one frame of reference sets up both electric and magnetic fields in that frame of reference, but it sets up only electric field in a reference in which the moving charge is stationary (we can always imagine one such frame to exist).
+</para>
+
+<para id="element-41d">The above discussion also draws an important distinction between “current in wire” and “moving charge”, which have been said to be equivalent in earlier text. Current in wire sets up only magnetic field. Moving charge, on the other hand, sets up magnetic field in addition to electric field as there is net charge – unlike the case of current in wire in which there is no net charge. Clearly, equivalence of "current in small element of wire" and "moving charge" is limited to production of magnetic field only. 
+
+</para>
+
+
+</section>
+</content>
+
+</document>

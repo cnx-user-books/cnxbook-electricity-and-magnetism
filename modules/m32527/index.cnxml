@@ -1,0 +1,1345 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Special theory of relativity</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m32527</md:content-id>
+  <md:title>Special theory of relativity</md:title>
+  <md:abstract/>
+  <md:uuid>504af6b7-b766-4416-a372-14fe279253fd</md:uuid>
+</metadata>
+
+<content>
+<para id="element-1">The Newtonian mechanics is considered to be valid in all inertial frames of reference, which are moving at a constant relative velocity with respect to each other. Einstein broadened the scope of this theorem and extended the validity of all physical laws including electromagnetic theory to all inertial frames of reference. Now, constancy of speed of light in vacuum is a core consideration in the electromagnetic theory. Therefore, Einstein postulated that speed of light is a constant in all inertial frames of reference.  The speed of light does not depend upon the motion of either the source emitting it or the receiver of the light. This simple assertion about the constancy of the speed of light in vacuum is an epoch making assertion as it contradicts one of the equally fundamental assertion that speed (velocity) is a relative concept and that it essentially depends on the state of motion of observer.
+
+</para>
+<para id="element-2">
+We can comprehend the import of special theory of relativity by a simple example. Let a light pulse is moving in x-direction with its speed “c” and let a space craft is also moving ahead in the same direction with a speed “v”. These motions are observed from a position on the ground. Let us also assume that there is no atmosphere and we are observing motions in vacuum. Now, the speed with which light reaches spacecraft should be the relative speed “c-v”. This is what we deduce classically. Special theory of relativity, however, asserts that the relative speed of light with respect to spacecraft is “c” only – notwithstanding the speed of spacecraft (v).
+
+</para>
+<para id="element-2a">
+<figure id="fig-2a">
+<title> Motion of a light pulse and a spacecraft </title>
+<media id="med2a" alt="">
+<image src="../../media/sr1.gif" mime-type="image/gif"/>
+</media>
+<caption> Motion of a light pulse and a spacecraft </caption>
+</figure>
+
+</para>
+<para id="element-3">
+The physical interpretation of the assertion of special theory of relativity is quite unthinkable classically. The constant relative speed of approach by light in the above example is possible only if the constituents of speed (distance and time) are different for observers having different motions. In the instant example, both “distance” and “time” as measured by spacecraft are different than the corresponding measurements by a ground observer which is observing motions of both light and spacecraft. The measurements of “distance” and “time” in two different frames of reference need to be different such that speed ratio for light in vacuum i.e. “x/t” or "x'/t'" in two inertial references (parameters in one reference is denoted by unprimed varibales whereas parameters in other reference is denoted be primed variables) remains a constant.
+
+</para>
+<para id="element-3c">
+<figure id="fig-3c">
+<title> Motion of a light pulse and a spacecraft </title>
+<media id="med3c" alt="">
+<image src="../../media/sr2.gif" mime-type="image/gif"/>
+</media>
+<caption> Motion of a light pulse and a spacecraft </caption>
+</figure>
+
+</para>
+<para id="element-3b">In the figure above, we consider motion of a light pulse and spacecraft which are moving with speed "c" and "v" respectively in x-direction. They are initially at x=0 when t =0. The positions of light pulse and spacecraft are also shown after 1 second. As seen from the reference of ground (coordinate system), pulse and spacecraft travel "c" and "v" meters respectively. The linear distance between spacecraft and pulse after 1 second is "c-v" in ground reference. But according to special relativity, the linear distance between light pulse and spacecraft after 1 second should be "c" in the reference of spacecraft. As "c-v" can not be "c", it is deduced that measurements of distance and time in two references are different. A part of discripancy is due to difference in the measurement of distance and the remaining due to difference in the measurement of time. These diffferences need to be such that ratio of ditance and time is a constant for the pulse of light in all inertial references. </para>
+
+<para id="element-4">In essence, special theory of relativity removes “relativity” from “speed of light” and attaches “relativity” to “space (distance)” and “time”. This is the difficult part. Classically, we have considered both these elements as universally invariants with respect to all frames of reference  which are moving with constant relative velocity (inertial frames of reference). We shall try to come to terms with these new ideas in subsequent modules. But the essence of special theory of relativity is captured as follows : The speed of light in vacuum is invariant whereas distance between two points and time intervals are variant in the system of inertial frames of reference.
+
+</para>
+<para id="element-4a">The ideas of classical relativity, where in space and time are invarinat and speed of light is variant, is captured by Galilean transformation which enables us to measure motion in two inertial frames of reference. The speed of an object is modified by the relative speed of the frames of reference.
+
+</para>
+<para id="element-4b">
+u' = u ± v
+</para>
+<para id="element-4c">
+where “u” and “u'” are the speeds of an object as measured in two frames of reference which themselves move with a speed “v” with respect to each other. 
+</para>
+<para id="element-4d">
+Einstein employed a different transform called “Lorentz transformation” to capture the idea of invariant speed of light and variant distance and time measurements. The Lorentz tansformation provides the exact relation between coordinates (space and time) of inertial references. We shall discuss these transformations separately in the module. 
+</para>
+<para id="element-4e">
+Further, since we are considering constancy of speed of light in relation to inertial references only, the special theory of relativity is “restricted” to inertial frames of reference and therefore is “special” not “general”.
+</para>
+<section id="section-1a">
+<title> Postulates of Special Theory of relativity  </title>
+<para id="element-7b">
+
+There are many versions of postulates. The essence of special theory of relativity is finally agreed to be captured by following two principles/ postulates :
+
+
+
+</para>
+<para id="element-7c"><term> 1.	The principle of relativity : </term> The laws of physics are the same for all observers in uniform motion relative to one another (inertial frames of reference).
+</para>
+<para id="element-7c1"><term> 2. The principle of constancy of speed of light in vacuum : </term> Light in vacuum propagates with the constant speed through all systems of inertial coordinates, regardless of the state of motion of the light source.
+</para>
+<para id="element-7d">Few scholars consider either of above postulates sufficient to describe special theory of relativity. They are supplementary to each other. As a matter of fact, one can be deduced from other and vice –versa with certain extrapolation. </para>
+<para id="element-7d1"> Proceeding from the principle of relativity, we can arrive at the principle of constancy of speed of light in vacuum. The principle of relativity considers validity of all physical laws across all inertial frames of reference. This means that law of propagation of light (electromagnetic theory) is same across coordinates systems in uniform translatory motion. But, the law of propagation of light says that light moves at a constant speed in vacuum and is independent of the motion of source. Thus, speed of light is constant in terms of any system of inertial coordinates, regardless of the state of motion of the light source. This is exactly the the principle of constancy of speed of light in vacuum. 
+
+
+</para>
+<para id="element-7e">Similarly, we can proceed from the principle of constancy of speed of light in vacuum  to the principle of relativity. If we accept constancy of speed of light in vacuum across all inertial references, then we consider that law of propagation of light in vacuum (electromagnetic theory) is valid in them. Now, the laws of motion are already considered to be independent of inertial frames of reference. Addition of electromagnetic theory to this class of invariants suggests that other physical laws in their simplest form are also valid in all inertial references. This is exactly the principle of relativity. 
+</para>
+<para id="element-7f1"> Clearly, two principles are deducible from each other. Yet, we require to state special theory of relativity in terms of two principles. We see that though we are able to deduce second principle from first, but in the process we have narrowed the scope of principle of relativity. The principle of relativity is a very general principle extending to all physical laws - not only to laws of motion and propagation of light.  Similarly, the deduction of first principle from second is not direct deduction - rather an extension. For these reasons, it is generally prudent to state both the principles of special theory of relativity. 
+ 
+</para>
+<para id="element-7f">The important consideration of special theory of relativity is the inclusion of Maxwell’s electromagnetic theory being valid in inertial references. Earlier we limited the scope of validity only to Newton’s laws of motion. We should understand that Newton’s laws of motion are special case of a more general special theory of relativity. Let us have a look at the validity of the Newton’s laws motion in inertial references involving relativistic consideration at higher speed :
+</para>
+<para id="element-7g"><term>1: </term>Newton’s first law of motion of motion is valid in inertial references. 
+
+
+</para>
+<para id="element-7h"><term>2: </term>Newton’s second law of motion which defines force in terms of time rate of change of linear momentum is valid in inertial references.  
+
+</para>
+<para id="element-7i"><term>3: </term>Newton’s second law of motion which defines force in terms of the product of mass and acceleration is not valid in inertial references, because mass is not a constant in relativistic mechanics. The more general relativistic or modified form of Newton's second law valid in all inertial references, however, reduces to classical Newton's second law of motion at lower speed. 
+
+</para>
+<para id="element-7j"><term>4: </term>Newton’s third law of motion as stated in the form of equal and opposite action and reaction is not valid in inertial references.  
+
+</para>
+<para id="element-7k"><term>5: </term> The conservation of linear momentum, which is the consequence of Newton's third law, is valid in inertial references.  
+
+</para>
+<para id="element-7l">We shall return to these aspects in detail subsequently. 
+</para>
+
+
+
+</section>
+<section id="section-1">
+<title> Studying special theory of relativity  </title>
+<para id="element-6">The idea of constancy of speed of light in all inertial references shakes up well rooted concepts about distance (space) and time. It raises many questions and makes the study of special theory of relativity a bit difficult. Generally the explanations appear to be inadequate or not very convincing. As a matter of fact, there is a temptation to view the theory with a sense of disbelief. But the fact of life is that relativity (we shall use this term to mean “special theory of relativity” for brevity), there is not even a single “exception of” or “departure from” the predictions of special relativity as on date (spanning a period of more than a century).
+</para>
+<para id="element-7">After many readings of relativity theories, it emerges that it would be futile to follow the conventional approach of studying relativity by explaining the “unthinkable” first and then derive conclusions. No description, however good, satisfies a reader that incidence of time for an event or length of a rod is different in two inertial references. Keeping this aspect of study in mind, we shall attempt a slightly different approach here. Upfront, we shall accept relativistic assertions about distance (space) and time. This is a better approach as it allows us to proceed with the theory and come back to the lingering thoughts when we are equipped with the basic or working knowledge of the theory. After all, electromagnetic theory of light (and hence constancy of speed of light in vacuum) is such an elegant and complete theory that we can only be more than willing to accept assertions which are based on it.
+</para>
+
+<para id="element-7a">Yet another aspect of the study of relativity is that it relates phenomena which occur over a very large spatial extent. The consideration of motion of light even for 0.1 second involves a linear extent of 30000000 meters. Clearly, there is limitation to pick examples or illustration from our real world. Most of the experiments or illustrations cited in the study of relativity are reasonable as imagined. Conception of special theory of relativity is more an outcome of “experiments in head” than the actual ones, but such experiments are rigorous and subject to direct or indirect scientific verification. This process of performing mental experiments is known by a German term “Gedankenexperimenten”. Einstein used this process often to reach conclusions. Clearly, we shall also be required to do a bit of  “Gedankenexperimenten” to understand his theories. In a nutshell, we should be ready to imagine spacecrafts or space objects moving at very high speeds without any inhibition. We may even imagine ourselves sitting in those high speed spacecraft. Similarly, we may imagine a train which is moving at a speed of say 100000 km/hr. Apart form the scientific validity of reasoning, there is no constraint in imagining experiments or examples which otherwise can not be realized in our small world.
+</para>
+</section>
+
+
+<section id="section-2">
+<title> What is time ? </title>
+<para id="element-8a1">We do not know exactly what is time. But we know some of its properties. The closest that we come to define time is about the manner in which we measure it. This measurement is essentially an outcome of the characteristic of time known as “simultaneity”. Einstein wrote "That train arrives here at 7 o'clock", I mean something like this : "The pointing of the small hand of my watch to 7 and the arrival of the train are simultaneous events." Thus, we measure time of an event by way of the simultaneity of two events – one belonging to measuring device and other belonging to an arbitrary event like arrival of a train. This argument clinches the issue of time from the relativistic perspective. If we are able to prove that two events which are simultaneous in one inertial frame of reference but “not” simultaneous in another, then we can be sure that measurements of time in two inertial references could indeed be different. 
+</para>
+<para id="element-8a2"> In special theory of relativity, time and time rate in two inertial references are treated as different. If t and t' be the time recorded for a given event in two inertial references, then t may not equal to t'. We shall return to this topic again.
+</para>
+
+</section>
+<section id="section-2a">
+<title> Absolute and stationary reference </title>
+<para id="element-8ab1"> 
+There is no preferred inertial reference frame. This idea predates special relativity. It means that there is no absolute reference frame. Had there been an absolute reference, then we would have a fixed universal space in which all other objects (references) would be considered to be either in rest or moving. But the concept of space is a variant. In other words, the perception of space changes from one reference (say ground) to other reference (say moving train). If we drop a stone from a train, then the trajectory of the stone is a straight vertical line for an observer on the train. The same stone, however, is seen to follow a parabolic trajectory for an observer on the ground. Referring to these trajectories for a single motion of a stone, Einstein questioned the very concept of fixed space.
+</para>
+<para id="element-8ab2">
+<figure id="fig-8ab2">
+<title> Trajectory of motion </title>
+<media id="med8ab2" alt="">
+<image src="../../media/sr5.gif" mime-type="image/gif"/>
+</media>
+<caption> Trajectory of motion </caption>
+</figure>
+</para>
+<para id="element-8ab3">  Though there is no absolute reference, but the notion of a stationary reference is a powerful idea which stems from our life long perception of stationary objects in Earth's reference. Despite the fact that Earth is moving at about 107,278 km/hr (29.8 km/s) around Sun, we are generally not aware about it unless we make detailed observations about celestial objects. But as the concept of stationary system is ingrained in our perception, we employ this concept with great effect in the study of relative motion. We refer either of the moving systems as stationary in which an observer is making the measurements. Consider for example two spacecrafts moving with uniform velocities. We can refer either of spacecrafts as stationary and other as moving with a velocity which is measured from the referred stationary reference (spacecraft). There is no preference. In the case of a motion of a train, for example, we consider Earth as stationary and train as moving reference. There is no bar though that we consider moving train as stationary reference with the observer and Earth as moving reference in the opposite direction to the moving train. 
+</para>
+<para id="element-8ab4"> The "rest" is local concept. The object like a house is at rest in Earth's reference. But the same object as seen from a spaceship is not stationary. 
+</para>
+
+</section>
+
+<section id="section-2b">
+<title> Constancy of speed of light   </title>
+<para id="element-8">
+Constancy of speed of light has two different considerations in the study of relativity. In the first place, it is the central idea of special relativity. But besides this consideration, the constancy of light has other important consideration in that it is one of the measuring standards which can not be challenged in any inertial reference. This aspect is important as meaning of space and time in different inertial frames is not very explicit. We shall see subsequently that they are in fact entangled. Further, the distance (space) and time are relative and are therefore very subjective in conception and measurement. 
+</para>
+<para id="element-8a">  On the other hand, speed of light in vacuum is invariant in inertial references (though it is not invariant in accelerated references). As such, it can be used as a parameter to measure “time” and “distance”.  A linear distance, for example, can be expressed in terms of “time” taken by light to cover a given distance. Alternatively, a particular time interval can be expressed in terms of “linear distance” covered by the light in a given time. 
+</para>
+<para id="element-8b">The official measure of speed of light in vacuum is as given here :
+</para>
+<para id="element-8c">
+c = 299,792,458 meters/second
+</para>
+</section>
+
+
+
+
+<section id="section-3a">
+<title> Galilean transformation  </title>
+<para id="element-9">
+
+The transforms are mathematical constructs which allow us to convert one set of spatial (x,y,z) and time (t) measurements in one frame of reference to another frame of reference based on certain physical principle or law. Our current context is limited to inertial frames of reference. Therefore, we shall study transforms which refer to inertial frames of reference. Here, we shall study Galilean and Lorentz transforms. The Galilean transform  encapsulates the ideas of non-relativistic mechanics whereas Lorentz transform encapsulates the ideas of relativistic mechanics. 
+
+
+
+</para>
+<para id="element-10">The concepts of a transform, physical laws and inertial frames of reference are entangled with each other. The physical laws are required to be valid across all inertial frames of references. </para>
+<para id="element-12">
+
+Galilean transform gives the relation between two inertial systems which are moving at a constant velocity with respect to each other. If space (co-ordinates) and time values in one reference are known, then we can find out space and time values using Galilean transform in another reference which is moving at a constant velocity “v’ with respect to first in x-direction. Let two inertial reference systems are denoted by unprimed and primed variables and their spatial origins coincide at t = t' = 0. Then, space (x',y',z') and time (t') co-ordinates of a "single arbitrary event" in primed inertial reference is related to space (x,y,z) and time (t) of unprimed inertial reference as :
+
+
+
+</para>
+<para id="element-12a">
+<figure id="fig-12a">
+<title> Galilean transformation </title>
+<media id="med12a" alt="">
+<image src="../../media/sr3.gif" mime-type="image/gif"/>
+</media>
+<caption> Time is same in two inertial references. </caption>
+</figure>
+
+</para>
+<para id="element-13">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>−</m:mo>
+    <m:mi>v</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>z</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>z</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+
+<para id="element-14b">We can also express unprimed variables in terms of primed variable by solving for unprimed variable as :
+</para>
+<para id="element-14c">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>+</m:mo>
+    <m:mi>v</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mi>y</m:mi>
+    <m:mo>′</m:mo>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>z</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mi>z</m:mi>
+    <m:mo>′</m:mo>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mi>t</m:mi>
+    <m:mo>′</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-14">The most important aspect of Galilean transform is the last equation, t’ = t, denoting that time is an invariant for inertial frames of references. The constancy of time across inertial frames of reference is the key consideration here. With the advent of special theory of relativity, however, this transform is considered as a restricted case as it is valid for small relative speed,v, only. At higher values of relative speed “v”, we need to employ Lorentz transform in accordance with special theory of relativity such that speed of light in vacuum is constant in all inertial references. 
+</para>
+<para id="element-14a"> Further, we get the equation for the velocities of a particle or object at position "x" or "x'" in the unprimed and primed references respectively by differentiating first equation of the transform,  
+
+</para>
+<para id="element-14e">
+u’ = u - v 
+</para>
+
+<para id="element-14d">where “u” and “u'” are the speeds of a particle or object as measured in two frames of reference which themselves move with a speed “v” with respect to each other. 
+</para>
+</section>
+
+<section id="section-3b">
+<title> Lorentz transformation   </title>
+<para id="element-15">
+
+Like Galilean transform, Lorentz transform provides relation for space and time between inertial systems for all possible range of relative velocity. Importantly, it satisfies the postulate of special theory of relativity that speed of light in vacuum is a constant. The derivation of Lorentz transform has elaborate historical perspectives and is also the subject of insight into the relativistic space and time concepts. For this reason, we shall keep the derivation of this separate to be dealt later. Here, we shall restrict our consideration to the final form of Lorentz transform only. Let two inertial reference systems are denoted by unprimed and primed variables and their spatial origins coincide at t = t' = 0. Then, space (x',y',z') and time (t') co-ordinates of a "single arbitrary event" in primed inertial reference is related to space (x,y,z) and time (t) of primed inertial reference as :
+
+</para>
+<para id="element-15a">
+<figure id="fig-15a">
+<title> Lorentz transformation </title>
+<media id="med15a" alt="">
+<image src="../../media/sr4.gif" mime-type="image/gif"/>
+</media>
+<caption> Time is not same in two inertial references. </caption>
+</figure>
+
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>γ</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>v</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>y</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>z</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>z</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>γ</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>t</m:mi>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>v</m:mi>
+            <m:mi>x</m:mi>
+          </m:mrow>
+          <m:mrow>
+            <m:msup>
+              <m:mi>c</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-17">where,
+
+</para>
+<para id="element-18">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>γ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>-</m:mo>
+              <m:msup>
+                <m:mi>β</m:mi>
+                <m:mn>2</m:mn>
+              </m:msup>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>-</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>v</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>c</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-19">The dimensionless γ is called Lorentz factor and dimensionless β is called speed factor. For small relative velocity, v, the terms <m:math>
+  <m:mrow>
+    <m:mrow>
+      <m:msup>
+        <m:mi>v</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mrow>
+    <m:mo>/</m:mo>
+    <m:mrow>
+      <m:msup>
+        <m:mi>c</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mrow>
+    <m:mo>→</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>,
+<m:math>
+  <m:mrow>
+    <m:mrow>
+      <m:mi>v</m:mi>
+    </m:mrow>
+    <m:mo>/</m:mo>
+    <m:mrow>
+      <m:msup>
+        <m:mi>c</m:mi>
+        <m:mn>2</m:mn>
+      </m:msup>
+    </m:mrow>
+    <m:mo>→</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+ and <m:math>
+  <m:mrow>
+    <m:mi>γ</m:mi>
+    <m:mo>→</m:mo>
+    <m:mn>1</m:mn>
+  </m:mrow>
+</m:math>. In this case, the Lorentz transform is reduced to Galilean transform as expected. Further, we can write transformation in the direction from primed to unprimed reference as :
+</para>
+<para id="element-19a1">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mi>γ</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+    <m:mo>′</m:mo>
+        <m:mo>+</m:mo>
+        <m:mi>v</m:mi>
+        <m:mi>t</m:mi>
+    <m:mo>′</m:mo>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mi>γ</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>t</m:mi>
+    <m:mo>′</m:mo>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>v</m:mi>
+            <m:mi>x</m:mi>
+    <m:mo>′</m:mo>
+          </m:mrow>
+          <m:mrow>
+            <m:msup>
+              <m:mi>c</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-19b">
+Note the change of the sign between terms on right hand side.
+</para>
+<section id="section-3b1">
+<title> Transformation involving two events   </title>
+<para id="element-19c">
+
+
+If two events, separated by a distance, occur along x axis at two instants, then we can write Lorentz transformations of space and time differences using following notations :
+
+
+</para>
+<para id="element-19d">
+
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>x</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>′</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>x</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>′</m:mo>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>t</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>′</m:mo>
+    <m:mo>−</m:mo>
+    <m:msub>
+      <m:mi>t</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>′</m:mo>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-19e">The subscripts 1 and 2 denote two events respectively. The transformations in the direction from unprimed to primed references are :
+
+
+</para>
+<para id="element-19f">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>x</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>γ</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mtext>Δ</m:mtext>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>v</m:mi>
+        <m:mtext>Δ</m:mtext>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>t</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>γ</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mtext>Δ</m:mtext>
+        <m:mi>t</m:mi>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>v</m:mi>
+            <m:mtext>Δ</m:mtext>
+            <m:mi>x</m:mi>
+          </m:mrow>
+          <m:mrow>
+            <m:msup>
+              <m:mi>c</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-19g">The transformations in the direction from primed to unprimed references are :
+
+
+</para>
+<para id="element-19h">
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>γ</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mtext>Δ</m:mtext>
+        <m:mi>x</m:mi>
+        <m:mo>′</m:mo>
+        <m:mo>+</m:mo>
+        <m:mi>v</m:mi>
+        <m:mtext>Δ</m:mtext>
+        <m:mi>t</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mtext>Δ</m:mtext>
+    <m:mi>t</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>γ</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mtext>Δ</m:mtext>
+        <m:mi>t</m:mi>
+        <m:mo>′</m:mo>
+        <m:mo>+</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>v</m:mi>
+            <m:mtext>Δ</m:mtext>
+            <m:mi>x</m:mi>
+            <m:mo>′</m:mo>
+          </m:mrow>
+          <m:mrow>
+            <m:msup>
+              <m:mi>c</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-19i">
+</para>
+<para id="element-19j">
+</para>
+<para id="element-19k">
+</para>
+</section>
+<section id="section-3b2">
+<title> Constancy of speed of light in inertial references   </title>
+<para id="element-19a">We can test Lorentz transform against the basic assumption that speed of light in vacuum is constant. Let a light pulse moves along x-axis. Then, consideration in unprimed reference gives speed of light as :
+</para>
+<para id="element-20">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>c</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>x</m:mi>
+      <m:mi>t</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-21">
+If Lorentz transform satisfies special theory of relativity for constancy of speed of light, then the propagation of light as seen from the primed reference should also yield the ratio x’/t’ equal to c i.e. speed of light in vacuum. Now,
+
+
+</para>
+<para id="element-22">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>t</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>γ</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mi>v</m:mi>
+            <m:mi>t</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>γ</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>t</m:mi>
+            <m:mo>−</m:mo>
+            <m:mfrac>
+              <m:mrow>
+                <m:mi>v</m:mi>
+                <m:mi>x</m:mi>
+              </m:mrow>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>c</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>x</m:mi>
+            <m:mo>−</m:mo>
+            <m:mi>v</m:mi>
+            <m:mi>t</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>t</m:mi>
+            <m:mo>−</m:mo>
+            <m:mfrac>
+              <m:mrow>
+                <m:mi>v</m:mi>
+                <m:mi>x</m:mi>
+              </m:mrow>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>c</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-23">Dividing numerator and denominator by “t” and substituting x/t by c, we have :
+
+
+</para>
+<para id="element-24">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>t</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mfrac>
+              <m:mi>x</m:mi>
+              <m:mi>t</m:mi>
+            </m:mfrac>
+            <m:mo>−</m:mo>
+            <m:mi>v</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:mfrac>
+              <m:mrow>
+                <m:mi>v</m:mi>
+                <m:mi>x</m:mi>
+              </m:mrow>
+              <m:mrow>
+                <m:mi>t</m:mi>
+                <m:msup>
+                  <m:mi>c</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>t</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>c</m:mi>
+            <m:mo>−</m:mo>
+            <m:mi>v</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:mfrac>
+              <m:mrow>
+                <m:mi>v</m:mi>
+                <m:mi>c</m:mi>
+              </m:mrow>
+              <m:mrow>
+                <m:msup>
+                  <m:mi>c</m:mi>
+                  <m:mn>2</m:mn>
+                </m:msup>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>c</m:mi>
+            <m:mo>−</m:mo>
+            <m:mi>v</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>1</m:mn>
+            <m:mo>−</m:mo>
+            <m:mfrac>
+              <m:mrow>
+                <m:mi>v</m:mi>
+              </m:mrow>
+              <m:mrow>
+                <m:mi>c</m:mi>
+              </m:mrow>
+            </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>t</m:mi>
+        <m:mo>′</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>c</m:mi>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>c</m:mi>
+            <m:mo>−</m:mo>
+            <m:mi>v</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mi>c</m:mi>
+            <m:mo>−</m:mo>
+            <m:mi>v</m:mi>
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>c</m:mi>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-25">Clearly, Lorentz transform meets the requirement of special theory of relativity in so far as to guarantee that speed of light in vacuum is indeed a constant.
+</para>
+
+</section>
+</section>
+
+
+<section id="section-4">
+<title> Lorentz factor   </title>
+
+<para id="element-26">Lorentz factor ,γ, is the multiplicative factor in the transformation equations for x-coordinate and time. It is a dimensionless number whose value depends on the relative speed “v”. Note that the relativistic transformation for x-coordinate is just Lorentz factor times the non-relativistic or Galilean transformation. 
+
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>γ</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>x</m:mi>
+        <m:mo>−</m:mo>
+        <m:mi>v</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-28">Lorentz factor appears in most of the relativistic equations including the calculation of relativistic effects like time dilation, length contraction, mass etc. An understanding of the beahviour of this factor at different relative velocity is intuitive for assessing the extent of relativistic effect. Few values of Lorentz factor are tabulated here.
+
+
+
+</para>
+
+
+<para id="element-29">
+<table id="grilltemp1" summary="Lorentz factors">
+  <title>Lorentz factors </title>
+  <tgroup cols="2" colsep="1" rowsep="1">
+    <thead>
+      <row>
+        <entry>Speed (v)</entry>
+        <entry align="center">0</entry>
+        <entry align="center">0.1c</entry>
+        <entry align="center">0.2c</entry>
+        <entry align="center">0.3c</entry>
+        <entry align="center">0.4c</entry>
+        <entry align="center">0.5c</entry>
+        <entry align="center">0.6c</entry>
+        <entry align="center">0.7c</entry>
+        <entry align="center">0.8c</entry>
+        <entry align="center">0.9c</entry>
+        <entry align="center">0.99c</entry>
+        <entry align="center">0.999c</entry>
+      </row>
+    </thead>
+    <tbody>
+
+      <row>
+
+        <entry>Lorentz factor (γ)</entry>
+        <entry align="center">1.000</entry>
+        <entry align="center">1.005</entry>
+        <entry align="center">1.021</entry>
+        <entry align="center">1.048</entry>
+        <entry align="center">1.091</entry>
+        <entry align="center">1.115</entry>
+        <entry align="center">1.250</entry>
+        <entry align="center">1.400</entry>
+        <entry align="center">1.667</entry>
+        <entry align="center">2.294</entry>
+        <entry align="center">7.089</entry>
+        <entry align="center">22.366</entry>
+      </row>
+    </tbody>
+  </tgroup>
+</table>
+
+</para>
+
+<para id="element-30">Lorentz factor begins at 1 and as v-&gt;c, y-&gt; infinity. It is either equal to 1 or greater than 1. In other words, it is never less than 1.  A plot of Lorentz factor .vs. relative speed is shown here. 
+
+
+</para>
+<para id="element-31">
+
+<figure id="fig-31">
+<title> Lorentz factor .vs. speed plot </title>
+<media id="med31" alt="">
+<image src="../../media/sr6.gif" mime-type="image/gif"/>
+</media>
+<caption> Lorentz factor .vs. speed plot </caption>
+</figure>
+
+
+</para>
+
+
+</section>
+
+
+<section id="section-5">
+<title> Space-time interpretation  </title>
+
+<para id="element-39">
+
+We identify an event with spatial (x,y,z) and temporal (t) coordinates. Important point is that an event does not belong to any reference. It is described by different coordinates in different reference system. In classical description, spatial and temporal parameters are essentially independent of each other. The time t of an event can not be dependent on spatial specification (x,y,z,). Now, this independence is not there in relativistic kinematics. In order to imbibe the nature of space time relation, we shall work with few Lorentz transformations here.
+
+
+</para>
+<para id="element-40">
+We interpret an event in two inertial references which are moving with respect to each other at a velocity say 0.3c in x-direction. We shall consider very small time interval like 0.000005 second so that distance involved is easy to visualize. For convenience, we consider the approximate value of speed of light 300000000 m/s. In time 0.000005 s, the separation of two reference frame at the speed 0.3c works out to be 0.3 X 300000000 X 0.000005 = 450 m. 
+
+
+</para>
+<para id="element-44">
+<figure id="fig-44">
+<title> Lorentz transformation </title>
+<media id="med44" alt="">
+<image src="../../media/sr4.gif" mime-type="image/gif"/>
+</media>
+<caption> Time and space are entangled. </caption>
+</figure>
+
+</para>
+<para id="element-41">Here, we calculate both Galilean and Lorentz distance and time of events in two references for events identified in first reference by x and t values. Unprimed values refer to stationary reference, whereas primed values refer to moving reference which is moving right in x-direction with a relative velocity 0.3c. The calculations have been done using Excel worksheet (Reader can also try and verify the results) where distance is in meters and time in seconds. 
+</para>
+<para id="element-42">
+
+<table id="grilltemp42" summary="Lorentz factors">
+  <title>Lorentz factors </title>
+  <tgroup cols="2" colsep="1" rowsep="1">
+    <thead>
+      <row>
+
+        <entry align="center">x </entry>
+        <entry align="center">t</entry>
+        <entry align="center">x’(Galilean)</entry>
+        <entry align="center">t’(Galilean)</entry>
+        <entry align="center">x’(Lorentz)</entry>
+        <entry align="center">t’(Lorentz)</entry>
+
+      </row>
+    </thead>
+    <tbody>
+
+      <row>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+        <entry>0</entry>
+      </row>
+
+
+
+      <row>
+        <entry>2</entry>
+        <entry>0.000005</entry>
+        <entry>-448</entry>
+        <entry>0.000005</entry>
+        <entry>-469.6317</entry>
+        <entry>0.0000052393</entry>
+      </row>
+
+      <row>
+        <entry>100</entry>
+        <entry>0.000005</entry>
+        <entry>-350</entry>
+        <entry>0.000005</entry>
+        <entry>-366.8998</entry>
+        <entry>0.0000051366</entry>
+      </row>
+
+    </tbody>
+  </tgroup>
+</table>
+
+
+</para>
+<para id="element-43">Since the origins of two references coincide for both Galilean and Lorentz transformations at t= t’=0, the space and time values are all zero as shown in the first row of the table. 
+
+
+
+
+</para>
+
+<para id="element-45">
+Let us now consider the second row of the table. Here, position of event is x=2 m at time, t = 0.000005 s. In this time, primed reference has moved 450 m. According to Galilean transform, the event takes place at -450+2 = -448 m (to the left of origin) in the moving reference. Since time is invariant in Galilean transformation, the time of event is same in moving reference for non-relativistic Galilean transformation. However, when we employ relativistic Lorentz transformation, the event occurs at -469.6317 m (to the left of origin) in the moving reference. Here, the measurement of distance in moving reference is different than that calculated with Galilean transformation. Also, time is not invariant. The event occurs at 0.0000052393 s in this reference instead of 0.000005 s in the unprimed stationary reference. Thus, we see that both space and time are not invariant in Lorentz transformation. 
+
+</para>
+<para id="element-46">Now, we set out to compare the values of second and third row to see the effect of change in the position of event while keeping the time of event same. In the relativistic transformation, we see that time value changes just because there is spatial change in stationary reference. The time values are 0.0000052393 s and 0.0000051366 s for x = 2 m and x = 100 m respectively.  This is yet another dimension of relativistic kinematics. This suggests that space and time are entangled. Individual measurements of event parameters do not only change because of relative speed (It is a foregone conclusion in relativistic kinematics). The additional point here is that time value changes simply because of change in space value (x) even when the relative velocity is kept constant.
+</para>
+<para id="element-47">We conclude thus :
+
+</para>
+<para id="element-48"><term>1: </term> Spatial and temporal values in the inertial references are different on account of relative velocity.
+
+</para>
+<para id="element-49">  <term>2: </term> The temporal (t) values are dependent on spatial values (x,y,z). The space and time specifications of an event are entangled. 
+
+</para>
+<para id="element-50">The spatial dependence of temporal parameter, as a matter of fact, is also evident from the relativistic time relation :
+
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+    <m:mo>′</m:mo>
+    <m:mo>=</m:mo>
+    <m:mi>γ</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>t</m:mi>
+        <m:mo>−</m:mo>
+        <m:mfrac>
+          <m:mrow>
+            <m:mi>v</m:mi>
+            <m:mi>x</m:mi>
+          </m:mrow>
+          <m:mrow>
+            <m:msup>
+              <m:mi>c</m:mi>
+              <m:mn>2</m:mn>
+            </m:msup>
+          </m:mrow>
+        </m:mfrac>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+  
+</para>
+<para id="element-52">
+Note the presence of spatial parameter (x) on the right hand side of the equation. Clearly, spatial and temporal values of an event are entangled. 
+</para>
+<para id="element-53">
+</para>
+<para id="element-54">
+</para>
+<para id="element-55">
+</para>
+<para id="element-56">
+</para>
+<para id="element-57">
+</para>
+<para id="element-58">
+</para>
+<para id="element-59">
+</para>
+<para id="element-60">
+</para>
+<para id="element-61">
+</para>
+
+
+</section>
+
+<section id="section-6">
+<title> Velocity addition   </title>
+<para id="element-32"> 
+
+Let us consider a scenario of police car chase. The police personnel fires a shot in the direction of the criminal’s car speeding ahead. What is the velocity of the bullet? It depends on the observer. The bullet moves from the gun, which is stationary in the reference of police car. The velocity of bullet will be as per the specification of the gun. This will be the same velocity as when fired from ground. Let this velocity be u'. Clearly, this velocity is inherent to the gun irrespective of its motion. If “v” be the velocity of the police car, then according to Galilean transformation, the velocity of bullet in the ground reference, "u", is obtained by addition of two velocities :
+
+
+</para>
+<para id="element-33">
+u =  v + u’
+
+
+</para>
+<para id="element-34">When a javelin is thrown, the velocity of javelin is sum of the velocities of the javelin thrower and the javelin itself with respect to thrower. The very idea of thrower to throw javelin while running is to leverage his/her velocity towards increasing the velocity of javelin in ground reference. Also, consider motion of two cars which are moving towards each other with velocities u and w along a straight line. The velocity of approach for any of two cars is u+w. These are well established results which are outcome of non-relativistic Newtonian kinematics. 
+
+
+
+</para>
+<para id="element-35">The seemingly well defined algorithm about algebraic addition of velocity runs into serious problem when we extend this concept to high speed cases. Let us do a bit of “Gedankenexperimenten”. Let two spaceships are approaching with a velocity c/2 and 3c/4. What is the velocity of approach? Clearly, it is c/2+3c/4 = 5c/4. This is a speed which exceeds the speed of light. Take another example. Let us consider that we move to a light source like a bulb in our house. Of course, we imagine that there is no atmosphere. The speed of approach here is speed of light plus our speed of approach – again exceeding the speed of light and also rendering it a variable dependent on our motion.
+
+
+</para>
+<para id="element-36">On the other hand, electromagnetic theory specifies the speed of light in vacuum to be exactly c. Not only that, Michelson's experiment concluded that speed of light is a constant in all directions. Lorentz experiment proved that speed of light in vacuum is independent of motion of source emitting it. We, therefore, deduce Galilean or non-relativistic addition of Velocity is not true at high speed or in the relativistic context. This is one aspect of relativistic consideration. The other aspect emerges from special theory of relativity which embodies Lorentz transformation. Let us explore Lorentz factor :
+
+
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>γ</m:mi>
+    <m:mo>=</m:mo>
+ 
+
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mrow>
+        <m:msqrt>
+          <m:mfenced>
+            <m:mrow>
+              <m:mn>1</m:mn>
+              <m:mo>-</m:mo>
+              <m:mfrac>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>v</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>c</m:mi>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow>
+              </m:mfrac>
+            </m:mrow>
+          </m:mfenced>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+
+</para>
+<para id="element-38">When v-&gt;c, γ -&gt; ∞. For v=0.999999999c, γ= 22360. When v=c, γ is undefined (a ratio with zero as denominator). When v&gt;c, γ is imaginary. Clearly, speed of light (electromagnetic wave) in vacuum is the highest speed in nature. Matter can not achieve the speed of light. There is no question of exceeding it. This aspect of speed limit for matter has been verified experimentally, wherein it is found that a particle acquires greater relativistic mass instead of gaining speed even when it is accelerated to achieve or exceed speed of light (by continuously imparting energy). We shall describe this experiment after we have discussed about relativistic mass. We should, however, treat this violation of addition of velocity as one of the key experimental evidence that gave strong credence to special theory of relativity in the initial years.
+</para>
+
+</section>
+</content>
+
+</document>

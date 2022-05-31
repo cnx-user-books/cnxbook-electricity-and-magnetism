@@ -1,0 +1,1119 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Lorentz force</title>
+<metadata>
+  <md:content-id>m31327</md:content-id><md:title>Lorentz force</md:title>
+  <md:abstract/>
+  <md:uuid>3965dab6-d911-433c-93e3-9d7a81ab34c9</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m31345/latest/" strength="3">Motion of a charged particle in magnetic field</link>
+      <link url="http://cnx.org/content/m31547/latest/" strength="2">Motion of a charged particle in electric and magnetic fields</link>
+      <link url="http://cnx.org/content/m31057/latest/" strength="1">Biot - Savart Law</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+
+<para id="element-1">
+Lorentz force is the electromagnetic force on a point or test charge. The corresponding force law for electromagnetic force is an empirical law providing the combined expression for electrical and magnetic forces experienced by the test charge. Lorentz force for a point charge comes into existence under certain conditions. The existence of either electrical or magnetic or both fields is primary requirement.
+
+</para>
+<para id="element-2">The force law sets up the framework under which two force types (electrical and magnetic) operate. The law is fundamental to the study of electromagnetic interactions in terms of field concepts. For the consideration of force(s) on the test charge, the important deduction is that electrical field interacts only with electrical field and magnetic field interacts only with magnetic field. In our context of electromagnetic force, we can say that electrical force results from interaction of two electrical fields and magnetic force results from interaction of two magnetic fields.
+</para>
+<section id="section-1">
+<title>Lorentz force expression</title>
+
+<para id="element-3">
+
+
+The law is stated in vector form as :
+
+</para>
+<para id="element-4">
+<m:math display="block">
+  <m:mrow>
+      <m:mi mathvariant="bold">F</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mi>q</m:mi>
+    <m:mo>[</m:mo>
+      <m:mi mathvariant="bold">E</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfenced>
+      <m:mrow>
+      <m:mi mathvariant="bold">v</m:mi>
+
+        <m:mi>X</m:mi>
+      <m:mi mathvariant="bold">B</m:mi>
+
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-5">
+We may recognize that Lorentz force is actually vector sum of two forces :
+
+</para>
+<para id="element-6">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+      <m:mi mathvariant="bold">F</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mi>q</m:mi>
+      <m:mi mathvariant="bold">E</m:mi>
+
+    <m:mo>+</m:mo>
+    <m:mi>q</m:mi>
+    <m:mfenced>
+      <m:mrow>
+      <m:mi mathvariant="bold">v</m:mi>
+
+        <m:mi>X</m:mi>
+      <m:mi mathvariant="bold">B</m:mi>
+
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-7">
+For convenience, we refer the first force as Lorentz electrical force and second force as Lorentz magnetic force. The Lorentz electrical force is given by first part as :
+
+</para>
+<para id="element-8">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi mathvariant="bold">F</m:mi>
+
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>q</m:mi>
+      <m:mi mathvariant="bold">E</m:mi>
+
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-9">
+The electrical part of law is actually the relation we have already studied in the context of Coulomb’s law and Electrical field. Electrical force on the point charge "q" acts in the direction of electrical field (<term>E</term>) and as such the particle carrying the charge is accelerated in the direction of <term>E</term>. If "m" be the mass of the particle carrying charge, then acceleration of the particle is :
+
+</para>
+<para id="element-10">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi mathvariant="bold">a</m:mi>
+
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+      <m:mi mathvariant="bold">F</m:mi>
+
+          <m:mi>E</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>q</m:mi>
+      <m:mi mathvariant="bold">E</m:mi>
+
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-11">
+Lorentz magnetic force is given by second part as :
+
+</para>
+<para id="element-12">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi mathvariant="bold">F</m:mi>
+
+      <m:mi>M</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>q</m:mi>
+    <m:mfenced>
+      <m:mrow>
+      <m:mi mathvariant="bold">v</m:mi>
+
+        <m:mi>X</m:mi>
+      <m:mi mathvariant="bold">B</m:mi>
+
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-13">
+Magnetic force on the point charge "q" acts in the direction perpendicular to the plane formed by <term>v</term> and <term>B</term> vectors. The direction of vector cross product is the direction of magnetic field, provided test charge is positive. The orientation of vector cross product is determined using Right hand thumb rule. If the curl of right hand follows the direction from vector <term>v</term> to <term>B</term>, then extended thumb points in the direction of vector cross product. 
+</para>
+<para id="element-14">
+<figure id="fig-14">
+<title> Direction of vector cross product </title>
+<media id="med14" alt="">
+<image src="../../media/lf1a.gif" mime-type="image/gif"/>
+</media>
+<caption> The direction of vector cross product is given by Right hand thumb rule.</caption>
+</figure>
+</para>
+<para id="element-15">
+We should understand an important point that direction of magnetic field is determined <term> not </term> by the direction of vector cross product <term>vXB</term> alone, but by the direction of expression "q(<term>vXB</term>)". What it means that if charge is negative, then direction of force is opposite to that determined by vector cross product "<term>vXB</term>". The figure below shows the opposite orientations of vector cross product "<term>vXB</term>" and the magnetic force. 
+
+</para>
+<para id="element-15a">
+<figure id="fig-15a">
+<title> Lorentz magnetic force </title>
+<media id="med15a" alt="">
+<image src="../../media/lf1b.gif" mime-type="image/gif"/>
+</media>
+<caption> Directions of vector cross product and magnetic force are opposite when charge is negative </caption>
+</figure>
+</para>
+<para id="element-15b">The acceleration of the particle is given by :
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi mathvariant="bold">a</m:mi>
+
+      <m:mi>M</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+      <m:mi mathvariant="bold">F</m:mi>
+
+          <m:mi>M</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mfenced>
+          <m:mrow>
+      <m:mi mathvariant="bold">v</m:mi>
+
+            <m:mi>X</m:mi>
+      <m:mi mathvariant="bold">B</m:mi>
+
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-17">
+The magnitude of magnetic force is given by :
+
+</para>
+<para id="element-18">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>M</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>q</m:mi>
+    <m:mi>v</m:mi>
+    <m:mi>B</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-19">
+where θ is the smaller angle between <term>v</term> and <term>B</term> vectors. The magnitude of magnetic field is maximum when θ = 90 or 270 and the maximum value of magnetic field is qvB. It is also clear from the expression of magnitude that magnetic force is zero even when magnetic field exists for following cases :
+</para>
+<para id="element-20">
+1: charge is stationary i.e. v=0
+</para>
+<para id="element-21">
+2: when charge is moving in the direction of magnetic field or in opposite direction i.e. θ=0 or 180 and sin θ =0.
+</para>
+<para id="element-22">
+Further, if only electrical field exists, then only electrical force applies on the point charge and the point charge is accelerated in the direction of electrical field (<term>E</term>). If only magnetic field exists, then only magnetic force applies on the point charge except for the cases mentioned above (when magnetic force is zero) and the point charge is accelerated in the direction of vector expression q(<term>vXB</term>). If both electrical and magnetic field exist, then charge is subjected to both kinds of force provided conditions for zero magnetic force are not met. In the last case, acceleration of the point charge is in the direction of resultant force :
+
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+      <m:mi mathvariant="bold">a</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+      <m:mi mathvariant="bold">F</m:mi>
+
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mo>[</m:mo>
+      <m:mi mathvariant="bold">E</m:mi>
+
+        <m:mo>+</m:mo>
+        <m:mfenced>
+          <m:mrow>
+      <m:mi mathvariant="bold">v</m:mi>
+
+            <m:mi>X</m:mi>
+      <m:mi mathvariant="bold">B</m:mi>
+
+          </m:mrow>
+        </m:mfenced>
+        <m:mo>]</m:mo>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<example id="example-24">
+
+<para id="element-24"><term>Problem : </term> An electron, moving along x-axis in an uniform magnetic field <term>B</term>, experiences maximum magnetic force along z-axis. Find the direction of magnetic field.
+
+</para>
+<para id="element-25"><term>Solution : </term> Since the particle experiences maximum magnetic force, the angle between velocity and magnetic field vector is right angle. Now, magnetic force in z-direction is also perpendicular to the magnetic field. Hence, magnetic field is either in positive or negative y-direction. By applying Right hand rule of vector cross product, we find that it is oriented in positive y-direction if the charge is positive. But, charge on electron is negative. 
+</para>
+<para id="element-26">
+<figure id="fig-26">
+<title> Lorentz magnetic force </title>
+<media id="med26" alt="">
+<image src="../../media/lf2.gif" mime-type="image/gif"/>
+</media>
+<caption> Orientations of direction of vector cross product  and magnetic force </caption>
+</figure>
+</para>
+<para id="element-27">
+Hence, magnetic field is oriented along negative y-direction.
+</para>
+</example>
+<section id="section-1a">
+<title> Nature of magnetic force
+</title>
+<para id="element-27a">
+
+The nature of magnetic force is different to electrical force. First, it is not linear in the sense that it does not operate in the direction of magnetic field. This is unlike electric force which acts in the direction of applied electric field. The magnetic force, as we have seen in the preceding section, acts in the side-way direction following vector cross product rule. Also, magnetic force is relatively weaker as magnetic field is a weaker field in comparison with electric field. 
+</para>
+<para id="element-27b">The first of the two distinguishing characteristics as described above has important implications. Since magnetic force is perpendicular to the direction of velocity, it can only change the direction of motion – not its magnitude. The magnetic force can not change the magnitude of velocity i.e. speed of the charged particle. In turn, we can say that magnetic force can not bring about a change in the kinetic energy of the charged particle as speed remains same due to magnetic field.
+</para>
+
+<para id="element-27c">An immediate fall out of the magnetic force is very interesting. This force does no work. We know work is scalar dot product of force and displacement. Now, velocity is time rate of displacement. It means velocity and displacement have same direction. Since magnetic force is perpendicular to velocity, it is also perpendicular to small elemental displacement. What it means that magnetic force is always perpendicular to displacement. Thus, work done by magnetic force is zero. 
+</para>
+<para id="element-27d">Yet another important consequence of the nature of magnetic force is that a charged particle in magnetic field keeps changing direction of motion of the particle all the time. Since direction of velocity is changed every instant, direction of magnetic force being perpendicular to it is also changed all the time. Note that direction of magnetic force is automatically adjusted or changed with the motion. If the particle does not escape out of the magnetic field, the implication is that the particle may approximate a circular path. At any moment – whether particle completes a circular path or not – the magnetic force acts in radial direction to the motion. On a comparison note, we can see that the electric force is independent of the direction of motion. It is along electric field. It does not change with motion.
+
+
+</para>
+<para id="element-27e"> 
+<figure id="fig-27a">
+<title> Lorentz magnetic force </title>
+<media id="med27a" alt="">
+<image src="../../media/lf3.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic force changes direction as direction of motion changes. </caption>
+</figure>
+
+</para>
+<para id="element-27f">
+We make use of this feature in many important applications like cyclotron to accelerate particle or entrapping plasma etc. But we should be aware of its role in these applications. The effect of Magnetic force is limited to change in direction only. Change in speed is effected by electric field. 
+</para>
+</section>
+<section id="section-1b">
+<title> Magnitude of magnetic force
+
+</title>
+
+
+<para id="element-48"> The magnetic field is a weak field and so is the magnetic force. Let us consider an electron moving with a velocity <m:math>
+  <m:mrow>
+    <m:mn>3</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mn>7</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ m/s in a magnetic field of <m:math>
+  <m:mrow>
+    <m:mn>5</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>3</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+ T. If velocity and magnetic field are perpendicular to each other, then magnetic force on the electron is :
+
+
+</para>
+<para id="element-49"> 
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>M</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>q</m:mi>
+    <m:mi>v</m:mi>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1.6</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>19</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:mn>3</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:mn>5</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>3</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>2.4</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>14</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-50">
+Clearly, magnetic force is really very weak. However, even this weak force is great enough for subatomic particle like electron. For example, the acceleration of electron due to this magnetic force is :
+
+</para>
+<para id="element-51">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mi>M</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2.4</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>14</m:mn>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>9.1</m:mn>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>31</m:mn>
+          </m:mrow>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2.6</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mn>16</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-52">
+Indeed this is an extraordinary acceleration. 
+</para>
+
+
+</section>
+<section id="section-1c">
+<title> Context of Lorentz force law
+</title>
+<para id="element-27g">
+
+Lorentz magnetic force law completes the picture on “effect side” in the study of electromagnetism. The “cause side” i.e. generation of magnetic field is described by Biot-Savart law. Thus, Lorentz force law describes the effect of electric and magnetic fields on a test charge – but not the cause of these fields. This is a serious limitation because test charge on its own is also the cause of electric and magnetic fields. These fields, in turn, would modify the fields operating on the test charge. 
+
+
+
+</para>
+<para id="element-27h">Also, the electromagnetic force causes acceleration of test charge. An accelerated charge, in turn, radiates. As such, application of Lorentz force law by itself would not be sufficient to describe motion of test charge. A charged electron which is expected to describe a circular motion under magnetic field without consideration of radiation would actually spiral down with radiation as shown in the figure and expected motion might simply be not there. 
+
+
+</para>
+<para id="element-27i">
+<figure id="fig-27i">
+<title> Motion of charge under magnetic field </title>
+<media id="med27i" alt="">
+<image src="../../media/lf4.gif" mime-type="image/gif"/>
+</media>
+<caption> Motion of charge under magnetic field </caption>
+</figure>
+
+
+</para>
+<para id="element-27j">Recall that this was the reason for which Rutherford’s atomic model was eventually rejected and Bohr’s model was accepted. We shall, however, ignore radiation while studying motion of charged particles under electromagnetic fields – unless state specifically to consider radiation.
+</para>
+
+</section>
+<example id="example-53">
+<para id="element-53"><term>Problem : </term> A particle carrying a charge 1μC is moving with velocity 3<term>i</term> – 3<term>k</term> in a uniform field -5 <term>k</term>. If units are SI units, then determine the angle between velocity and magnetic field vectors. Also determine the magnetic force. 
+</para>
+
+
+<para id="element-53a"><term>Solution : </term> The cosine of the enclosed angle is : 
+</para>
+<para id="element-54">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+   <m:mi mathvariant="bold">v</m:mi>
+
+        <m:mo>.</m:mo>
+   <m:mi mathvariant="bold">B</m:mi>
+
+      </m:mrow>
+      <m:mrow>
+        <m:mo>|</m:mo>
+   <m:mi mathvariant="bold">v</m:mi>
+
+        <m:mo>|</m:mo>
+        <m:mo>|</m:mo>
+   <m:mi mathvariant="bold">B</m:mi>
+
+        <m:mo>|</m:mo>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>3</m:mn>
+   <m:mi mathvariant="bold">i</m:mi>
+
+            <m:mo>−</m:mo>
+            <m:mn>3</m:mn>
+   <m:mi mathvariant="bold">k</m:mi>
+
+          </m:mrow>
+        </m:mfenced>
+        <m:mo>.</m:mo>
+        <m:mfenced>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>5</m:mn>
+   <m:mi mathvariant="bold">k</m:mi>
+
+          </m:mrow>
+        </m:mfenced>
+      </m:mrow>
+      <m:mrow>
+        <m:mo>|</m:mo>
+        <m:mfenced>
+          <m:mrow>
+            <m:mn>3</m:mn>
+   <m:mi mathvariant="bold">i</m:mi>
+
+            <m:mo>−</m:mo>
+            <m:mn>3</m:mn>
+   <m:mi mathvariant="bold">k</m:mi>
+
+          </m:mrow>
+        </m:mfenced>
+        <m:mo>|</m:mo>
+        <m:mo>|</m:mo>
+        <m:mo>-</m:mo>
+        <m:mn>5</m:mn>
+   <m:mi mathvariant="bold">k</m:mi>
+
+        <m:mo>|</m:mo>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>15</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>15</m:mn>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:msqrt>
+          <m:mn>2</m:mn>
+        </m:msqrt>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>45</m:mn>
+    <m:mo>°</m:mo>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-56a">
+<figure id="fig-56a">
+<title> Magnetic force </title>
+<media id="med56a" alt="">
+<image src="../../media/lf5.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic force is perpendicular to plane formed by velocity and magnetic field vectors.</caption>
+</figure>
+</para>
+
+
+<para id="element-57">
+The velocity and magnetic field vectors lie in x-z plane. The magnetic force is :
+
+</para>
+<para id="element-58">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+   <m:mi mathvariant="bold">F</m:mi>
+
+      <m:mi>M</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>q</m:mi>
+    <m:mfenced>
+      <m:mrow>
+   <m:mi mathvariant="bold">v</m:mi>
+
+        <m:mi>X</m:mi>
+   <m:mi mathvariant="bold">B</m:mi>
+
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>6</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>[</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>3</m:mn>
+   <m:mi mathvariant="bold">i</m:mi>
+
+        <m:mo>−</m:mo>
+        <m:mn>3</m:mn>
+   <m:mi mathvariant="bold">k</m:mi>
+
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>X</m:mi>
+    <m:mo>-</m:mo>
+    <m:mn>5</m:mn>
+   <m:mi mathvariant="bold">k</m:mi>
+
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+   <m:mi mathvariant="bold">F</m:mi>
+
+      <m:mi>M</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>6</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:mn>15</m:mn>
+   <m:mi mathvariant="bold">j</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mn>15</m:mn>
+    <m:mi>X</m:mi>
+
+    <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>6</m:mn>
+      </m:mrow>
+    </m:msup>
+    </m:mrow>
+   <m:mi mathvariant="bold">j</m:mi>
+
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-60">
+Magnetic force is along positive y – direction, which is perpendicular to the x-z plane of velocity and magnetic field vectors.
+</para>
+</example>
+
+
+</section>
+<section id="section-2">
+<title> Context of electromagnetic interactions
+</title>
+
+<para id="element-29a">
+In the discussion so far, we have assumed existence of electrical and magnetic fields.  Here, we shall consider about the manner in which electrical and magnetic fields are set up by a source like charge or current and then investigate forces being experienced by the test charge. We shall consider three important cases in which (i) a stationary charge sets up an electrical field (ii) a moving charge sets up both electrical and magnetic fields and (iii) a current carrying wire sets up magnetic field. For each case, we shall discuss two states of test charge (i) it is stationary and (ii) it is moving. Also, note that we shall be deliberately concentrating on the forces experienced by the test charge. It is, however, implied that source charge or conductor carrying current also experiences the same amount of force in accordance with Newton’s third law of motion.  
+
+</para>
+<section id="section-2a">
+<title> Force due to stationary charge
+
+</title>
+<para id="element-30">
+
+A stationary point source charge changes electrical properties of space around it. This property is quantified by the electrical field <term>E</term> at a particular point. If another point test charge is brought at that point, then it experiences electrical force, which is given by electrical part of the Lorentz force. 
+
+</para>
+<para id="element-31">
+What happens when the test charge is moving also? It still experiences only the electrical force. No magnetic force is in play. See here that stationary source charge produces only electrical field around it. On the other hand, moving charge brought in its field sets up both electric and magnetic fields. The electric field is set up because moving test charge represents a net charge. But since it is also moving, magnetic field is set up by it in its surrounding in accordance with Biot-Savart Law. 
+
+</para>
+<para id="element-32">
+
+We can easily see that two electrical fields (one due to stationary source charge and other due to moving test charge) interact to result in electrical force. However, there is only one magnetic field due to moving test charge without other magnetic field to interact with. As such, moving charge experiences only Lorentz electrical force in the presence of a stationary source charge.
+</para>
+</section>
+<section id="section-2b">
+<title> Force due to moving charge
+</title>
+<para id="element-33">
+
+We now consider a moving charge, which acts as the source for setting up the fields. A moving charge produces both electrical and magnetic fields. If we bring another charge in its surrounding, then it experiences only electrical force. No magnetic force is in play. A stationary test charge only produces electrical field. There is no magnetic field to interact with the magnetic field produced by the moving source charge.
+
+</para>
+<para id="element-34">
+However, if we introduce moving test charge in the surrounding of source moving charge, then the moving test charge experiences both electrical and magnetic fields except for the situation when motion of the charge is neither parallel or anti-parallel to the magnetic field. However, if the motion of test charge is either parallel or anti-parallel to magnetic field produced by moving source charge, then the test charge only experiences electrical force. 
+</para>
+</section>
+<section id="section-2c">
+<title> Force due to current in wire
+
+</title>
+<para id="element-35">
+
+The current in wire sets up magnetic field in accordance with Biot-Savart law. Importantly, it does not set up electric field around it. Current through conductor is equivalent to passage of charge. Though, there is net transfer of electrons across a cross section of wire, but there is no accumulation of charge anywhere. As such, the wire carrying current is charge neutral even though there is flow of charge through it. 
+
+
+</para>
+<para id="element-36">
+Now when a test charge is brought at a point in the surrounding of wire, the test charge does not experience any force. The wire sets up a magnetic field whereas charge sets up electrical field. These two different field types do not interact and there is no force on the test charge. On the other hand, if test charge is moving with certain velocity then it sets up electrical as well as magnetic fields. Two magnetic fields interact and as a result, the test charge experiences magnetic force except for the situation when motion of the charge is either parallel or anti-parallel to the magnetic field of the current in wire.
+</para>
+
+</section>
+</section>
+<section id="section-3">
+<title> Magnetic field (B)
+</title>
+
+
+<para id="element-37">
+
+Strangely we have discussed and used the concept of magnetic field quite frequently, but without even defining it. There are certain difficulties involved here. There is no magnetic monopole like electrical monopole i.e. point charge. The smallest unit considered to be the source of magnetic field is a small current element. The Biot-Savart law gives relation for magnetic field due to a small current element. But, it is not quantifiable. How much is the “small” magnetic field or the “small” current length element?
+
+</para>
+<para id="element-38">
+As a matter of fact, the expression of Lorentz magnetic force provides us a measurable set up which can be used to define magnetic field. We have noted that magnitude of magnetic force is maximum when angle between velocity and magnetic field vectors is right angle. 
+
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mrow>
+        <m:mi>max</m:mi>
+      </m:mrow>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>q</m:mi>
+    <m:mi>v</m:mi>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mrow>
+            <m:mi>max</m:mi>
+          </m:mrow>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>v</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-40">
+Thus we can define magnetic field (B) as a vector whose magnitude is equal to the maximum force experienced by a charge q divided the product “qv”. The direction of magnetic field is given by vector expression q(<term>vXB</term>). The SI unit of magnetic field is Tesla, which is written in abbreviated form as T.  One Tesla (T), therefore, is defined as the magnetic field under which 1 coulomb test charge moving in perpendicular direction to it at a velocity 1 m/s experiences a force of 1 Newton. 
+</para>
+</section>
+<section id="section-4">
+<title>Exercise</title>
+
+
+<para id="element-41">
+<exercise id="exercise-41">
+<problem id="fs-id1164071162487">
+<para id="element-42"> A proton is projected in positive x-direction with a speed of 3 m/s in a magnetic field of (2<term>i</term>+3<term>j</term>) X 
+<m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>6</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+. Determine the force experienced by the particle.
+
+</para>
+</problem>
+
+<solution id="fs-id1164071174979">
+<para id="element-43">
+Here,
+
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+      <m:mi mathvariant="bold">v</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mn>3</m:mn>
+    <m:mstyle mathvariant="bold">
+      <m:mi>i</m:mi>
+    </m:mstyle>
+    <m:mspace width="1em"/>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>s</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+      <m:mi mathvariant="bold">B</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      <m:mi mathvariant="bold">i</m:mi>
+
+        <m:mo>+</m:mo>
+        <m:mn>3</m:mn>
+      <m:mi mathvariant="bold">j</m:mi>
+
+      </m:mrow>
+    </m:mfenced>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>6</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>T</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>q</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1.6</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>19</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>C</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-45">
+The magnetic force is given by :
+
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi mathvariant="bold">F</m:mi>
+
+      <m:mi>M</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>q</m:mi>
+    <m:mfenced>
+      <m:mrow>
+      <m:mi mathvariant="bold">v</m:mi>
+
+        <m:mi>X</m:mi>
+      <m:mi mathvariant="bold">B</m:mi>
+
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi mathvariant="bold">F</m:mi>
+
+      <m:mi>M</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>1.6</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>19</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>[</m:mo>
+    <m:mn>3</m:mn>
+      <m:mi mathvariant="bold">i</m:mi>
+
+    <m:mi>X</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      <m:mi mathvariant="bold">i</m:mi>
+
+        <m:mo>+</m:mo>
+        <m:mn>3</m:mn>
+      <m:mi mathvariant="bold">j</m:mi>
+
+      </m:mrow>
+    </m:mfenced>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>6</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi mathvariant="bold">F</m:mi>
+
+      <m:mi>M</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>1.6</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>19</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mi>X</m:mi>
+    <m:mn>9</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>6</m:mn>
+      </m:mrow>
+    </m:msup>
+      <m:mi mathvariant="bold">k</m:mi>
+
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi mathvariant="bold">F</m:mi>
+
+      <m:mi>M</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>1.44</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>24</m:mn>
+      </m:mrow>
+    </m:msup>
+      <m:mi mathvariant="bold">k</m:mi>
+
+    <m:mspace width="1em"/>
+    <m:mtext>Newton</m:mtext>
+  </m:mrow>
+</m:math>
+ </para>
+</solution>
+</exercise>
+</para>
+
+</section>
+
+</content>
+
+</document>

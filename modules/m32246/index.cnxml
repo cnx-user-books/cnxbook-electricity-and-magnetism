@@ -1,0 +1,1576 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Magnetic force on a conductor</title>
+<metadata>
+  <md:content-id>m32246</md:content-id><md:title>Magnetic force on a conductor</md:title>
+  <md:abstract/>
+  <md:uuid>128695dd-9730-4209-9850-9fc42ad3507e</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="supplemental">
+      <link url="http://cnx.org/content/m31345/latest/" strength="2">Motion of a charged particle in magnetic field</link>
+    </link-group>
+    <link-group type="prerequisite">
+      <link url="http://cnx.org/content/m31327/latest/" strength="3">Lorentz force</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<para id="element-1">
+We have seen that a moving charge experiences force in the presence of magnetic field. Now, current in a wire or a conductor results from the motion of negatively charged “free” or “conduction” electrons. It is, therefore, imperative that these moving electrons will experience “magnetic force” due to the presence of magnetic field. 
+</para>
+<para id="element-2">
+When a straight conductor carrying current is placed in a magnetic field, then conduction electrons in the conductor are under the influence of both electric and magnetic fields. The presence of electric field results in “net drift of charge (electrons)” in the conductor and it is the cause of current in the conductor. The presence of magnetic field, on the other hand, results in side way force on individual electrons (perpendicular to the conductor) resulting in the development of electrical potential across the width of the conductor or a force on the conductor itself depending on whether we are considering current through a wide conductor strip or a thin wire.  
+</para>
+<para id="element-3">
+The difference in the effect of applications of two field types lies in the difference of nature of force they apply. Electrical force is linear force i.e. in the direction of electric field and is responsible for current in conductor. Magnetic force is non-linear side way force perpendicular to the direction of velocity of moving charge. The magnetic force acts to deflect electrons to the edge of a conductor. If we are considering a wide strip of conductor, then there is scope for electrons to move laterally across the width of the strip. In this case, we observe development of electrical potential difference between the edges of the conductor (known as Hall’s effect). However, if we are considering current through a thin wire, electrons have no scope for transverse motion and they are also not allowed to move out of the body of wire due to electric attractive force. The side way magnetic force, therefore, results in a transverse magnetic force on the wire itself. 
+</para>
+<para id="element-4">
+<figure id="fig-4">
+<title> Magnetic force and its effect </title>
+<media id="med4" alt="">
+<image src="../../media/h1.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic force and its effect </caption>
+</figure>
+</para>
+<para id="element-5">
+The conductor can have any orientation with respect to magnetic field. Irrespective of the orientations of conductor and magnetic field, the magnetic force is always perpendicular to both conductor length and magnetic field vectors. This fact simplifies our investigation a great deal as we need to consider only transverse magnetic force which is always perpendicular to the direction of current or the conductor length vector. This aspect is illustrated in the figure below in which conductor length vector (in the direction of current) and the magnetic field vector are oriented at an arbitrary angle “θ”, but magnetic force is perpendicular to the conductor.
+</para>
+<para id="element-6">
+<figure id="fig-6">
+<title> Direction of Magnetic force </title>
+<media id="med6" alt="">
+<image src="../../media/h2.gif" mime-type="image/gif"/>
+</media>
+<caption> Direction of Magnetic force </caption>
+</figure>
+</para>
+
+<section id="section-1">
+<title> Hall’s effect </title>
+<para id="element-7">
+Here, we consider a wide strip of a conductor of width “a” and thickness “b”, which is carrying a current “I”. 
+</para>
+<para id="element-8">
+<figure id="fig-8">
+<title> Wide strip of a conductor </title>
+<media id="med8" alt="">
+<image src="../../media/h3.gif" mime-type="image/gif"/>
+</media>
+<caption> Wide strip of a conductor </caption>
+</figure>
+
+</para>
+<para id="element-9">
+Let the direction of conventional current be from right to left so that charge carrier electrons are moving from left to right. Also, let magnetic field be directed in to the plane of drawing. The direction of magnetic force is direction of vector expression “
+<m:math>
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mi>e</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+            <m:mi mathvariant="bold">v</m:mi>
+          <m:mi>d</m:mi>
+        </m:msub>
+        <m:mi>X</m:mi>
+            <m:mi mathvariant="bold">B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+”. Applying Right hand thumb rule, the direction of vector cross product “<m:math>
+  <m:mrow>
+    <m:msub>
+            <m:mi mathvariant="bold">v</m:mi>
+      <m:mi>d</m:mi>
+    </m:msub>
+    <m:mi>X</m:mi>
+            <m:mi mathvariant="bold">B</m:mi>
+  </m:mrow>
+</m:math>
+” is upward direction. Hence, the direction of magnetic force i.e. direction of vector “<m:math>
+  <m:mrow>
+    <m:mo>-</m:mo>
+    <m:mi>e</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:msub>
+            <m:mi mathvariant="bold">v</m:mi>
+          <m:mi>d</m:mi>
+        </m:msub>
+        <m:mi>X</m:mi>
+            <m:mi mathvariant="bold">B</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+” is downward as shown in the figure.
+
+</para>
+<para id="element-10">
+<figure id="fig-10">
+<title> Direction of magnetic force </title>
+<media id="med10" alt="">
+<image src="../../media/h4.gif" mime-type="image/gif"/>
+</media>
+<caption> Direction of magnetic force </caption>
+</figure>
+
+</para>
+<para id="element-11">
+The magnetic force in the downward direction tends to drift electron in downward direction following a parabolic path. This drifting polarizes the conductor strip electrically. We know that each infinitesimally small element of the conductor is electrically neutral. But, there is accumulation of negative charge at lower edge as electrons drift down due to magnetic force. Correspondingly, there is accumulation of positive charge at the upper edge as there is depletion of electrons exposing immobile positive atoms in that region. The process of polarization, however, continues only momentarily. At any moment, the opposite polarity of charges at the edges sets up an electric field. In this case, the electric field is directed from upper (positive edge) to lower edge (negative edge). This electric field, in turn, pulls electron upward. 
+</para>
+<para id="element-12">
+<figure id="fig-12">
+<title> Polarization of charges and electric field </title>
+<media id="med12" alt="">
+<image src="../../media/h5.gif" mime-type="image/gif"/>
+</media>
+<caption> Polarization of charges and electric field </caption>
+</figure>
+</para>
+<para id="element-13">
+The dynamic condition is brought under equilibrium when electric force equals magnetic force. Let “E” be the electric field at equilibrium,
+</para>
+<para id="element-14">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>e</m:mi>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>e</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>d</m:mi>
+    </m:msub>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>d</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>E</m:mi>
+      <m:mi>B</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-15">
+where 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>d</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math> is the drift velocity. Once the equilibrium is reached, electrons keep moving with the drift velocity as they would have moved in the absence of magnetic field. Here, the opposite edges of the conductor strip function as infinite charged plates. The electric field, E, is given as :
+
+</para>
+<para id="element-16">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>V</m:mi>
+      <m:mi>a</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-17">
+where, “a” is the width of the conductor strip and “V” is the electrical potential difference between the edges of conductor strip. This potential difference between the edges is known as Hall’s potential. We can measure it by connecting a voltmeter to the edges of the conductor strip. 
+</para>
+<section id="section-1a">
+<title> Numbers of free electrons per unit volume </title>
+<para id="element-18">
+
+The “Hall effect” can be used to measure numbers of electrons per unit volume in a conductor. We know that the drift velocity of an electron is :
+
+</para>
+<para id="element-19">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>d</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>I</m:mi>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mi>e</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-20">
+where “n” is numbers of free electrons per unit volume and “A” is the cross section area of the strip.  Substituting in the equation of equilibrium, we have :
+
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>d</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>E</m:mi>
+      <m:mi>B</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mi>I</m:mi>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mi>e</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>E</m:mi>
+      <m:mi>B</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-22">
+Substituting for “E”, we have :
+
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mi>I</m:mi>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mi>e</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>V</m:mi>
+      <m:mrow>
+        <m:mi>a</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>I</m:mi>
+        <m:mi>a</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>e</m:mi>
+        <m:mi>A</m:mi>
+        <m:mi>V</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-24">
+Also, the area A is product of width and thickness, A = ab. Hence,
+
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>n</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>I</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>e</m:mi>
+        <m:mi>b</m:mi>
+        <m:mi>V</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-26">
+The quantities in the right hand expression are either known or measurable. Thus, we are able to measure the numbers of free (conduction) electrons per unit volume using Hall’s effect.
+</para>
+</section>
+<section id="section-1b">
+<title> Drift Velocity </title>
+<para id="element-27">
+
+Use of Hall’s effect allows measurement of drift velocity as well. The magnitude of drift velocity is about 0.0003 m/s, which is quite a small value that can be measured in the laboratory. The determination of drift velocity uses a very simple technique based on the detection of Hall’s effect.
+
+</para>
+<para id="element-28">
+The idea here is to move the conductor strip carrying current in the direction opposite to the direction of drift velocity i.e. in the direction of conventional current in the presence of uniform magnetic field. The motion of conductor is adjusted such that the relative drift velocity of electron with respect to stationary magnetic field is zero. In this case, speed of conductor strip is equal to the drift speed of electron. Also, the magnetic force is zero as relative velocity of electrons with respect to stationary magnetic field is zero. In turn, there is no drifting of electron towards the edge of the conductor and the Hall potential is zero. Thus, we are able to detect when the velocity of conductor strip equals drift velocity of electron. 
+</para>
+</section>
+<section id="section-1c">
+<title> Motion of a conductor strip in magnetic field </title>
+<para id="element-29">
+
+The net drift velocity in a conductor is zero unless an electric potential difference is applied to the conductor. If we move the conductor strip in a uniform magnetic field, then free or conduction electrons acquire relative velocity with respect to stationary magnetic field. This, in turn, would set up a magnetic force on the conduction electrons. Clearly, the action to move conductor strip in the magnetic field is equivalent to imparting a net drift velocity to the conduction electrons.
+
+
+</para>
+<para id="element-30">
+<figure id="fig-30">
+<title> Motion of a conductor strip in magnetic field </title>
+<media id="med30" alt="">
+<image src="../../media/h6a.gif" mime-type="image/gif"/>
+</media>
+<caption> Motion of a conductor strip in magnetic field </caption>
+</figure>
+
+</para>
+<para id="element-31">
+Let us consider a metallic strip of width “a” and thickness “b” moving in x-direction as shown in the figure with a velocity “v”. Also let the magnetic field is in the y-direction. Applying Right hand rule, we see that “<term>v</term>X<term>B</term>” is directed in z-direction and “-e(<term>v</term>X<term>B</term>)” is directed in negative z-direction. As a result, one edge is negatively charged and the other edge is positively charged. At equilibrium,
+
+</para>
+<para id="element-32">
+<figure id="fig-32"><title>Polarization of charges and electric field </title><media id="med32" alt="">
+<image src="../../media/h7.gif" mime-type="image/gif"/>
+</media>
+
+<caption>Polarization of charges and electric field </caption></figure>
+
+</para>
+<para id="element-33">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>E</m:mi>
+      <m:mi>B</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-34">
+and potential difference across the edge is :
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>V</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>E</m:mi>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>v</m:mi>
+    <m:mi>B</m:mi>
+    <m:mi>a</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+</section>
+
+
+
+
+<section id="section-2">
+<title> Magnetic force on a straight wire </title>
+
+<para id="element-35">
+
+In the case of a thin wire, there is no room for electrons to move sideways as in the case of wide strip of conductor. The sideway motion thus produces a thrust on the wire and there is a net magnetic force on the wire. It is evident that we need to account for magnetic force on each of the free conduction electrons. Since each of these forces is transverse to the straight wire, the direction of net force is same as that of the magnetic force working on any of the conduction electrons. This fact allows us to simply add individual forces arithmetically to determine the resultant force. Further, the net force on wire will also depend on the length of wire being considered as the numbers of free electrons is proportional to the length of wire. 
+
+</para>
+<para id="element-36">
+According to <link document="m31327">Lorentz law</link>  the magnetic force on a single electron :
+
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>e</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>d</m:mi>
+    </m:msub>
+    <m:mi>B</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-38">
+<figure id="fig-38">
+<title> Net magnetic force on the wire </title>
+<media id="med38" alt="">
+<image src="../../media/h8.gif" mime-type="image/gif"/>
+</media>
+<caption> Net magnetic force on the wire is arithmetic sum of individual magnetic forces on conduction electrons. </caption>
+</figure>
+
+</para>
+<para id="element-39">
+where θ is the angle between magnetic field and drift velocity. Let there be “n” electrons per unit volume. Also, let “L” and “A” be the length and cross section respectively of the wire under consideration. Clearly, the total numbers of electrons in the length “L” of the wire is :
+
+</para>
+<para id="element-40">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>N</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>L</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-41">
+Hence, total magnetic force on the wire of length "L" is :
+</para>
+<para id="element-42">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mo>∑</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>L</m:mi>
+    <m:mi>X</m:mi>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>i</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>n</m:mi>
+    <m:mi>A</m:mi>
+    <m:mi>L</m:mi>
+    <m:mi>e</m:mi>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>d</m:mi>
+    </m:msub>
+    <m:mi>B</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-43">
+But we know that :
+
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>d</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>I</m:mi>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mi>e</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-45">
+Substituting, we have :
+
+</para>
+<para id="element-46">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mi>A</m:mi>
+        <m:mi>L</m:mi>
+        <m:mi>e</m:mi>
+        <m:mi>X</m:mi>
+        <m:mi>I</m:mi>
+        <m:mi>X</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>sin</m:mi>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>n</m:mi>
+        <m:mi>e</m:mi>
+        <m:mi>A</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>I</m:mi>
+    <m:mi>L</m:mi>
+    <m:mi>B</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-47">
+In vector form, this is written using concept of cross vector product as :
+
+</para>
+<para id="element-48">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+      <m:mi mathvariant="bold">F</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mi>I</m:mi>
+      <m:mi mathvariant="bold">L</m:mi>
+
+    <m:mi>X</m:mi>
+      <m:mi mathvariant="bold">B</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-49">
+The direction of length vector is same as that of the direction of current in wire. 
+</para>
+<section id="section-2a">
+<title> Magnetic force on a non-linear wire </title>
+<para id="element-50">
+
+If the wire under consideration is not a straight wire, then we can not use the expression formulated above. It is important to understand here that the above expression is valid for a straight wire. This is the basic assumption which allowed us to carry out arithmetic sum of individual forces as directions of magnetic forces on individual electrons were same. However, if the wire is not straight, then it would not be possible to do the arithmetic sum for obtaining the resultant force as the directions of magnetic force would be different.
+
+</para>
+<para id="element-51">
+For such situation involving nonlinear wire, we prefer to have an expression for a infinitesimally small length of wire. This consideration of very small length of wire guarantees that the wire element is straight. Following the similar argument as for a straight wire, the magnetic force on an infinitesimally small length of wire is :
+
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+      <m:mi mathvariant="bold">F</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mi>I</m:mi>
+    <m:mo>đ</m:mo>
+      <m:mi mathvariant="bold">L</m:mi>
+
+    <m:mi>X</m:mi>
+      <m:mi mathvariant="bold">B</m:mi>
+
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-53">
+We can, then, use this expression and integrate along non-linear wire. Of course, such calculation will depend on the possibility to divide the given wire into segments for which integration of this expression is possible.
+</para>
+</section>
+<section id="section-2b">
+<title> Current element and moving charge </title>
+<para id="element-54">
+
+We have pointed out the equivalent role of current element and moving charge in the context of production or setting up of magnetic field. An inspection of the expression of magnetic force on a charge and a current element indicate that the equivalence is true also in the case of experiencing magnetic force. In the case of moving charge, the magnetic force is given by :
+
+</para>
+<para id="element-55">
+<m:math display="block">
+  <m:mrow>
+    <m:mstyle mathvariant="bold">
+      <m:mi>F</m:mi>
+    </m:mstyle>
+    <m:mo>=</m:mo>
+    <m:mi>q</m:mi>
+    <m:mfenced>
+      <m:mrow>
+      <m:mi mathvariant="bold">v</m:mi>
+
+        <m:mi>X</m:mi>
+        <m:mi mathvariant="bold">B</m:mi>
+
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-56">
+On the other hand, the magnetic force on a small current carrying wire element is :
+</para>
+<para id="element-57">
+<m:math display="block">
+  <m:mrow>
+       <m:mi mathvariant="bold">F</m:mi>
+
+    <m:mo>=</m:mo>
+    <m:mi>I</m:mi>
+    <m:mo>đ</m:mo>
+        <m:mi mathvariant="bold">L</m:mi>
+
+    <m:mi>X</m:mi>
+      <m:mi mathvariant="bold">B</m:mi>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-58">
+Clearly, the term “q<term>v</term>” and “Id<term>L</term>” play the equivalent role in two cases. 
+</para>
+</section>
+
+<example id="example-59">
+<para id="element-59"><term>Problem : </term> An irregular shaped flexible wire loop of length “L” is placed in a perpendicular and uniform magnetic field “B” as shown in the figure below (The magnetic force represented by filled circle is perpendicular and out of the plane of drawing). Determine the tension in the loop if a current “I” is passed through it in anticlockwise direction. 
+
+
+
+</para>
+<para id="element-60"> 
+<figure id="fig-60">
+<title> An irregular shaped flexible wire loop in magnetic field </title>
+<media id="med60" alt="">
+<image src="../../media/h9.gif" mime-type="image/gif"/>
+</media>
+<caption> An irregular shaped flexible wire loop in magnetic field </caption>
+</figure>
+
+
+</para>
+<para id="element-61"> <term>Solution : </term> 
+The wire loop is flexible. There would be tension, provided the loop elements experience magnetic force in outward direction at all points on it. Applying Right hand thumb rule for any small segment of the loop, we find that the wire is indeed subjected to outward magnetic force. Clearly, the loop expands to become a circular loop. The radius of the circle is given by :
+
+</para>
+<para id="element-62">
+<figure id="fig-62">
+<title> An irregular shaped flexible wire loop in magnetic field </title>
+<media id="med62" alt="">
+<image src="../../media/h10.gif" mime-type="image/gif"/>
+</media>
+<caption> An irregular shaped flexible wire loop straightens up to acquire a circular shape due to magnetic force. </caption>
+</figure>
+
+</para>
+<para id="element-63">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>2</m:mn>
+    <m:mi>π</m:mi>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>L</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>L</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-64">
+In order to determine tension in the wire, we consider a very small element of the circular loop. Let the loop element subtends an angle dθ at the center. Let “T” be the tension in the wire. It is clear that components of tension in the downward direction should be equal to magnetic force on the small wire element.
+
+</para>
+<para id="element-65">
+<figure id="fig-65">
+<title> The tension in the circular loop carrying current </title>
+<media id="med65" alt="">
+<image src="../../media/h11.gif" mime-type="image/gif"/>
+</media>
+<caption> The tension in the circular loop carrying current </caption>
+</figure>
+
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mn>2</m:mn>
+    <m:mi>T</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>M</m:mi>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-67">
+Since loop element is very small, we approximate as :
+
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>sin</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>≈</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-69">
+Further, we can consider the small loop element to be a straight wire for the calculation of magnetic force. Now, the magnetic force on the loop element is :
+</para>
+<para id="element-70">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>M</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>I</m:mi>
+    <m:mi>B</m:mi>
+    <m:mo>đ</m:mo>
+    <m:mi>L</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>I</m:mi>
+    <m:mi>B</m:mi>
+    <m:mi>r</m:mi>
+    <m:mo>đ</m:mo>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-71">
+Substituting in the equilibrium equation,
+
+</para>
+<para id="element-72">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>T</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mo>đ</m:mo>
+        <m:mi>θ</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>I</m:mi>
+    <m:mi>B</m:mi>
+    <m:mi>r</m:mi>
+    <m:mi>d</m:mi>
+    <m:mi>θ</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>I</m:mi>
+    <m:mi>B</m:mi>
+    <m:mi>r</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-73">
+Again substituting for the radius of circle, we have :
+
+</para>
+<para id="element-74">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>I</m:mi>
+        <m:mi>L</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math></para>
+</example>
+</section>
+
+
+
+
+<section id="section-3">
+<title> Magnetic force between parallel wires carrying current
+</title>
+
+<para id="element-84">
+
+The situation here is just an extension of the study of the magnetic force on a current carrying wire. The basic consideration here is that a wire carrying current can function in either of following two roles : (i) it produces magnetic field and (ii) it experiences magnetic force. 
+
+</para>
+<para id="element-85">
+In the case of two parallel wires, one of the wires works as the producer of magnetic field whereas the other wire is considered to experience the magnetic force due to magnetic field produced by the first wire. This role is completely exchangeable. It only depends on what we want to observe. If we want to observe the magnetic force on the first wire, then the second wire works as the producer of magnetic field and vice-versa. 
+
+</para>
+<para id="element-86">
+Let us consider here two long straight wires carrying currents 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ and 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ in the same direction.  It is important to note here that one of two wires is a long straight wire. It ensures that magnetic field due to one of them is same at equal perpendicular distance. Otherwise, it would be difficult to determine magnetic force as they will be different at different points of the other wire. According to <link document="m31895">Ampere's law</link>, the magnetic field due to first long wire at a perpendicular distance “r” is :
+
+</para>
+<para id="element-87">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-88">
+<figure id="fig-88"><title>Magnetic force between two parallel wires carrying current </title><media id="med88" alt="">
+<image src="../../media/h14a.gif" mime-type="image/gif"/>
+</media>
+
+<caption>Magnetic force between two parallel wires carrying current </caption></figure>
+</para>
+<para id="element-89">
+Applying Right hand thumb rule, we see that magnetic field is perpendicular and into the plane of drawing. Thus, angle between length and magnetic field vector is right angle. The magnetic force on the second wire is:
+
+</para>
+<para id="element-90">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>L</m:mi>
+    <m:mi>B</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>L</m:mi>
+    <m:mi>B</m:mi>
+    <m:mi>sin</m:mi>
+    <m:msup>
+      <m:mn>90</m:mn>
+      <m:mn>0</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>L</m:mi>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-91">
+The direction of magnetic force is obtained again by applying Right hand thumb rule. We curl fingers of right hand such that it follows the curve as we move from the length vector to the magnetic field vector. The extended thumb, then, points in the direction of magnetic force. In this case, magnetic force acts towards right as shown in the figure. The magnetic force on unit length of second wire is obtained by putting L=1 m,
+
+</para>
+<para id="element-92">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-93">
+Substituting for B, we have :
+
+</para>
+<para id="element-94">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-95">
+The above expression gives the magnetic force on second wire due to first wire. We should here understand that second wire also applies equal and opposite force on the first wire in accordance with Newton’s third law. Thus, two parallel wires carrying current in the same direction attract each other. If the currents are in the opposite directions, then two wires repel each other.
+</para>
+<para id="element-96">
+If one of two wires is a finite wire of length “L”, then magnetic force on either of the parallel wires is given by multiplying the force per unit length with the length of finite wire,
+
+</para>
+<para id="element-97">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:mi>L</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<section id="section-4a">
+<title> Definition of an Ampere
+</title>
+<para id="element-98">
+
+The SI unit of current i.e. Ampere is defined in terms of magnetic force between two parallel wires carrying current. Significantly, this unit is not defined in terms of charge per unit time as measuring the same is difficult. 
+
+</para>
+<para id="element-99">
+Putting, 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mi>A</m:mi>
+    <m:mo>,</m:mo>
+
+    <m:mi>r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>1</m:mn>
+    <m:mi>m</m:mi>
+  </m:mrow>
+</m:math>
+, the magnetic force per unit length is :
+
+</para>
+<para id="element-100">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:msup>
+          <m:mn>10</m:mn>
+          <m:mrow>
+            <m:mo>-</m:mo>
+            <m:mn>7</m:mn>
+          </m:mrow>
+        </m:msup>
+        <m:mi>X</m:mi>
+        <m:mn>1</m:mn>
+        <m:mi>X</m:mi>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>X</m:mi>
+        <m:mn>1</m:mn>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+    <m:mspace width="1em"/>
+    <m:mi>N</m:mi>
+  </m:mrow>
+</m:math>
+
+Thus, one Ampere is that constant current which, if maintained in two straight parallel conductors of infinite length, of negligible circular cross-section, and placed 1 m apart in vacuum, would produce between these conductors a force equal to 
+<m:math>
+  <m:mrow>
+    <m:mn>2</m:mn>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>7</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+Newton per meter of length.
+</para>
+</section>
+
+<example id="example-101">
+
+<para id="element-101"><term>Problem : </term> Two horizontal copper wires are parallel to each other in a vertical plane with a separation of 0.5 cm. The wires carry equal magnitude of current such that the lower wire becomes weightless. The mass per unit length of wires is 0.05 kg/m. Determine the currents in the wire and their relative directions.
+
+
+
+</para>
+<para id="element-102"> <term>Solution : </term> 
+The lower wire has its weight due to its mass and gravity. If it becomes weightless on passage of currents in the wire, then it means that the lower wire is attracted by the upper wire. Clearly, currents in two parallel wires are flowing in the same direction. Now, magnetic force per unit length on the wire should be equal to weight of the wire per unit length.
+
+
+</para>
+<para id="element-103">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>F</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-104">
+Where “F” is magnetic force per unit length and “m” is mass per unit length. Putting expression of magnetic field in the equation, we have :
+
+</para>
+<para id="element-105">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>I</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-106">
+Since 
+<m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>I</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>I</m:mi>
+  </m:mrow>
+</m:math>
+, we have:
+
+</para>
+<para id="element-107">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:msup>
+          <m:mi>I</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+        <m:mi>r</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>g</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:mi>π</m:mi>
+              <m:mi>r</m:mi>
+              <m:mi>m</m:mi>
+              <m:mi>g</m:mi>
+            </m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi>μ</m:mi>
+                <m:mn>0</m:mn>
+              </m:msub>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-108">
+Putting values,
+
+</para>
+<para id="element-109">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mrow>
+              <m:mn>2</m:mn>
+              <m:mi>π</m:mi>
+              <m:mi>X</m:mi>
+              <m:mn>0.5</m:mn>
+              <m:mi>X</m:mi>
+              <m:msup>
+                <m:mn>10</m:mn>
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mn>2</m:mn>
+                </m:mrow>
+              </m:msup>
+              <m:mi>X</m:mi>
+              <m:mn>0.05</m:mn>
+              <m:mi>X</m:mi>
+              <m:mn>10</m:mn>
+            </m:mrow>
+            <m:mrow>
+              <m:mn>4</m:mn>
+              <m:mi>π</m:mi>
+              <m:mi>X</m:mi>
+              <m:msup>
+                <m:mn>10</m:mn>
+                <m:mrow>
+                  <m:mo>-</m:mo>
+                  <m:mn>7</m:mn>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mfenced>
+        <m:mrow>
+          <m:mn>1.25</m:mn>
+          <m:mi>X</m:mi>
+          <m:msup>
+            <m:mn>10</m:mn>
+            <m:mn>4</m:mn>
+          </m:msup>
+        </m:mrow>
+      </m:mfenced>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>I</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>110</m:mn>
+    <m:mspace width="1em"/>
+    <m:mi>A</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+</section>
+
+
+<section id="section-4">
+<title> Magnetic force between two charges moving parallel to each other
+</title>
+
+<para id="element-75">
+
+Let two charge carrying particles are at a linear distance “r” at a given instant. The initial state of motions of two charges is shown in the figure. 
+
+
+</para>
+<para id="element-76">
+<figure id="fig-76">
+<title> Magnetic force between two charges moving parallel to each other </title>
+<media id="med76" alt="">
+<image src="../../media/h12.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic force between two charges moving parallel to each other </caption>
+</figure>
+
+</para>
+<para id="element-77">
+The magnetic field at the position of second charge due to first charge is given by <link document="m31057">Biot-Savart law</link>  as expressed for moving charge is:
+
+</para>
+<para id="element-78">
+<figure id="fig-78">
+<title> Magnetic force between two charges moving parallel to each other </title>
+<media id="med78" alt="">
+<image src="../../media/h13a.gif" mime-type="image/gif"/>
+</media>
+<caption> Magnetic force between two charges moving parallel to each other </caption>
+</figure>
+
+</para>
+<para id="element-79">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>B</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>q</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-80">
+The direction of magnetic field is “<term>v</term>X<term>r</term>”, which is into the plane of drawing. Now, magnetic force on the charge is given by <link document="m31327">Lorentz force law</link> as :
+
+</para>
+<para id="element-81">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>M</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>q</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-82">
+Substituting for magnetic field, we have :
+
+</para>
+<para id="element-83">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>M</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>μ</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>q</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>q</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>4</m:mn>
+        <m:mi>π</m:mi>
+        <m:msup>
+          <m:mi>r</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+</section>
+
+</content>
+
+</document>

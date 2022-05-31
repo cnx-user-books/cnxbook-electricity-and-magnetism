@@ -1,0 +1,1778 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:md="http://cnx.rice.edu/mdml">
+
+<title>Motion of a charged particle in electric and magnetic fields</title>
+<metadata>
+  <md:content-id>m31547</md:content-id><md:title>Motion of a charged particle in electric and magnetic fields</md:title>
+  <md:abstract/>
+  <md:uuid>235b30ca-f59a-43b1-a2b5-61a206f044a3</md:uuid>
+</metadata>
+<featured-links>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit below.
+       Changes to the links section in the source will not be saved. -->
+    <link-group type="prerequisite">
+      <link url="http://cnx.org/content/m31327/latest/" strength="3">Lorentz force</link>
+      <link url="http://cnx.org/content/m31345/latest/" strength="2">Motion of a charged particle in magnetic field</link>
+    </link-group>
+  <!-- WARNING! The 'featured-links' section is read only. Do not edit above.
+       Changes to the links section in the source will not be saved. -->
+</featured-links>
+<content>
+<para id="element-1"> Motion of a charged particle in the simultaneous presence of both electric and magnetic fields has variety of manifestations ranging from straight line motion to the cycloid and other complex motion. Both electric and magnetic fields impart acceleration to the charged particle. But, there is a qualification for magnetic field as acceleration due to magnetic field relates only to the change of direction of motion. Magnetic force being always normal to the velocity of the particle tends to move the particle about a circular trajectory. On the other hand, electric force is along electric field and is capable to bring about change in both direction and magnitude depending upon the initial direction of velocity of the charged particle with respect to electric field. If velocity and electric vectors are at an angle then the particle follows a parabolic path. 
+
+
+</para>
+<para id="element-2">
+One of the important orientations of electric and magnetic fields is referred as “crossed fields”. We use the term “crossed fields” to mean simultaneous presence of electric and magnetic fields at right angle. The behavior of charged particles such as electrons under crossed fields has important significance in the study of electromagnetic measurement and application (determination of specific charge of electron, cyclotron etc.). 
+
+</para>
+<para id="element-3">
+Before we proceed, we should understand that elementary charged particles have mass of the order of <m:math>
+  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mo>-</m:mo>
+        <m:mn>28</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+kg or less. Therefore, even small electric or magnetic force is capable to generate very high acceleration of the order of <m:math>  <m:mrow>
+    <m:msup>
+      <m:mn>10</m:mn>
+      <m:mrow>
+        <m:mn>12</m:mn>
+      </m:mrow>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math>  <m:mrow>
+    <m:mi>m</m:mi>
+    <m:mo>/</m:mo>
+    <m:msup>
+      <m:mi>s</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+or more. Under proper set up, these particles achieve velocity comparable to speed of light. In order to keep our discussion in the simple classical context, however, we shall confine our discussion limited to the cases which are less complicated and which neglect relativistic effects. 
+
+</para>
+<para id="element-4">
+Some of the important applications or phenomena associated with simultaneous presence of two fields include :
+</para>
+<para id="element-5">
+<list id="list-5" type="bulleted">
+<item> Motion of a charged particle in electric and magnetic fields
+</item>
+<item> Measurement of specific charge of an electron (J.J.Thomson experiment)
+</item>
+<item> Acceleration of charged particles (cyclotron)
+ </item>
+</list>
+</para>
+<para id="element-6">
+In this module, we shall study first two of the listed application or phenomena. The third one i.e. cyclotron will be discussed in a separate module.
+ 
+</para>
+<section id="section-1">
+<title> Motion of a charged particle in electric and magnetic fields
+</title>
+
+<para id="element-7">
+
+We have already studied motion of charged particle in individual fields. Here, we shall combine the effects of two fields. Few of the interesting cases are discussed here.
+</para>
+<section id="section-1a">
+<title> Charged particle is moving along parallel electric and magnetic field
+
+</title>
+<para id="element-8">
+
+The velocity, electric and magnetic vectors are in in the same direction. Let they are aligned along x-axis. Since magnetic field and velocity vectors are parallel, there is no magnetic force. 
+
+</para>
+<para id="element-9">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>M</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>q</m:mi>
+    <m:mi>B</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mn>0</m:mn>
+    <m:mo>°</m:mo>
+    <m:mo>=</m:mo>
+    <m:mn>0</m:mn>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-10">
+where <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ is initial speed of the particle. The charged particle is, however, acted upon by electric field. It is accelerated or decelerated depending on the polarity of charge and direction of electric field. Considering positive charge, the electric force on the charge is given as :
+
+</para>
+<para id="element-11">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>F</m:mi>
+      <m:mi>E</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mi>q</m:mi>
+    <m:mi>E</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-12">
+The acceleration of particle carrying charge in x-direction is :
+
+</para>
+<para id="element-13">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mi>E</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>E</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-14">
+The displacement along x-axis after time “t” is given by :
+
+</para>
+<para id="element-15">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>t</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>E</m:mi>
+        <m:msup>
+          <m:mi>t</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-1b">
+<title> Charge is moving perpendicular to parallel electric and magnetic fields
+
+
+</title>
+
+<para id="element-16">
+
+Let electric and magnetic fields align along y-direction and velocity vector is aligned along positive x-direction. Let the charge be positive and initial velocity be <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+.In this case, velocity and magnetic field vectors are perpendicular to each other. Applying Right hand vector cross product rule, we determine that magnetic force is acting in positive z-direction. If electric field is not present, then the particle revolves along a circle in xz plane as shown in the figure below. 
+
+
+</para>
+<para id="element-17">
+<figure id="fig-17">
+<title> Motion of a charged particle in magnetic field </title>
+<media id="med17" alt="">
+<image src="../../media/em1.gif" mime-type="image/gif"/>
+</media>
+<caption> Motion of a charged particle in magnetic field </caption>
+</figure>
+
+</para>
+<para id="element-18">
+However, electric field in y-direction imparts acceleration in that direction. The particle, therefore, acquires velocity in y-direction and resulting motion is a helical motion. But since particle is accelerated in y –direction, the linear distance between consecutive circular elements of helix increases. In other words, the resulting motion is a helical motion with increasing pitch. 
+</para>
+<para id="element-19">
+<figure id="fig-19">
+<title> Motion of a charged particle in electric and magnetic fields </title>
+<media id="med19" alt="">
+<image src="../../media/em2.gif" mime-type="image/gif"/>
+</media>
+<caption> Resulting motion is a helical motion with increasing pitch. 
+</caption>
+</figure>
+
+</para>
+<para id="element-20">
+The radius of each of the circular element and other periodic attributes like time period, frequency and angular frequency are same as for the case of circular motion of charged particle in perpendicular to magnetic field.
+
+</para>
+<para id="element-21">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>α</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>T</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>π</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>α</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>ν</m:mi>
+    <m:mo>=</m:mo>
+    <m:mrow>
+      <m:mi>α</m:mi>
+      <m:mi>B</m:mi>
+    </m:mrow>
+    <m:mo>/</m:mo>
+    <m:mrow>
+      <m:mn>2</m:mn>
+      <m:mi>π</m:mi>
+    </m:mrow>
+    <m:mo>;</m:mo>
+    <m:mspace width="1em"/>
+    <m:mi>ω</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>α</m:mi>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<section id="section-1b1">
+<title> Velocity of the charged particle
+
+
+</title>
+<para id="element-22">
+
+The velocity of the particle in xz plane (as also derived in the module <link document="m31345" version="" target-id="section-2b">
+    Motion of a charged particle in magnetic field </link>
+ ) is :
+
+</para>
+<para id="element-23">
+<m:math display="block">
+  <m:mrow>
+      <m:mi mathvariant="bold">v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+      <m:mi mathvariant="bold">i</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>z</m:mi>
+    </m:msub>
+      <m:mi mathvariant="bold">j</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+      <m:mi mathvariant="bold">i</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>o</m:mi>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mi>ω</m:mi>
+    <m:mi>t</m:mi>
+      <m:mi mathvariant="bold">k</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+      <m:mi mathvariant="bold">v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>α</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+         <m:mi mathvariant="bold">i</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>α</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+      <m:mi mathvariant="bold">k</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-24">
+where α is specific charge. We know that magnetic force does not change the magnitude of velocity. It follows then that magnitude of velocity is xy plane is a constant given as :
+
+</para>
+<para id="element-25">
+<m:math display="block">
+  <m:mrow>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>x</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>+</m:mo>
+    <m:msubsup>
+      <m:mi>v</m:mi>
+      <m:mrow>
+        <m:mi>z</m:mi>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>=</m:mo>
+    <m:msup>
+  <m:mrow>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mtext>xy</m:mtext>
+    </m:msub>
+  </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-26">
+But, there is electric field in y-direction. This imparts linear acceleration to the charged particle. As such, the particle which was initially having no component in y direction gains velocity with time as electric field imparts acceleration to the particle in y direction. The velocity components in xz plane, however, remain same. The acceleration in y-direction due to electric field is :
+
+</para>
+<para id="element-27">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mi>E</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>q</m:mi>
+        <m:mi>E</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>α</m:mi>
+    <m:mi>E</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-28">
+Since initial velocity in y-direction is zero, the velocity after time t is :
+
+</para>
+<para id="element-29">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>α</m:mi>
+    <m:mi>E</m:mi>
+    <m:mi>t</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-30">
+The velocity of the particle at a time t, therefore, is given in terms of component velocities as :
+
+</para>
+<para id="element-31">
+<m:math display="block">
+  <m:mrow>
+      <m:mi mathvariant="bold">v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>x</m:mi>
+    </m:msub>
+         <m:mi mathvariant="bold">i</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+         <m:mi mathvariant="bold">j</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mi>j</m:mi>
+    </m:msub>
+      <m:mi mathvariant="bold">k</m:mi>  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-32">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+      <m:mi mathvariant="bold">v</m:mi>
+    <m:mo>=</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>α</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+      <m:mi mathvariant="bold">i</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>α</m:mi>
+    <m:mi>E</m:mi>
+    <m:mi>t</m:mi>
+      <m:mi mathvariant="bold">j</m:mi>
+    <m:mo>+</m:mo>
+    <m:msub>
+      <m:mi>v</m:mi>
+      <m:mn>0</m:mn>
+    </m:msub>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>α</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+      <m:mi mathvariant="bold">k</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+</section>
+<section id="section-1b2">
+<title> Displacement of the charged particle
+</title>
+
+<para id="element-33">
+
+Component of displacement of the charged particle in xz plane is given (see module <link document="m31345" version="" target-id="section-2b">
+    Motion of a charged particle in magnetic field </link> ) as :
+
+
+</para>
+<para id="element-34">
+<figure id="fig-34">
+<title> Displacement of the charged particle in xz plane </title>
+<media id="med34" alt="">
+<image src="../../media/em3.gif" mime-type="image/gif"/>
+</media>
+<caption> Displacement of the charged particle in xz plane
+</caption>
+</figure>
+</para>
+<para id="element-35">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>x</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>α</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>α</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>α</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mi>z</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>[</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>-</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>α</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>]</m:mo>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>α</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>[</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>-</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>α</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>]</m:mo>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-36">
+The motion in y-direction is due to electric force. Let the displacement in this direction be y after time t. Then :
+
+</para>
+<para id="element-37">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>α</m:mi>
+    <m:mi>E</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-38">
+The position vector of the particle after time t is :
+
+</para>
+<para id="element-39">
+<m:math display="block">
+  <m:mrow>
+      <m:mi mathvariant="bold">r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>x</m:mi>
+      <m:mi mathvariant="bold">i</m:mi>
+    <m:mo>+</m:mo>
+    <m:mi>y</m:mi>
+    <m:mstyle mathvariant="bold">
+      <m:mi>j</m:mi>
+    </m:mstyle>
+    <m:mo>+</m:mo>
+    <m:mi>z</m:mi>
+      <m:mi mathvariant="bold">k</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+      <m:mi mathvariant="bold">r</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>α</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>sin</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>α</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+      <m:mi mathvariant="bold">i</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>α</m:mi>
+    <m:mi>E</m:mi>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+      <m:mi mathvariant="bold">j</m:mi>
+    <m:mo>+</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>v</m:mi>
+          <m:mn>0</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>α</m:mi>
+        <m:mi>B</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>[</m:mo>
+    <m:mn>1</m:mn>
+    <m:mo>-</m:mo>
+    <m:mi>cos</m:mi>
+    <m:mfenced>
+      <m:mrow>
+        <m:mi>α</m:mi>
+        <m:mi>B</m:mi>
+        <m:mi>t</m:mi>
+      </m:mrow>
+    </m:mfenced>
+    <m:mo>]</m:mo>
+      <m:mi mathvariant="bold">k</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+
+</section>
+</section>
+<section id="section-1c">
+<title> Charge is placed at rest in crossed electric and magnetic fields
+
+</title>
+<para id="element-40">
+
+Let electric and magnetic fields are aligned along z and x directions and charge is placed at the origin of coordinate system. Initially, there is no magnetic force as charge is at rest. However, there is electric force, which accelerates the charge in z-direction. As the particle acquires velocity in z-direction, the magnetic force comes into play and tries to rotate the particle in xz plane about a center on x-axis.
+
+
+
+</para>
+<para id="element-41">
+<figure id="fig-41">
+<title> Cycloid  motion </title>
+<media id="med41" alt="">
+<image src="../../media/em4.gif" mime-type="image/gif"/>
+</media>
+<caption> Cycloid  motion
+</caption>
+</figure>
+
+</para>
+<para id="element-42">
+However, z-component of velocity keeps increasing with time due to electric force in that direction. The magnetic force though draws the charged particle away from z-axis along a curved path. This action of magnetic force is countered by electric force in z-direction. The velocity of charged particle ultimately reduces to zero at x-axis. This cycle repeats itself forming cycloid motion. The cycloid path is generated by a point on the circumference of a rolling wheel. Here, we shall skip the mathematical derivation and limit ourselves to a descriptive analysis only.
+</para>
+</section>
+</section>
+
+
+<section id="section-2">
+<title> Determination of specific charge of electron (J.J.Thomson’s experiment)
+
+
+</title>
+
+<para id="element-43">
+
+The specific charge of an electron is ratio of charge and mass of electron. The specific charge (α) of electron is measured employing crossed fields on a beam of electrons. The beam of electrons emerging from cathode plate passes through a very narrow slit in anode plate. The electrons are accelerated between cathode and anode due to applied electrical potential V. The kinetic energy of the electron emerging from the slit is given by :
+
+</para>
+<para id="element-44">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mi>e</m:mi>
+    <m:mi>V</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:msup>
+      <m:mi>v</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>e</m:mi>
+    <m:mi>V</m:mi>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-45">
+where v is the velocity of electron moving into the region of force fields.
+
+</para>
+<para id="element-46">
+Two parallel plates connected to an electric source produce a uniform electric field <term>E</term> from positive plate to negative plate. The electrical force works in the direction opposite to the direction of field <term>E</term> as charge on electron is negative. In the figure, electric field is directed in downward direction. Hence, electric force acts in upward direction.
+</para>
+<para id="element-47">
+On the other hand, the magnetic field is produced by a solenoid in a circular region  covering the plate as shown in the figure. Its direction is chosen such that it applies a force in the opposite direction to that applied by the electrical field. For a magnetic field into the plane of drawing as shown by uniformly distributed cross signs, the magnetic field applies a upward magnetic force on a positive charge. However, as the charge on the electron is negative, the magnetic force acts in downward direction.
+
+
+
+</para>
+<para id="element-48">
+<figure id="fig-48">
+<title> J.J.Thomson’s experimental set up </title>
+<media id="med48" alt="">
+<image src="../../media/em5.gif" mime-type="image/gif"/>
+</media>
+<caption> Measurement of specific charge of electron
+</caption>
+</figure>
+
+</para>
+<para id="element-49">
+The beam of electrons hit the center of fluorescent screen, producing light as  electrons collide with it when electric and magnetic fields are switched off. The point on the fluorescent screen is noted. Then, the electric field is switched on which moves the electron beam in upward direction following a parabolic path. Finally, magnetic field is turned and its magnitude is adjusted such that electric and magnetic forces acting in opposite directions balance each other and the electron is brought to hit original spot as noted earlier for the fields in switched off condition. In this situation:
+
+</para>
+<para id="element-50">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>e</m:mi>
+    <m:mi>E</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>e</m:mi>
+    <m:mi>v</m:mi>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+       
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>E</m:mi>
+      <m:mi>B</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-51">
+Note that maximum magnetic force applies as velocity and magnetic field vectors are perpendicular to each other. Substituting expression of v in the kinetic energy equation obtained earlier, we have :
+
+</para>
+<para id="element-52">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:msup>
+          <m:mi>E</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>B</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:mi>e</m:mi>
+    <m:mi>V</m:mi>
+  </m:mrow>
+</m:math>
+       
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>e</m:mi>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>E</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>V</m:mi>
+        <m:msup>
+          <m:mi>B</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-53">
+All the quantities on the right hand side of the equation are measurable, allowing us to measure the specific charge of electron. As a matter of fact, the determination of specific charge of particles composing cathode ray by J.J.Thomson is considered to be the discovery of electron. It can also be easily inferred that he could determine the nature of charge of an electron by studying direction of deviation (upward or downward) when only either of the fields operate. In the derivation above, we measure potential difference applied to accelerate particle between cathode and anode. We should, however, realize that we can determine specific charge measuring some other quantities as well. We can measure the deflection of electron beam when either of two fields operates and use the data to determine specific charge of an electron. 
+
+</para>
+
+<example id="example-54">
+
+<para id="element-54"><term>Problem : </term>
+The d.c. voltage applied to accelerate particle between cathode and anode and the d.c. voltage applied to the plates to produce electric field perpendicular to electrons beam are equal in the Thomson’s experimental set up. If each of the two d.c. voltages as applied are doubled, then by what factor should the magnetic field be changed to keep the electron beam un-deflected.
+
+</para>
+<para id="element-55"><term>Solution : </term>
+Let <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+, <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ and <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+ be the potential difference, electric field and magnetic field for un-deflected condition. Then, the specific charge is given by :
+
+</para>
+<para id="element-56">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>e</m:mi>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msubsup>
+          <m:mi>E</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msub>
+          <m:mi>V</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msubsup>
+          <m:mi>B</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-57">
+Here, the electric field can be expressed in terms of potential difference provided we know the separation between plates. Let the separation be d. 
+
+</para>
+<para id="element-58">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>E</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>V</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mi>d</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-59">
+Putting in the equation above, we have :
+
+</para>
+<para id="element-60">
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msubsup>
+          <m:mi>V</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>d</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msub>
+          <m:mi>V</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+        <m:msubsup>
+          <m:mi>B</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>V</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>d</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msubsup>
+          <m:mi>B</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+
+
+<para id="element-61">
+ Let <m:math>
+  <m:mrow>
+    <m:msub>
+      <m:mi>B</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math> be the new magnetic field when two potential differences as applied are doubled. Here,
+
+</para>
+<para id="element-62">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-63">
+Putting new values in the expression for specific charge (note that specific charge of electron is a constant),
+
+</para>
+<para id="element-64">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msub>
+          <m:mi>V</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>d</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msubsup>
+          <m:mi>B</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+</para>
+<para id="element-64a">
+Combining two equations,
+</para>
+<para id="element-64b">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msub>
+          <m:mi>V</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>d</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msubsup>
+          <m:mi>B</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>V</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:msup>
+          <m:mi>d</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msubsup>
+          <m:mi>B</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mn>2</m:mn>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msup>
+      <m:mi>d</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msubsup>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mn>2</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+    <m:mo>=</m:mo>
+    <m:mn>4</m:mn>
+    <m:msub>
+      <m:mi>V</m:mi>
+      <m:mn>1</m:mn>
+    </m:msub>
+    <m:msup>
+      <m:mi>d</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:msubsup>
+      <m:mi>B</m:mi>
+      <m:mrow>
+        <m:mn>1</m:mn>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:msubsup>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msubsup>
+          <m:mi>B</m:mi>
+          <m:mrow>
+            <m:mn>2</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+      <m:mrow>
+        <m:msubsup>
+          <m:mi>B</m:mi>
+          <m:mrow>
+            <m:mn>1</m:mn>
+          </m:mrow>
+          <m:mn>2</m:mn>
+        </m:msubsup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mn>2</m:mn>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>B</m:mi>
+          <m:mn>2</m:mn>
+        </m:msub>
+      </m:mrow>
+      <m:mrow>
+        <m:msub>
+          <m:mi>B</m:mi>
+          <m:mn>1</m:mn>
+        </m:msub>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:msqrt>
+      <m:mn>2</m:mn>
+    </m:msqrt>
+  </m:mrow>
+</m:math>
+</para>
+</example>
+<section id="section-2a">
+<title> Measurement of deflection by magnetic field
+
+</title>
+
+<para id="element-65">
+
+Once the magnetic and electric forces are balanced, electric field is switched off and electron beam is allowed to be deviated due to magnetic field. The magnetic force acts always perpendicular to the direction of motion. The particle, therefore, moves along a circular path inside the region of magnetic field. When electron moves out of the magnetic field, it moves along the straight line and hits the fluorescent screen. If R be the radius of curvature, then :
+
+</para>
+<para id="element-66">
+<m:math display="block">
+  <m:mrow>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>m</m:mi>
+        <m:msup>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mi>e</m:mi>
+    <m:mi>v</m:mi>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>m</m:mi>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>e</m:mi>
+    <m:mi>R</m:mi>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-67">
+Substituting <m:math>
+  <m:mrow>
+    <m:mi>v</m:mi>
+    <m:mo>=</m:mo>
+    <m:mi>E</m:mi>
+    <m:mo>/</m:mo>
+    <m:mi>B</m:mi>
+  </m:mrow>
+</m:math>
+as obtained earlier 
+
+</para>
+<para id="element-68">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>e</m:mi>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>E</m:mi>
+      <m:mrow>
+        <m:mi>R</m:mi>
+        <m:msup>
+          <m:mi>B</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-69">
+We measure R using geometry. We see that the angles enclosed between pairs of two perpendicular lines are equal. Hence,
+
+</para>
+<para id="element-70">
+<figure id="fig-70">
+<title> J.J.Thomson’s experimental set up </title>
+<media id="med70" alt="">
+<image src="../../media/em6.gif" mime-type="image/gif"/>
+</media>
+<caption> Deviation due to only magnetic field
+</caption>
+</figure>
+
+</para>
+<para id="element-71">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>φ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>D</m:mi>
+        <m:mi>G</m:mi>
+      </m:mrow>
+      <m:mi>R</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>O</m:mi>
+        <m:mi>I</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>F</m:mi>
+        <m:mi>O</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>R</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>F</m:mi>
+        <m:mi>O</m:mi>
+        <m:mi>X</m:mi>
+        <m:mi>D</m:mi>
+        <m:mi>G</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:mi>O</m:mi>
+        <m:mi>I</m:mi>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-72">
+We approximate DG to be equal to the width of magnetic region.
+</para>
+</section>
+<section id="section-2b">
+<title> Measurement of deflection by electric field
+</title>
+<para id="element-73">
+
+In this case, once the magnetic and electric forces are balanced, electric field is switched off and electron beam is allowed to be deviated due to electric field. The electron beam moving into the region of electric field experiences an upward force. The force in upward (y-direction) imparts acceleration in y-direction. The particle, however, moves with same velocity in x-direction. As a result, path of motion is parabolic. Let the length of plate be L and y be the deflection inside the plate. Then, time to travel through the plate is :
+
+
+
+</para>
+<para id="element-74">
+<figure id="fig-74">
+<title> J.J.Thomson’s experimental set up </title>
+<media id="med74" alt="">
+<image src="../../media/em7.gif" mime-type="image/gif"/>
+</media>
+<caption> Deviation due to only electric field
+</caption>
+</figure>
+
+</para>
+<para id="element-75">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>t</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>L</m:mi>
+      <m:mi>v</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-76">
+and acceleration of the particle in y-direction is :
+
+</para>
+<para id="element-77">
+<m:math display="block">
+  <m:mrow>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:msub>
+          <m:mi>F</m:mi>
+          <m:mi>E</m:mi>
+        </m:msub>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>e</m:mi>
+        <m:mi>E</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-78">
+The vertical displacement is :
+
+</para>
+<para id="element-79">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:msub>
+      <m:mi>a</m:mi>
+      <m:mi>y</m:mi>
+    </m:msub>
+    <m:msup>
+      <m:mi>t</m:mi>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-80">
+Substituting for time and acceleration, we have :
+
+</para>
+<para id="element-81">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mn>1</m:mn>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>e</m:mi>
+        <m:mi>E</m:mi>
+      </m:mrow>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:mfrac>
+      <m:mrow>
+        <m:msup>
+          <m:mi>L</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>e</m:mi>
+        <m:mi>E</m:mi>
+        <m:msup>
+          <m:mi>L</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>m</m:mi>
+        <m:msup>
+          <m:mi>v</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+</para>
+<para id="element-82">
+Substituting v=E/B as obtained earlier,
+
+</para>
+<para id="element-83">
+<m:math display="block">
+  <m:mrow>
+    <m:mi>y</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>e</m:mi>
+        <m:mi>E</m:mi>
+        <m:msup>
+          <m:mi>L</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>m</m:mi>
+      </m:mrow>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>B</m:mi>
+            <m:mi>E</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mi>α</m:mi>
+        <m:mi>E</m:mi>
+        <m:msup>
+          <m:mi>L</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+      <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mi>X</m:mi>
+    <m:msup>
+      <m:mfenced>
+        <m:mrow>
+          <m:mfrac>
+            <m:mi>B</m:mi>
+            <m:mi>E</m:mi>
+          </m:mfrac>
+        </m:mrow>
+      </m:mfenced>
+      <m:mn>2</m:mn>
+    </m:msup>
+  </m:mrow>
+</m:math>
+
+<m:math display="block">
+  <m:mrow>
+    <m:mo>⇒</m:mo>
+    <m:mi>α</m:mi>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mi>e</m:mi>
+      <m:mi>m</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo>
+    <m:mfrac>
+      <m:mrow>
+        <m:mn>2</m:mn>
+        <m:mi>y</m:mi>
+        <m:mi>E</m:mi>
+      </m:mrow>
+      <m:mrow>
+        <m:msup>
+          <m:mi>B</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+        <m:msup>
+          <m:mi>L</m:mi>
+          <m:mn>2</m:mn>
+        </m:msup>
+      </m:mrow>
+    </m:mfrac>
+  </m:mrow>
+</m:math>
+
+
+</para>
+<para id="element-84">
+It is clear that measuring GH and HI, we can determine angle φ and then y as required. 
+</para>
+
+</section>
+</section>
+
+
+</content>
+
+</document>
